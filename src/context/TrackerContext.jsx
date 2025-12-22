@@ -117,6 +117,7 @@ export function TrackerProvider({ children }) {
             isAuthenticated,
             login: handleLogin,
             updateProgress: handleUpdateProgress,
+            updateQuestionProgress: (id, completed, notes, code) => handleUpdateProgress(id, { completed, notes, code }),
             getQuestionStatus,
             getDayProgress,
             getTotalProgress

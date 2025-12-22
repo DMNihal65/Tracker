@@ -5,6 +5,9 @@ import Layout from './components/Layout';
 import Dashboard from './components/Dashboard';
 import CalendarView from './components/CalendarView';
 import DayView from './components/DayView';
+import ProgressPage from './pages/ProgressPage';
+import RevisionPage from './pages/RevisionPage';
+import QuestionPage from './pages/QuestionPage';
 import { Lock } from 'lucide-react';
 
 function Login() {
@@ -27,7 +30,7 @@ function Login() {
                 <div className="w-16 h-16 bg-indigo-100 rounded-full flex items-center justify-center mx-auto mb-6">
                     <Lock className="w-8 h-8 text-indigo-600" />
                 </div>
-                <h1 className="text-2xl font-bold text-green-900 mb-2">Welcome Back</h1>
+                <h1 className="text-2xl font-bold text-gray-900 mb-2">Welcome Back</h1>
                 <p className="text-gray-500 mb-8">Enter your passcode to access the tracker.</p>
 
                 <form onSubmit={handleSubmit} className="space-y-4">
@@ -65,7 +68,10 @@ function AppContent() {
         <Routes>
             <Route path="/" element={<ProtectedRoute><Dashboard /></ProtectedRoute>} />
             <Route path="/calendar" element={<ProtectedRoute><CalendarView /></ProtectedRoute>} />
+            <Route path="/progress" element={<ProtectedRoute><ProgressPage /></ProtectedRoute>} />
+            <Route path="/revision" element={<ProtectedRoute><RevisionPage /></ProtectedRoute>} />
             <Route path="/day/:dayId" element={<ProtectedRoute><DayView /></ProtectedRoute>} />
+            <Route path="/question/:questionId" element={<ProtectedRoute><QuestionPage /></ProtectedRoute>} />
             <Route path="/questions" element={<ProtectedRoute><Navigate to="/calendar" /></ProtectedRoute>} />
         </Routes>
     );

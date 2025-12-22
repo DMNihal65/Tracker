@@ -6,30 +6,35 @@
     "coding_questions": "Second Largest, Third Largest, Reverse Array",
     "system_design": "API Gateway vs LB",
     "theme": "Arrays",
+    "week": 1,
     "questions": [
       {
         "id": "d1-q1",
         "title": "Second Largest",
         "type": "coding",
-        "topic": "Arrays"
+        "topic": "Arrays",
+        "difficulty": "Easy"
       },
       {
         "id": "d1-q2",
         "title": "Third Largest",
         "type": "coding",
-        "topic": "Arrays"
+        "topic": "Arrays",
+        "difficulty": "Easy"
       },
       {
         "id": "d1-q3",
         "title": "Reverse Array",
         "type": "coding",
-        "topic": "Arrays"
+        "topic": "Arrays",
+        "difficulty": "Easy"
       },
       {
         "id": "d1-sd",
         "title": "API Gateway vs LB",
         "type": "system-design",
-        "topic": "System Design"
+        "topic": "System Design",
+        "difficulty": "Easy"
       }
     ]
   },
@@ -40,24 +45,28 @@
     "coding_questions": "Reverse Groups, Rotate Array, Three CandidatesReverse vs Forward Proxy",
     "system_design": "",
     "theme": "Arrays",
+    "week": 1,
     "questions": [
       {
         "id": "d2-q1",
         "title": "Reverse Groups",
         "type": "coding",
-        "topic": "Arrays"
+        "topic": "Arrays",
+        "difficulty": "Easy"
       },
       {
         "id": "d2-q2",
         "title": "Rotate Array",
         "type": "coding",
-        "topic": "Arrays"
+        "topic": "Arrays",
+        "difficulty": "Easy"
       },
       {
         "id": "d2-q3",
         "title": "Three CandidatesReverse vs Forward Proxy",
         "type": "coding",
-        "topic": "Arrays"
+        "topic": "Arrays",
+        "difficulty": "Easy"
       }
     ]
   },
@@ -68,24 +77,28 @@
     "coding_questions": "Max Ones, Zeroes to End, Wave ArrayHorizontal vs Vertical Scaling",
     "system_design": "",
     "theme": "Arrays",
+    "week": 1,
     "questions": [
       {
         "id": "d3-q1",
         "title": "Max Ones",
         "type": "coding",
-        "topic": "Arrays"
+        "topic": "Arrays",
+        "difficulty": "Easy"
       },
       {
         "id": "d3-q2",
         "title": "Zeroes to End",
         "type": "coding",
-        "topic": "Arrays"
+        "topic": "Arrays",
+        "difficulty": "Easy"
       },
       {
         "id": "d3-q3",
         "title": "Wave ArrayHorizontal vs Vertical Scaling",
         "type": "coding",
-        "topic": "Arrays"
+        "topic": "Arrays",
+        "difficulty": "Easy"
       }
     ]
   },
@@ -96,30 +109,35 @@
     "coding_questions": "Plus One, Stock (1 Trans), Stock (Multiple)",
     "system_design": "Microservices vs Monolithic",
     "theme": "Arrays",
+    "week": 1,
     "questions": [
       {
         "id": "d4-q1",
         "title": "Plus One",
         "type": "coding",
-        "topic": "Arrays"
+        "topic": "Arrays",
+        "difficulty": "Easy"
       },
       {
         "id": "d4-q2",
         "title": "Stock (1 Trans)",
         "type": "coding",
-        "topic": "Arrays"
+        "topic": "Arrays",
+        "difficulty": "Easy"
       },
       {
         "id": "d4-q3",
         "title": "Stock (Multiple)",
         "type": "coding",
-        "topic": "Arrays"
+        "topic": "Arrays",
+        "difficulty": "Easy"
       },
       {
         "id": "d4-sd",
         "title": "Microservices vs Monolithic",
         "type": "system-design",
-        "topic": "System Design"
+        "topic": "System Design",
+        "difficulty": "Easy"
       }
     ]
   },
@@ -130,30 +148,35 @@
     "coding_questions": "Remove Duplicates, Alternate Pos-Neg, Leaders",
     "system_design": "DB Partitioning + Rate Limiter",
     "theme": "Arrays",
+    "week": 1,
     "questions": [
       {
         "id": "d5-q1",
         "title": "Remove Duplicates",
         "type": "coding",
-        "topic": "Arrays"
+        "topic": "Arrays",
+        "difficulty": "Easy"
       },
       {
         "id": "d5-q2",
         "title": "Alternate Pos-Neg",
         "type": "coding",
-        "topic": "Arrays"
+        "topic": "Arrays",
+        "difficulty": "Easy"
       },
       {
         "id": "d5-q3",
         "title": "Leaders",
         "type": "coding",
-        "topic": "Arrays"
+        "topic": "Arrays",
+        "difficulty": "Easy"
       },
       {
         "id": "d5-sd",
         "title": "DB Partitioning + Rate Limiter",
         "type": "system-design",
-        "topic": "System Design"
+        "topic": "System Design",
+        "difficulty": "Easy"
       }
     ]
   },
@@ -164,24 +187,28 @@
     "coding_questions": "Missing/Repeating, Missing Ranges, Subarray SumSSO Concept",
     "system_design": "",
     "theme": "Arrays",
+    "week": 1,
     "questions": [
       {
         "id": "d6-q1",
         "title": "Missing/Repeating",
         "type": "coding",
-        "topic": "Arrays"
+        "topic": "Arrays",
+        "difficulty": "Easy"
       },
       {
         "id": "d6-q2",
         "title": "Missing Ranges",
         "type": "coding",
-        "topic": "Arrays"
+        "topic": "Arrays",
+        "difficulty": "Easy"
       },
       {
         "id": "d6-q3",
         "title": "Subarray SumSSO Concept",
         "type": "coding",
-        "topic": "Arrays"
+        "topic": "Arrays",
+        "difficulty": "Easy"
       }
     ]
   },
@@ -192,30 +219,35 @@
     "coding_questions": "Rotate, Stock Problems, Missing/Repeating",
     "system_design": "Compare: API GW, Proxy, ScalingREVISION✅",
     "theme": "General",
+    "week": 1,
     "questions": [
       {
         "id": "d7-q1",
         "title": "Rotate",
         "type": "coding",
-        "topic": "General"
+        "topic": "General",
+        "difficulty": "Easy"
       },
       {
         "id": "d7-q2",
         "title": "Stock Problems",
         "type": "coding",
-        "topic": "General"
+        "topic": "General",
+        "difficulty": "Easy"
       },
       {
         "id": "d7-q3",
         "title": "Missing/Repeating",
         "type": "coding",
-        "topic": "General"
+        "topic": "General",
+        "difficulty": "Easy"
       },
       {
         "id": "d7-sd",
         "title": "Compare: API GW, Proxy, ScalingREVISION✅",
         "type": "system-design",
-        "topic": "System Design"
+        "topic": "System Design",
+        "difficulty": "Easy"
       }
     ]
   },
@@ -226,30 +258,35 @@
     "coding_questions": "Palindrome, Reverse String, Reverse Words",
     "system_design": "CAP Theorem",
     "theme": "Strings",
+    "week": 2,
     "questions": [
       {
         "id": "d8-q1",
         "title": "Palindrome",
         "type": "coding",
-        "topic": "Strings"
+        "topic": "Strings",
+        "difficulty": "Easy"
       },
       {
         "id": "d8-q2",
         "title": "Reverse String",
         "type": "coding",
-        "topic": "Strings"
+        "topic": "Strings",
+        "difficulty": "Easy"
       },
       {
         "id": "d8-q3",
         "title": "Reverse Words",
         "type": "coding",
-        "topic": "Strings"
+        "topic": "Strings",
+        "difficulty": "Easy"
       },
       {
         "id": "d8-sd",
         "title": "CAP Theorem",
         "type": "system-design",
-        "topic": "System Design"
+        "topic": "System Design",
+        "difficulty": "Easy"
       }
     ]
   },
@@ -260,30 +297,35 @@
     "coding_questions": "Check Rotation, First Non-Rep, Roman to Integer",
     "system_design": "Consistency/Availability",
     "theme": "Strings",
+    "week": 2,
     "questions": [
       {
         "id": "d9-q1",
         "title": "Check Rotation",
         "type": "coding",
-        "topic": "Strings"
+        "topic": "Strings",
+        "difficulty": "Easy"
       },
       {
         "id": "d9-q2",
         "title": "First Non-Rep",
         "type": "coding",
-        "topic": "Strings"
+        "topic": "Strings",
+        "difficulty": "Easy"
       },
       {
         "id": "d9-q3",
         "title": "Roman to Integer",
         "type": "coding",
-        "topic": "Strings"
+        "topic": "Strings",
+        "difficulty": "Easy"
       },
       {
         "id": "d9-sd",
         "title": "Consistency/Availability",
         "type": "system-design",
-        "topic": "System Design"
+        "topic": "System Design",
+        "difficulty": "Easy"
       }
     ]
   },
@@ -294,30 +336,35 @@
     "coding_questions": "Atoi, IP Validation, Binary Strings",
     "system_design": "LLD: Parking Lot",
     "theme": "Strings",
+    "week": 2,
     "questions": [
       {
         "id": "d10-q1",
         "title": "Atoi",
         "type": "coding",
-        "topic": "Strings"
+        "topic": "Strings",
+        "difficulty": "Easy"
       },
       {
         "id": "d10-q2",
         "title": "IP Validation",
         "type": "coding",
-        "topic": "Strings"
+        "topic": "Strings",
+        "difficulty": "Easy"
       },
       {
         "id": "d10-q3",
         "title": "Binary Strings",
         "type": "coding",
-        "topic": "Strings"
+        "topic": "Strings",
+        "difficulty": "Easy"
       },
       {
         "id": "d10-sd",
         "title": "LLD: Parking Lot",
         "type": "system-design",
-        "topic": "System Design"
+        "topic": "System Design",
+        "difficulty": "Easy"
       }
     ]
   },
@@ -328,30 +375,35 @@
     "coding_questions": "Encrypt String, Equal Point, Anagrams",
     "system_design": "LLD: Vending Machine",
     "theme": "Strings",
+    "week": 2,
     "questions": [
       {
         "id": "d11-q1",
         "title": "Encrypt String",
         "type": "coding",
-        "topic": "Strings"
+        "topic": "Strings",
+        "difficulty": "Easy"
       },
       {
         "id": "d11-q2",
         "title": "Equal Point",
         "type": "coding",
-        "topic": "Strings"
+        "topic": "Strings",
+        "difficulty": "Easy"
       },
       {
         "id": "d11-q3",
         "title": "Anagrams",
         "type": "coding",
-        "topic": "Strings"
+        "topic": "Strings",
+        "difficulty": "Easy"
       },
       {
         "id": "d11-sd",
         "title": "LLD: Vending Machine",
         "type": "system-design",
-        "topic": "System Design"
+        "topic": "System Design",
+        "difficulty": "Easy"
       }
     ]
   },
@@ -362,30 +414,35 @@
     "coding_questions": "Panagram, Char Frequency, Array Intersection",
     "system_design": "LLD: Deck of Cards",
     "theme": "Hashing",
+    "week": 2,
     "questions": [
       {
         "id": "d12-q1",
         "title": "Panagram",
         "type": "coding",
-        "topic": "Hashing"
+        "topic": "Hashing",
+        "difficulty": "Easy"
       },
       {
         "id": "d12-q2",
         "title": "Char Frequency",
         "type": "coding",
-        "topic": "Hashing"
+        "topic": "Hashing",
+        "difficulty": "Easy"
       },
       {
         "id": "d12-q3",
         "title": "Array Intersection",
         "type": "coding",
-        "topic": "Hashing"
+        "topic": "Hashing",
+        "difficulty": "Easy"
       },
       {
         "id": "d12-sd",
         "title": "LLD: Deck of Cards",
         "type": "system-design",
-        "topic": "System Design"
+        "topic": "System Design",
+        "difficulty": "Easy"
       }
     ]
   },
@@ -396,30 +453,35 @@
     "coding_questions": "Pair with Sum, Distinct Count, Remove Dups",
     "system_design": "LLD: Snake & Ladder",
     "theme": "Hashing",
+    "week": 2,
     "questions": [
       {
         "id": "d13-q1",
         "title": "Pair with Sum",
         "type": "coding",
-        "topic": "Hashing"
+        "topic": "Hashing",
+        "difficulty": "Easy"
       },
       {
         "id": "d13-q2",
         "title": "Distinct Count",
         "type": "coding",
-        "topic": "Hashing"
+        "topic": "Hashing",
+        "difficulty": "Easy"
       },
       {
         "id": "d13-q3",
         "title": "Remove Dups",
         "type": "coding",
-        "topic": "Hashing"
+        "topic": "Hashing",
+        "difficulty": "Easy"
       },
       {
         "id": "d13-sd",
         "title": "LLD: Snake & Ladder",
         "type": "system-design",
-        "topic": "System Design"
+        "topic": "System Design",
+        "difficulty": "Easy"
       }
     ]
   },
@@ -430,12 +492,14 @@
     "coding_questions": "Palindrome, Check Rotation, Pair SumRevise Fundamental Concepts (1-10)REVISION✅",
     "system_design": "",
     "theme": "General",
+    "week": 2,
     "questions": [
       {
         "id": "d14-special",
         "title": "Palindrome, Check Rotation, Pair SumRevise Fundamental Concepts (1-10)REVISION✅",
         "type": "special",
-        "topic": "General"
+        "topic": "General",
+        "difficulty": "N/A"
       }
     ]
   },
@@ -446,30 +510,35 @@
     "coding_questions": "Distinct Pairs, Non- Rep Char, Missing Elements",
     "system_design": "LLD: Tic-Tac-Toe",
     "theme": "Hashing",
+    "week": 3,
     "questions": [
       {
         "id": "d15-q1",
         "title": "Distinct Pairs",
         "type": "coding",
-        "topic": "Hashing"
+        "topic": "Hashing",
+        "difficulty": "Easy"
       },
       {
         "id": "d15-q2",
         "title": "Non- Rep Char",
         "type": "coding",
-        "topic": "Hashing"
+        "topic": "Hashing",
+        "difficulty": "Easy"
       },
       {
         "id": "d15-q3",
         "title": "Missing Elements",
         "type": "coding",
-        "topic": "Hashing"
+        "topic": "Hashing",
+        "difficulty": "Easy"
       },
       {
         "id": "d15-sd",
         "title": "LLD: Tic-Tac-Toe",
         "type": "system-design",
-        "topic": "System Design"
+        "topic": "System Design",
+        "difficulty": "Easy"
       }
     ]
   },
@@ -480,30 +549,35 @@
     "coding_questions": "Middle LL, Reverse LL, Reverse DLL",
     "system_design": "LLD: Elevator System",
     "theme": "LL",
+    "week": 3,
     "questions": [
       {
         "id": "d16-q1",
         "title": "Middle LL",
         "type": "coding",
-        "topic": "LL"
+        "topic": "LL",
+        "difficulty": "Easy"
       },
       {
         "id": "d16-q2",
         "title": "Reverse LL",
         "type": "coding",
-        "topic": "LL"
+        "topic": "LL",
+        "difficulty": "Easy"
       },
       {
         "id": "d16-q3",
         "title": "Reverse DLL",
         "type": "coding",
-        "topic": "LL"
+        "topic": "LL",
+        "difficulty": "Easy"
       },
       {
         "id": "d16-sd",
         "title": "LLD: Elevator System",
         "type": "system-design",
-        "topic": "System Design"
+        "topic": "System Design",
+        "difficulty": "Easy"
       }
     ]
   },
@@ -514,30 +588,35 @@
     "coding_questions": "Rotate LL, Nth from End, Delete Last Occ",
     "system_design": "LLD: Movie Booking",
     "theme": "LL",
+    "week": 3,
     "questions": [
       {
         "id": "d17-q1",
         "title": "Rotate LL",
         "type": "coding",
-        "topic": "LL"
+        "topic": "LL",
+        "difficulty": "Easy"
       },
       {
         "id": "d17-q2",
         "title": "Nth from End",
         "type": "coding",
-        "topic": "LL"
+        "topic": "LL",
+        "difficulty": "Easy"
       },
       {
         "id": "d17-q3",
         "title": "Delete Last Occ",
         "type": "coding",
-        "topic": "LL"
+        "topic": "LL",
+        "difficulty": "Easy"
       },
       {
         "id": "d17-sd",
         "title": "LLD: Movie Booking",
         "type": "system-design",
-        "topic": "System Design"
+        "topic": "System Design",
+        "difficulty": "Easy"
       }
     ]
   },
@@ -548,30 +627,35 @@
     "coding_questions": "Delete Middle, Merge Alt Pos, Count Occ",
     "system_design": "LLD: ATM Machine",
     "theme": "LL",
+    "week": 3,
     "questions": [
       {
         "id": "d18-q1",
         "title": "Delete Middle",
         "type": "coding",
-        "topic": "LL"
+        "topic": "LL",
+        "difficulty": "Easy"
       },
       {
         "id": "d18-q2",
         "title": "Merge Alt Pos",
         "type": "coding",
-        "topic": "LL"
+        "topic": "LL",
+        "difficulty": "Easy"
       },
       {
         "id": "d18-q3",
         "title": "Count Occ",
         "type": "coding",
-        "topic": "LL"
+        "topic": "LL",
+        "difficulty": "Easy"
       },
       {
         "id": "d18-sd",
         "title": "LLD: ATM Machine",
         "type": "system-design",
-        "topic": "System Design"
+        "topic": "System Design",
+        "difficulty": "Easy"
       }
     ]
   },
@@ -582,30 +666,35 @@
     "coding_questions": "Parenthesis Checker, Reverse Stack, Post\u0000x",
     "system_design": "LLD: Library Management",
     "theme": "Stack/Queue",
+    "week": 3,
     "questions": [
       {
         "id": "d19-q1",
         "title": "Parenthesis Checker",
         "type": "coding",
-        "topic": "Stack/Queue"
+        "topic": "Stack/Queue",
+        "difficulty": "Easy"
       },
       {
         "id": "d19-q2",
         "title": "Reverse Stack",
         "type": "coding",
-        "topic": "Stack/Queue"
+        "topic": "Stack/Queue",
+        "difficulty": "Easy"
       },
       {
         "id": "d19-q3",
         "title": "Post\u0000x",
         "type": "coding",
-        "topic": "Stack/Queue"
+        "topic": "Stack/Queue",
+        "difficulty": "Easy"
       },
       {
         "id": "d19-sd",
         "title": "LLD: Library Management",
         "type": "system-design",
-        "topic": "System Design"
+        "topic": "System Design",
+        "difficulty": "Easy"
       }
     ]
   },
@@ -616,30 +705,35 @@
     "coding_questions": "Two Stacks, Delete Middle, Reverse Words",
     "system_design": "LLD: Car Rental",
     "theme": "Stack/Queue",
+    "week": 3,
     "questions": [
       {
         "id": "d20-q1",
         "title": "Two Stacks",
         "type": "coding",
-        "topic": "Stack/Queue"
+        "topic": "Stack/Queue",
+        "difficulty": "Easy"
       },
       {
         "id": "d20-q2",
         "title": "Delete Middle",
         "type": "coding",
-        "topic": "Stack/Queue"
+        "topic": "Stack/Queue",
+        "difficulty": "Easy"
       },
       {
         "id": "d20-q3",
         "title": "Reverse Words",
         "type": "coding",
-        "topic": "Stack/Queue"
+        "topic": "Stack/Queue",
+        "difficulty": "Easy"
       },
       {
         "id": "d20-sd",
         "title": "LLD: Car Rental",
         "type": "system-design",
-        "topic": "System Design"
+        "topic": "System Design",
+        "difficulty": "Easy"
       }
     ]
   },
@@ -650,12 +744,14 @@
     "coding_questions": "Rotate",
     "system_design": "",
     "theme": "LL",
+    "week": 3,
     "questions": [
       {
         "id": "d21-q1",
         "title": "Rotate",
         "type": "coding",
-        "topic": "LL"
+        "topic": "LL",
+        "difficulty": "Easy"
       }
     ]
   },
@@ -666,24 +762,28 @@
     "coding_questions": "Next Permutation, Majority Element x2",
     "system_design": "LLD: Chess Game",
     "theme": "Arrays",
+    "week": 4,
     "questions": [
       {
         "id": "d22-q1",
         "title": "Next Permutation",
         "type": "coding",
-        "topic": "Arrays"
+        "topic": "Arrays",
+        "difficulty": "Medium"
       },
       {
         "id": "d22-q2",
         "title": "Majority Element x2",
         "type": "coding",
-        "topic": "Arrays"
+        "topic": "Arrays",
+        "difficulty": "Medium"
       },
       {
         "id": "d22-sd",
         "title": "LLD: Chess Game",
         "type": "system-design",
-        "topic": "System Design"
+        "topic": "System Design",
+        "difficulty": "Medium"
       }
     ]
   },
@@ -694,30 +794,35 @@
     "coding_questions": "Minimize Heights, Max Subarray, Max Product",
     "system_design": "LLD: LRU Cache",
     "theme": "Arrays",
+    "week": 4,
     "questions": [
       {
         "id": "d23-q1",
         "title": "Minimize Heights",
         "type": "coding",
-        "topic": "Arrays"
+        "topic": "Arrays",
+        "difficulty": "Medium"
       },
       {
         "id": "d23-q2",
         "title": "Max Subarray",
         "type": "coding",
-        "topic": "Arrays"
+        "topic": "Arrays",
+        "difficulty": "Medium"
       },
       {
         "id": "d23-q3",
         "title": "Max Product",
         "type": "coding",
-        "topic": "Arrays"
+        "topic": "Arrays",
+        "difficulty": "Medium"
       },
       {
         "id": "d23-sd",
         "title": "LLD: LRU Cache",
         "type": "system-design",
-        "topic": "System Design"
+        "topic": "System Design",
+        "difficulty": "Medium"
       }
     ]
   },
@@ -728,30 +833,35 @@
     "coding_questions": "Product Except Self, Subarrays Prod, Split Sum",
     "system_design": "HLD: URL Shortener",
     "theme": "Arrays",
+    "week": 4,
     "questions": [
       {
         "id": "d24-q1",
         "title": "Product Except Self",
         "type": "coding",
-        "topic": "Arrays"
+        "topic": "Arrays",
+        "difficulty": "Medium"
       },
       {
         "id": "d24-q2",
         "title": "Subarrays Prod",
         "type": "coding",
-        "topic": "Arrays"
+        "topic": "Arrays",
+        "difficulty": "Medium"
       },
       {
         "id": "d24-q3",
         "title": "Split Sum",
         "type": "coding",
-        "topic": "Arrays"
+        "topic": "Arrays",
+        "difficulty": "Medium"
       },
       {
         "id": "d24-sd",
         "title": "HLD: URL Shortener",
         "type": "system-design",
-        "topic": "System Design"
+        "topic": "System Design",
+        "difficulty": "Medium"
       }
     ]
   },
@@ -762,30 +872,35 @@
     "coding_questions": "Max Ones Flip, Mountain, Min Swaps",
     "system_design": "HLD: Pastebin",
     "theme": "Arrays",
+    "week": 4,
     "questions": [
       {
         "id": "d25-q1",
         "title": "Max Ones Flip",
         "type": "coding",
-        "topic": "Arrays"
+        "topic": "Arrays",
+        "difficulty": "Medium"
       },
       {
         "id": "d25-q2",
         "title": "Mountain",
         "type": "coding",
-        "topic": "Arrays"
+        "topic": "Arrays",
+        "difficulty": "Medium"
       },
       {
         "id": "d25-q3",
         "title": "Min Swaps",
         "type": "coding",
-        "topic": "Arrays"
+        "topic": "Arrays",
+        "difficulty": "Medium"
       },
       {
         "id": "d25-sd",
         "title": "HLD: Pastebin",
         "type": "system-design",
-        "topic": "System Design"
+        "topic": "System Design",
+        "difficulty": "Medium"
       }
     ]
   },
@@ -796,30 +911,35 @@
     "coding_questions": "Integer to Words, Fizz Buzz, Isomorphic",
     "system_design": "HLD: CDN + Key- Value Store",
     "theme": "Strings",
+    "week": 4,
     "questions": [
       {
         "id": "d26-q1",
         "title": "Integer to Words",
         "type": "coding",
-        "topic": "Strings"
+        "topic": "Strings",
+        "difficulty": "Medium"
       },
       {
         "id": "d26-q2",
         "title": "Fizz Buzz",
         "type": "coding",
-        "topic": "Strings"
+        "topic": "Strings",
+        "difficulty": "Medium"
       },
       {
         "id": "d26-q3",
         "title": "Isomorphic",
         "type": "coding",
-        "topic": "Strings"
+        "topic": "Strings",
+        "difficulty": "Medium"
       },
       {
         "id": "d26-sd",
         "title": "HLD: CDN + Key- Value Store",
         "type": "system-design",
-        "topic": "System Design"
+        "topic": "System Design",
+        "difficulty": "Medium"
       }
     ]
   },
@@ -830,30 +950,35 @@
     "coding_questions": "Palindromic Sentence, Find/Replace, K-Unique",
     "system_design": "HLD: Distributed Cache",
     "theme": "Strings",
+    "week": 4,
     "questions": [
       {
         "id": "d27-q1",
         "title": "Palindromic Sentence",
         "type": "coding",
-        "topic": "Strings"
+        "topic": "Strings",
+        "difficulty": "Medium"
       },
       {
         "id": "d27-q2",
         "title": "Find/Replace",
         "type": "coding",
-        "topic": "Strings"
+        "topic": "Strings",
+        "difficulty": "Medium"
       },
       {
         "id": "d27-q3",
         "title": "K-Unique",
         "type": "coding",
-        "topic": "Strings"
+        "topic": "Strings",
+        "difficulty": "Medium"
       },
       {
         "id": "d27-sd",
         "title": "HLD: Distributed Cache",
         "type": "system-design",
-        "topic": "System Design"
+        "topic": "System Design",
+        "difficulty": "Medium"
       }
     ]
   },
@@ -864,12 +989,14 @@
     "coding_questions": "Max Subarray, Isomorphic, Product ExceptRevisit URL Shortener, LRU CacheREVISION✅",
     "system_design": "",
     "theme": "General",
+    "week": 4,
     "questions": [
       {
         "id": "d28-special",
         "title": "Max Subarray, Isomorphic, Product ExceptRevisit URL Shortener, LRU CacheREVISION✅",
         "type": "special",
-        "topic": "General"
+        "topic": "General",
+        "difficulty": "N/A"
       }
     ]
   },
@@ -880,30 +1007,35 @@
     "coding_questions": "KMP, Smallest Window, Longest Substring",
     "system_design": "HLD: Job Scheduler",
     "theme": "Strings",
+    "week": 5,
     "questions": [
       {
         "id": "d29-q1",
         "title": "KMP",
         "type": "coding",
-        "topic": "Strings"
+        "topic": "Strings",
+        "difficulty": "Medium"
       },
       {
         "id": "d29-q2",
         "title": "Smallest Window",
         "type": "coding",
-        "topic": "Strings"
+        "topic": "Strings",
+        "difficulty": "Medium"
       },
       {
         "id": "d29-q3",
         "title": "Longest Substring",
         "type": "coding",
-        "topic": "Strings"
+        "topic": "Strings",
+        "difficulty": "Medium"
       },
       {
         "id": "d29-sd",
         "title": "HLD: Job Scheduler",
         "type": "system-design",
-        "topic": "System Design"
+        "topic": "System Design",
+        "difficulty": "Medium"
       }
     ]
   },
@@ -914,30 +1046,35 @@
     "coding_questions": "Longest Consecutive, All Pairs Sum, Anagrams",
     "system_design": "HLD: Authentication",
     "theme": "Hashing",
+    "week": 5,
     "questions": [
       {
         "id": "d30-q1",
         "title": "Longest Consecutive",
         "type": "coding",
-        "topic": "Hashing"
+        "topic": "Hashing",
+        "difficulty": "Medium"
       },
       {
         "id": "d30-q2",
         "title": "All Pairs Sum",
         "type": "coding",
-        "topic": "Hashing"
+        "topic": "Hashing",
+        "difficulty": "Medium"
       },
       {
         "id": "d30-q3",
         "title": "Anagrams",
         "type": "coding",
-        "topic": "Hashing"
+        "topic": "Hashing",
+        "difficulty": "Medium"
       },
       {
         "id": "d30-sd",
         "title": "HLD: Authentication",
         "type": "system-design",
-        "topic": "System Design"
+        "topic": "System Design",
+        "difficulty": "Medium"
       }
     ]
   },
@@ -948,30 +1085,35 @@
     "coding_questions": "Longest Sub K, Equal 0/1s, Subarrays 0-Sum",
     "system_design": "HLD: Text Search",
     "theme": "Hashing",
+    "week": 5,
     "questions": [
       {
         "id": "d31-q1",
         "title": "Longest Sub K",
         "type": "coding",
-        "topic": "Hashing"
+        "topic": "Hashing",
+        "difficulty": "Medium"
       },
       {
         "id": "d31-q2",
         "title": "Equal 0/1s",
         "type": "coding",
-        "topic": "Hashing"
+        "topic": "Hashing",
+        "difficulty": "Medium"
       },
       {
         "id": "d31-q3",
         "title": "Subarrays 0-Sum",
         "type": "coding",
-        "topic": "Hashing"
+        "topic": "Hashing",
+        "difficulty": "Medium"
       },
       {
         "id": "d31-sd",
         "title": "HLD: Text Search",
         "type": "system-design",
-        "topic": "System Design"
+        "topic": "System Design",
+        "difficulty": "Medium"
       }
     ]
   },
@@ -982,30 +1124,35 @@
     "coding_questions": "Sort Order, Triplets Sum, XOR Subarrays",
     "system_design": "HLD: Rate Limiting",
     "theme": "Hashing",
+    "week": 5,
     "questions": [
       {
         "id": "d32-q1",
         "title": "Sort Order",
         "type": "coding",
-        "topic": "Hashing"
+        "topic": "Hashing",
+        "difficulty": "Medium"
       },
       {
         "id": "d32-q2",
         "title": "Triplets Sum",
         "type": "coding",
-        "topic": "Hashing"
+        "topic": "Hashing",
+        "difficulty": "Medium"
       },
       {
         "id": "d32-q3",
         "title": "XOR Subarrays",
         "type": "coding",
-        "topic": "Hashing"
+        "topic": "Hashing",
+        "difficulty": "Medium"
       },
       {
         "id": "d32-sd",
         "title": "HLD: Rate Limiting",
         "type": "system-design",
-        "topic": "System Design"
+        "topic": "System Design",
+        "difficulty": "Medium"
       }
     ]
   },
@@ -1016,30 +1163,35 @@
     "coding_questions": "Detect Loop, Length Loop, Reverse Groups",
     "system_design": "HLD: Instagram",
     "theme": "LL",
+    "week": 5,
     "questions": [
       {
         "id": "d33-q1",
         "title": "Detect Loop",
         "type": "coding",
-        "topic": "LL"
+        "topic": "LL",
+        "difficulty": "Medium"
       },
       {
         "id": "d33-q2",
         "title": "Length Loop",
         "type": "coding",
-        "topic": "LL"
+        "topic": "LL",
+        "difficulty": "Medium"
       },
       {
         "id": "d33-q3",
         "title": "Reverse Groups",
         "type": "coding",
-        "topic": "LL"
+        "topic": "LL",
+        "difficulty": "Medium"
       },
       {
         "id": "d33-sd",
         "title": "HLD: Instagram",
         "type": "system-design",
-        "topic": "System Design"
+        "topic": "System Design",
+        "difficulty": "Medium"
       }
     ]
   },
@@ -1050,30 +1202,35 @@
     "coding_questions": "Intersection, Merge Sorted, Palindrome LL",
     "system_design": "HLD: WhatsApp",
     "theme": "LL",
+    "week": 5,
     "questions": [
       {
         "id": "d34-q1",
         "title": "Intersection",
         "type": "coding",
-        "topic": "LL"
+        "topic": "LL",
+        "difficulty": "Medium"
       },
       {
         "id": "d34-q2",
         "title": "Merge Sorted",
         "type": "coding",
-        "topic": "LL"
+        "topic": "LL",
+        "difficulty": "Medium"
       },
       {
         "id": "d34-q3",
         "title": "Palindrome LL",
         "type": "coding",
-        "topic": "LL"
+        "topic": "LL",
+        "difficulty": "Medium"
       },
       {
         "id": "d34-sd",
         "title": "HLD: WhatsApp",
         "type": "system-design",
-        "topic": "System Design"
+        "topic": "System Design",
+        "difficulty": "Medium"
       }
     ]
   },
@@ -1084,24 +1241,28 @@
     "coding_questions": "Detect Loop, Longest Sub K, Palindrome",
     "system_design": "",
     "theme": "LL",
+    "week": 5,
     "questions": [
       {
         "id": "d35-q1",
         "title": "Detect Loop",
         "type": "coding",
-        "topic": "LL"
+        "topic": "LL",
+        "difficulty": "Medium"
       },
       {
         "id": "d35-q2",
         "title": "Longest Sub K",
         "type": "coding",
-        "topic": "LL"
+        "topic": "LL",
+        "difficulty": "Medium"
       },
       {
         "id": "d35-q3",
         "title": "Palindrome",
         "type": "coding",
-        "topic": "LL"
+        "topic": "LL",
+        "difficulty": "Medium"
       }
     ]
   },
@@ -1112,30 +1273,35 @@
     "coding_questions": "Add Numbers LL, Swap Kth, Rearrange LL",
     "system_design": "HLD: Twitter",
     "theme": "LL",
+    "week": 6,
     "questions": [
       {
         "id": "d36-q1",
         "title": "Add Numbers LL",
         "type": "coding",
-        "topic": "LL"
+        "topic": "LL",
+        "difficulty": "Medium"
       },
       {
         "id": "d36-q2",
         "title": "Swap Kth",
         "type": "coding",
-        "topic": "LL"
+        "topic": "LL",
+        "difficulty": "Medium"
       },
       {
         "id": "d36-q3",
         "title": "Rearrange LL",
         "type": "coding",
-        "topic": "LL"
+        "topic": "LL",
+        "difficulty": "Medium"
       },
       {
         "id": "d36-sd",
         "title": "HLD: Twitter",
         "type": "system-design",
-        "topic": "System Design"
+        "topic": "System Design",
+        "difficulty": "Medium"
       }
     ]
   },
@@ -1146,30 +1312,35 @@
     "coding_questions": "Height Tree, Identical Trees, Mirror",
     "system_design": "HLD: Net\u0000ix",
     "theme": "Trees",
+    "week": 6,
     "questions": [
       {
         "id": "d37-q1",
         "title": "Height Tree",
         "type": "coding",
-        "topic": "Trees"
+        "topic": "Trees",
+        "difficulty": "Medium"
       },
       {
         "id": "d37-q2",
         "title": "Identical Trees",
         "type": "coding",
-        "topic": "Trees"
+        "topic": "Trees",
+        "difficulty": "Medium"
       },
       {
         "id": "d37-q3",
         "title": "Mirror",
         "type": "coding",
-        "topic": "Trees"
+        "topic": "Trees",
+        "difficulty": "Medium"
       },
       {
         "id": "d37-sd",
         "title": "HLD: Net\u0000ix",
         "type": "system-design",
-        "topic": "System Design"
+        "topic": "System Design",
+        "difficulty": "Medium"
       }
     ]
   },
@@ -1180,30 +1351,35 @@
     "coding_questions": "Symmetric, Balanced, Children Sum Parent",
     "system_design": "HLD: YouTube",
     "theme": "Trees",
+    "week": 6,
     "questions": [
       {
         "id": "d38-q1",
         "title": "Symmetric",
         "type": "coding",
-        "topic": "Trees"
+        "topic": "Trees",
+        "difficulty": "Medium"
       },
       {
         "id": "d38-q2",
         "title": "Balanced",
         "type": "coding",
-        "topic": "Trees"
+        "topic": "Trees",
+        "difficulty": "Medium"
       },
       {
         "id": "d38-q3",
         "title": "Children Sum Parent",
         "type": "coding",
-        "topic": "Trees"
+        "topic": "Trees",
+        "difficulty": "Medium"
       },
       {
         "id": "d38-sd",
         "title": "HLD: YouTube",
         "type": "system-design",
-        "topic": "System Design"
+        "topic": "System Design",
+        "difficulty": "Medium"
       }
     ]
   },
@@ -1214,30 +1390,35 @@
     "coding_questions": "Array to BST, Inorder Successor, Kth Largest",
     "system_design": "HLD: Typeahead",
     "theme": "Trees",
+    "week": 6,
     "questions": [
       {
         "id": "d39-q1",
         "title": "Array to BST",
         "type": "coding",
-        "topic": "Trees"
+        "topic": "Trees",
+        "difficulty": "Medium"
       },
       {
         "id": "d39-q2",
         "title": "Inorder Successor",
         "type": "coding",
-        "topic": "Trees"
+        "topic": "Trees",
+        "difficulty": "Medium"
       },
       {
         "id": "d39-q3",
         "title": "Kth Largest",
         "type": "coding",
-        "topic": "Trees"
+        "topic": "Trees",
+        "difficulty": "Medium"
       },
       {
         "id": "d39-sd",
         "title": "HLD: Typeahead",
         "type": "system-design",
-        "topic": "System Design"
+        "topic": "System Design",
+        "difficulty": "Medium"
       }
     ]
   },
@@ -1248,30 +1429,35 @@
     "coding_questions": "Diameter, Zigzag Traversal, Boundary",
     "system_design": "HLD: Uber",
     "theme": "Trees",
+    "week": 6,
     "questions": [
       {
         "id": "d40-q1",
         "title": "Diameter",
         "type": "coding",
-        "topic": "Trees"
+        "topic": "Trees",
+        "difficulty": "Medium"
       },
       {
         "id": "d40-q2",
         "title": "Zigzag Traversal",
         "type": "coding",
-        "topic": "Trees"
+        "topic": "Trees",
+        "difficulty": "Medium"
       },
       {
         "id": "d40-q3",
         "title": "Boundary",
         "type": "coding",
-        "topic": "Trees"
+        "topic": "Trees",
+        "difficulty": "Medium"
       },
       {
         "id": "d40-sd",
         "title": "HLD: Uber",
         "type": "system-design",
-        "topic": "System Design"
+        "topic": "System Design",
+        "difficulty": "Medium"
       }
     ]
   },
@@ -1282,12 +1468,14 @@
     "coding_questions": "FINAL REVISION: Palindrome",
     "system_design": "",
     "theme": "LL",
+    "week": 6,
     "questions": [
       {
         "id": "d41-special",
         "title": "FINAL REVISION: Palindrome",
         "type": "special",
-        "topic": "LL"
+        "topic": "LL",
+        "difficulty": "N/A"
       }
     ]
   },
@@ -1298,30 +1486,35 @@
     "coding_questions": "Trapping Rain, Circular Max, Smallest Positive",
     "system_design": "HLD: Ticketing",
     "theme": "Arrays",
+    "week": 6,
     "questions": [
       {
         "id": "d42-q1",
         "title": "Trapping Rain",
         "type": "coding",
-        "topic": "Arrays"
+        "topic": "Arrays",
+        "difficulty": "Hard"
       },
       {
         "id": "d42-q2",
         "title": "Circular Max",
         "type": "coding",
-        "topic": "Arrays"
+        "topic": "Arrays",
+        "difficulty": "Hard"
       },
       {
         "id": "d42-q3",
         "title": "Smallest Positive",
         "type": "coding",
-        "topic": "Arrays"
+        "topic": "Arrays",
+        "difficulty": "Hard"
       },
       {
         "id": "d42-sd",
         "title": "HLD: Ticketing",
         "type": "system-design",
-        "topic": "System Design"
+        "topic": "System Design",
+        "difficulty": "Hard"
       }
     ]
   },
@@ -1332,30 +1525,35 @@
     "coding_questions": "Jump Game, Smallest Range, Count K-Distinct",
     "system_design": "HLD: Recommendation",
     "theme": "Arrays",
+    "week": 7,
     "questions": [
       {
         "id": "d43-q1",
         "title": "Jump Game",
         "type": "coding",
-        "topic": "Arrays"
+        "topic": "Arrays",
+        "difficulty": "Hard"
       },
       {
         "id": "d43-q2",
         "title": "Smallest Range",
         "type": "coding",
-        "topic": "Arrays"
+        "topic": "Arrays",
+        "difficulty": "Hard"
       },
       {
         "id": "d43-q3",
         "title": "Count K-Distinct",
         "type": "coding",
-        "topic": "Arrays"
+        "topic": "Arrays",
+        "difficulty": "Hard"
       },
       {
         "id": "d43-sd",
         "title": "HLD: Recommendation",
         "type": "system-design",
-        "topic": "System Design"
+        "topic": "System Design",
+        "difficulty": "Hard"
       }
     ]
   },
@@ -1366,30 +1564,35 @@
     "coding_questions": "Remove Duplicates, KMP, Rabin-Karp",
     "system_design": "HLD: Leaderboard + Booking",
     "theme": "Strings",
+    "week": 7,
     "questions": [
       {
         "id": "d44-q1",
         "title": "Remove Duplicates",
         "type": "coding",
-        "topic": "Strings"
+        "topic": "Strings",
+        "difficulty": "Hard"
       },
       {
         "id": "d44-q2",
         "title": "KMP",
         "type": "coding",
-        "topic": "Strings"
+        "topic": "Strings",
+        "difficulty": "Hard"
       },
       {
         "id": "d44-q3",
         "title": "Rabin-Karp",
         "type": "coding",
-        "topic": "Strings"
+        "topic": "Strings",
+        "difficulty": "Hard"
       },
       {
         "id": "d44-sd",
         "title": "HLD: Leaderboard + Booking",
         "type": "system-design",
-        "topic": "System Design"
+        "topic": "System Design",
+        "difficulty": "Hard"
       }
     ]
   },
@@ -1400,30 +1603,35 @@
     "coding_questions": "Palindrome Substring, Valid Parenthesis, LPS",
     "system_design": "HLD: E-commerce",
     "theme": "Strings",
+    "week": 7,
     "questions": [
       {
         "id": "d45-q1",
         "title": "Palindrome Substring",
         "type": "coding",
-        "topic": "Strings"
+        "topic": "Strings",
+        "difficulty": "Hard"
       },
       {
         "id": "d45-q2",
         "title": "Valid Parenthesis",
         "type": "coding",
-        "topic": "Strings"
+        "topic": "Strings",
+        "difficulty": "Hard"
       },
       {
         "id": "d45-q3",
         "title": "LPS",
         "type": "coding",
-        "topic": "Strings"
+        "topic": "Strings",
+        "difficulty": "Hard"
       },
       {
         "id": "d45-sd",
         "title": "HLD: E-commerce",
         "type": "system-design",
-        "topic": "System Design"
+        "topic": "System Design",
+        "difficulty": "Hard"
       }
     ]
   },
@@ -1434,30 +1642,35 @@
     "coding_questions": "Shortest Supersequence, Distinct Subseq, Min Delete",
     "system_design": "HLD: Web Crawler",
     "theme": "Strings",
+    "week": 7,
     "questions": [
       {
         "id": "d46-q1",
         "title": "Shortest Supersequence",
         "type": "coding",
-        "topic": "Strings"
+        "topic": "Strings",
+        "difficulty": "Hard"
       },
       {
         "id": "d46-q2",
         "title": "Distinct Subseq",
         "type": "coding",
-        "topic": "Strings"
+        "topic": "Strings",
+        "difficulty": "Hard"
       },
       {
         "id": "d46-q3",
         "title": "Min Delete",
         "type": "coding",
-        "topic": "Strings"
+        "topic": "Strings",
+        "difficulty": "Hard"
       },
       {
         "id": "d46-sd",
         "title": "HLD: Web Crawler",
         "type": "system-design",
-        "topic": "System Design"
+        "topic": "System Design",
+        "difficulty": "Hard"
       }
     ]
   },
@@ -1468,30 +1681,35 @@
     "coding_questions": "Remove Loop, LRU Cache, LFU Cache",
     "system_design": "HLD: Payment System",
     "theme": "LL",
+    "week": 7,
     "questions": [
       {
         "id": "d47-q1",
         "title": "Remove Loop",
         "type": "coding",
-        "topic": "LL"
+        "topic": "LL",
+        "difficulty": "Hard"
       },
       {
         "id": "d47-q2",
         "title": "LRU Cache",
         "type": "coding",
-        "topic": "LL"
+        "topic": "LL",
+        "difficulty": "Hard"
       },
       {
         "id": "d47-q3",
         "title": "LFU Cache",
         "type": "coding",
-        "topic": "LL"
+        "topic": "LL",
+        "difficulty": "Hard"
       },
       {
         "id": "d47-sd",
         "title": "HLD: Payment System",
         "type": "system-design",
-        "topic": "System Design"
+        "topic": "System Design",
+        "difficulty": "Hard"
       }
     ]
   },
@@ -1502,30 +1720,35 @@
     "coding_questions": "Top K Stream, Min Window, Sum Divisible K",
     "system_design": "HLD: Chat System",
     "theme": "Hashing",
+    "week": 7,
     "questions": [
       {
         "id": "d48-q1",
         "title": "Top K Stream",
         "type": "coding",
-        "topic": "Hashing"
+        "topic": "Hashing",
+        "difficulty": "Hard"
       },
       {
         "id": "d48-q2",
         "title": "Min Window",
         "type": "coding",
-        "topic": "Hashing"
+        "topic": "Hashing",
+        "difficulty": "Hard"
       },
       {
         "id": "d48-q3",
         "title": "Sum Divisible K",
         "type": "coding",
-        "topic": "Hashing"
+        "topic": "Hashing",
+        "difficulty": "Hard"
       },
       {
         "id": "d48-sd",
         "title": "HLD: Chat System",
         "type": "system-design",
-        "topic": "System Design"
+        "topic": "System Design",
+        "difficulty": "Hard"
       }
     ]
   },
@@ -1536,12 +1759,14 @@
     "coding_questions": "Trapping Rain, KMP, LRU CacheRevisit Uber, Payment System (detailed)REVISION✅",
     "system_design": "",
     "theme": "General",
+    "week": 7,
     "questions": [
       {
         "id": "d49-special",
         "title": "Trapping Rain, KMP, LRU CacheRevisit Uber, Payment System (detailed)REVISION✅",
         "type": "special",
-        "topic": "General"
+        "topic": "General",
+        "difficulty": "N/A"
       }
     ]
   },
@@ -1552,30 +1777,35 @@
     "coding_questions": "Vertical Traversal, Preorder/Inorder, LCA",
     "system_design": "HLD: Airbnb",
     "theme": "Trees",
+    "week": 8,
     "questions": [
       {
         "id": "d50-q1",
         "title": "Vertical Traversal",
         "type": "coding",
-        "topic": "Trees"
+        "topic": "Trees",
+        "difficulty": "Hard"
       },
       {
         "id": "d50-q2",
         "title": "Preorder/Inorder",
         "type": "coding",
-        "topic": "Trees"
+        "topic": "Trees",
+        "difficulty": "Hard"
       },
       {
         "id": "d50-q3",
         "title": "LCA",
         "type": "coding",
-        "topic": "Trees"
+        "topic": "Trees",
+        "difficulty": "Hard"
       },
       {
         "id": "d50-sd",
         "title": "HLD: Airbnb",
         "type": "system-design",
-        "topic": "System Design"
+        "topic": "System Design",
+        "difficulty": "Hard"
       }
     ]
   },
@@ -1586,30 +1816,35 @@
     "coding_questions": "Kth Smallest, Validate BST, Flatten Tree",
     "system_design": "HLD: Tinder",
     "theme": "Trees",
+    "week": 8,
     "questions": [
       {
         "id": "d51-q1",
         "title": "Kth Smallest",
         "type": "coding",
-        "topic": "Trees"
+        "topic": "Trees",
+        "difficulty": "Hard"
       },
       {
         "id": "d51-q2",
         "title": "Validate BST",
         "type": "coding",
-        "topic": "Trees"
+        "topic": "Trees",
+        "difficulty": "Hard"
       },
       {
         "id": "d51-q3",
         "title": "Flatten Tree",
         "type": "coding",
-        "topic": "Trees"
+        "topic": "Trees",
+        "difficulty": "Hard"
       },
       {
         "id": "d51-sd",
         "title": "HLD: Tinder",
         "type": "system-design",
-        "topic": "System Design"
+        "topic": "System Design",
+        "difficulty": "Hard"
       }
     ]
   },
@@ -1620,30 +1855,35 @@
     "coding_questions": "Max Path Leaves, Max Path Sum, Serialize",
     "system_design": "HLD: Dropbox + Google Drive",
     "theme": "Trees",
+    "week": 8,
     "questions": [
       {
         "id": "d52-q1",
         "title": "Max Path Leaves",
         "type": "coding",
-        "topic": "Trees"
+        "topic": "Trees",
+        "difficulty": "Hard"
       },
       {
         "id": "d52-q2",
         "title": "Max Path Sum",
         "type": "coding",
-        "topic": "Trees"
+        "topic": "Trees",
+        "difficulty": "Hard"
       },
       {
         "id": "d52-q3",
         "title": "Serialize",
         "type": "coding",
-        "topic": "Trees"
+        "topic": "Trees",
+        "difficulty": "Hard"
       },
       {
         "id": "d52-sd",
         "title": "HLD: Dropbox + Google Drive",
         "type": "system-design",
-        "topic": "System Design"
+        "topic": "System Design",
+        "difficulty": "Hard"
       }
     ]
   },
@@ -1654,30 +1894,35 @@
     "coding_questions": "Queue Stacks, Post\u0000x Eval, Next Greater",
     "system_design": "HLD: Facebook Feed + Stock Trading",
     "theme": "Stack/Queue",
+    "week": 8,
     "questions": [
       {
         "id": "d53-q1",
         "title": "Queue Stacks",
         "type": "coding",
-        "topic": "Stack/Queue"
+        "topic": "Stack/Queue",
+        "difficulty": "Hard"
       },
       {
         "id": "d53-q2",
         "title": "Post\u0000x Eval",
         "type": "coding",
-        "topic": "Stack/Queue"
+        "topic": "Stack/Queue",
+        "difficulty": "Hard"
       },
       {
         "id": "d53-q3",
         "title": "Next Greater",
         "type": "coding",
-        "topic": "Stack/Queue"
+        "topic": "Stack/Queue",
+        "difficulty": "Hard"
       },
       {
         "id": "d53-sd",
         "title": "HLD: Facebook Feed + Stock Trading",
         "type": "system-design",
-        "topic": "System Design"
+        "topic": "System Design",
+        "difficulty": "Hard"
       }
     ]
   },
@@ -1688,30 +1933,35 @@
     "coding_questions": "Right Side View, k-1 Distinct, Modulo Pairs",
     "system_design": "HLD: Google Docs (1hr)",
     "theme": "Mixed",
+    "week": 8,
     "questions": [
       {
         "id": "d54-q1",
         "title": "Right Side View",
         "type": "coding",
-        "topic": "Mixed"
+        "topic": "Mixed",
+        "difficulty": "Hard"
       },
       {
         "id": "d54-q2",
         "title": "k-1 Distinct",
         "type": "coding",
-        "topic": "Mixed"
+        "topic": "Mixed",
+        "difficulty": "Hard"
       },
       {
         "id": "d54-q3",
         "title": "Modulo Pairs",
         "type": "coding",
-        "topic": "Mixed"
+        "topic": "Mixed",
+        "difficulty": "Hard"
       },
       {
         "id": "d54-sd",
         "title": "HLD: Google Docs (1hr)",
         "type": "system-design",
-        "topic": "System Design"
+        "topic": "System Design",
+        "difficulty": "Hard"
       }
     ]
   },
@@ -1722,12 +1972,14 @@
     "coding_questions": "🎯 MOCK TEST 1: Circular Max, LRU, PalindromeURL Shortener, Instagram (2 hrs total)MOCK✅",
     "system_design": "",
     "theme": "General",
+    "week": 8,
     "questions": [
       {
         "id": "d55-special",
         "title": "🎯 MOCK TEST 1: Circular Max, LRU, PalindromeURL Shortener, Instagram (2 hrs total)MOCK✅",
         "type": "special",
-        "topic": "General"
+        "topic": "General",
+        "difficulty": "N/A"
       }
     ]
   },
@@ -1738,12 +1990,14 @@
     "coding_questions": "🎯 MOCK TEST 2: Trapping Rain, Min Window, LoopUber, Recommendation (2 hrs total)MOCK✅ (1-2)Theme Revision",
     "system_design": "",
     "theme": "General",
+    "week": 8,
     "questions": [
       {
         "id": "d56-special",
         "title": "🎯 MOCK TEST 2: Trapping Rain, Min Window, LoopUber, Recommendation (2 hrs total)MOCK✅ (1-2)Theme Revision",
         "type": "special",
-        "topic": "General"
+        "topic": "General",
+        "difficulty": "N/A"
       }
     ]
   },
@@ -1754,18 +2008,21 @@
     "coding_questions": "Closest Subseq, Multiply",
     "system_design": "",
     "theme": "Strings",
+    "week": 9,
     "questions": [
       {
         "id": "d57-q1",
         "title": "Closest Subseq",
         "type": "coding",
-        "topic": "Strings"
+        "topic": "Strings",
+        "difficulty": "Hard"
       },
       {
         "id": "d57-q2",
         "title": "Multiply",
         "type": "coding",
-        "topic": "Strings"
+        "topic": "Strings",
+        "difficulty": "Hard"
       }
     ]
   },
@@ -1776,30 +2033,35 @@
     "coding_questions": "Merge K Lists, Distinct Palindromes, Flatten",
     "system_design": "HLD: Zoom, SpotifyHard - (1-2)Theme Revision",
     "theme": "General",
+    "week": 9,
     "questions": [
       {
         "id": "d58-q1",
         "title": "Merge K Lists",
         "type": "coding",
-        "topic": "General"
+        "topic": "General",
+        "difficulty": "Hard"
       },
       {
         "id": "d58-q2",
         "title": "Distinct Palindromes",
         "type": "coding",
-        "topic": "General"
+        "topic": "General",
+        "difficulty": "Hard"
       },
       {
         "id": "d58-q3",
         "title": "Flatten",
         "type": "coding",
-        "topic": "General"
+        "topic": "General",
+        "difficulty": "Hard"
       },
       {
         "id": "d58-sd",
         "title": "HLD: Zoom, SpotifyHard - (1-2)Theme Revision",
         "type": "system-design",
-        "topic": "System Design"
+        "topic": "System Design",
+        "difficulty": "Hard"
       }
     ]
   },
@@ -1810,30 +2072,35 @@
     "coding_questions": "Count Points Line, Bitonic, Phone Directory",
     "system_design": "HLD: Distributed File SystemHard -",
     "theme": "General",
+    "week": 9,
     "questions": [
       {
         "id": "d59-q1",
         "title": "Count Points Line",
         "type": "coding",
-        "topic": "General"
+        "topic": "General",
+        "difficulty": "Mixed"
       },
       {
         "id": "d59-q2",
         "title": "Bitonic",
         "type": "coding",
-        "topic": "General"
+        "topic": "General",
+        "difficulty": "Mixed"
       },
       {
         "id": "d59-q3",
         "title": "Phone Directory",
         "type": "coding",
-        "topic": "General"
+        "topic": "General",
+        "difficulty": "Mixed"
       },
       {
         "id": "d59-sd",
         "title": "HLD: Distributed File SystemHard -",
         "type": "system-design",
-        "topic": "System Design"
+        "topic": "System Design",
+        "difficulty": "Mixed"
       }
     ]
   },
@@ -1844,12 +2111,14 @@
     "coding_questions": "🎯 MOCK TEST 3: Serialize, Palindrome Queries, RotationML Serving, IoT (2 hrs total)MOCK✅",
     "system_design": "",
     "theme": "General",
+    "week": 9,
     "questions": [
       {
         "id": "d60-special",
         "title": "🎯 MOCK TEST 3: Serialize, Palindrome Queries, RotationML Serving, IoT (2 hrs total)MOCK✅",
         "type": "special",
-        "topic": "General"
+        "topic": "General",
+        "difficulty": "N/A"
       }
     ]
   },
@@ -1860,30 +2129,35 @@
     "coding_questions": "Trapping (explain), LRU (code), LPS (explain)Work\u0000ow Mgmt, Fraud DetectionExp & Review-",
     "system_design": "",
     "theme": "General",
+    "week": 9,
     "questions": [
       {
         "id": "d61-q1",
         "title": "Trapping (explain)",
         "type": "coding",
-        "topic": "General"
+        "topic": "General",
+        "difficulty": "Mixed"
       },
       {
         "id": "d61-q2",
         "title": "LRU (code)",
         "type": "coding",
-        "topic": "General"
+        "topic": "General",
+        "difficulty": "Mixed"
       },
       {
         "id": "d61-q3",
         "title": "LPS (explain)Work\u0000ow Mgmt",
         "type": "coding",
-        "topic": "General"
+        "topic": "General",
+        "difficulty": "Mixed"
       },
       {
         "id": "d61-q4",
         "title": "Fraud DetectionExp & Review-",
         "type": "coding",
-        "topic": "General"
+        "topic": "General",
+        "difficulty": "Mixed"
       }
     ]
   },
@@ -1894,24 +2168,28 @@
     "coding_questions": "Circular Max, Min Window, Max Path SumMonitoring & AlertingExp & Review-",
     "system_design": "",
     "theme": "General",
+    "week": 9,
     "questions": [
       {
         "id": "d62-q1",
         "title": "Circular Max",
         "type": "coding",
-        "topic": "General"
+        "topic": "General",
+        "difficulty": "Mixed"
       },
       {
         "id": "d62-q2",
         "title": "Min Window",
         "type": "coding",
-        "topic": "General"
+        "topic": "General",
+        "difficulty": "Mixed"
       },
       {
         "id": "d62-q3",
         "title": "Max Path SumMonitoring & AlertingExp & Review-",
         "type": "coding",
-        "topic": "General"
+        "topic": "General",
+        "difficulty": "Mixed"
       }
     ]
   },
@@ -1922,12 +2200,14 @@
     "coding_questions": "FINAL REVISION 1: 6 Topic Review (90 mins)3 Systems: Write 1-page designsREVISION✅",
     "system_design": "",
     "theme": "General",
+    "week": 9,
     "questions": [
       {
         "id": "d63-special",
         "title": "FINAL REVISION 1: 6 Topic Review (90 mins)3 Systems: Write 1-page designsREVISION✅",
         "type": "special",
-        "topic": "General"
+        "topic": "General",
+        "difficulty": "N/A"
       }
     ]
   },
@@ -1938,12 +2218,14 @@
     "coding_questions": "FINAL REVISION 2: 3 Weak Qs (3x each)2 Complex Systems (1-page design each)REVISION✅",
     "system_design": "",
     "theme": "General",
+    "week": 10,
     "questions": [
       {
         "id": "d64-special",
         "title": "FINAL REVISION 2: 3 Weak Qs (3x each)2 Complex Systems (1-page design each)REVISION✅",
         "type": "special",
-        "topic": "General"
+        "topic": "General",
+        "difficulty": "N/A"
       }
     ]
   },
@@ -1954,12 +2236,14 @@
     "coding_questions": "Random Mix (Think- Aloud)2 Hard HLD with Trade-offsPractice -",
     "system_design": "",
     "theme": "General",
+    "week": 10,
     "questions": [
       {
         "id": "d65-q1",
         "title": "Random Mix (Think- Aloud)2 Hard HLD with Trade-offsPractice -",
         "type": "coding",
-        "topic": "General"
+        "topic": "General",
+        "difficulty": "Mixed"
       }
     ]
   },
@@ -1970,18 +2254,21 @@
     "coding_questions": "Complex Array, String,",
     "system_design": "",
     "theme": "LL",
+    "week": 10,
     "questions": [
       {
         "id": "d66-q1",
         "title": "Complex Array",
         "type": "coding",
-        "topic": "LL"
+        "topic": "LL",
+        "difficulty": "Mixed"
       },
       {
         "id": "d66-q2",
         "title": "String",
         "type": "coding",
-        "topic": "LL"
+        "topic": "LL",
+        "difficulty": "Mixed"
       }
     ]
   },
@@ -1992,12 +2279,14 @@
     "coding_questions": "🎯 MOCK TEST 4: Serialize, Window, Alternate KAirbnb, Data Pipeline (5 hrs total)MOCK✅",
     "system_design": "",
     "theme": "General",
+    "week": 10,
     "questions": [
       {
         "id": "d67-special",
         "title": "🎯 MOCK TEST 4: Serialize, Window, Alternate KAirbnb, Data Pipeline (5 hrs total)MOCK✅",
         "type": "special",
-        "topic": "General"
+        "topic": "General",
+        "difficulty": "N/A"
       }
     ]
   },
@@ -2008,12 +2297,14 @@
     "coding_questions": "Previous \"Tricky\" Qs (75 mins)2 Different HLD CategoriesEdge Cases-",
     "system_design": "",
     "theme": "General",
+    "week": 10,
     "questions": [
       {
         "id": "d68-q1",
         "title": "Previous \"Tricky\" Qs (75 mins)2 Different HLD CategoriesEdge Cases-",
         "type": "coding",
-        "topic": "General"
+        "topic": "General",
+        "difficulty": "Mixed"
       }
     ]
   },
@@ -2024,12 +2315,14 @@
     "coding_questions": "FINAL REVISION 3: 5 Qs in 60 mins (Speed)Least Con\u0000dent Systems (Deep Dive)REVISION✅",
     "system_design": "",
     "theme": "General",
+    "week": 10,
     "questions": [
       {
         "id": "d69-special",
         "title": "FINAL REVISION 3: 5 Qs in 60 mins (Speed)Least Con\u0000dent Systems (Deep Dive)REVISION✅",
         "type": "special",
-        "topic": "General"
+        "topic": "General",
+        "difficulty": "N/A"
       }
     ]
   },
@@ -2040,18 +2333,21 @@
     "coding_questions": "🎯 FINAL ASSESSMENT: 6 Qs Mix (90 mins)Favorite Hard System (Design + Explain)FINAL✅ 📊 Daily Time Breakdown (4-5 hours) ├── Coding Problems: 180 minutes (3 hours) │   ├── Easy: 10-12 mins per question │   ├── Medium: 18-25 mins per question │   └── Hard: 30-40 mins per question │ ├── System",
     "system_design": "Design: 60-90 minutes (1-1.5 hours) │   ├── Concept: 10-15 mins │   ├── Easy HLD: 20-30 mins │   ├── Medium HLD: 35-45 mins │   └── Hard HLD: 45-60 mins │ └── Review & Documentation: 30 minutes ├── Error analysis ├── Optimization notes └── Pattern recognition 🎯 Revision Days (Every 7 days) Days with ⭐  symbol = Comprehensive Revision Days with 🎯  symbol = Mock Tests (Timed, Full Interview Simulation) \u0000. Day 7 (Dec 28): Week 1 Revision \u0000. Day 14 (Jan 4): Week 2 Revision \u0000. Day 21 (Jan 11): Week 3 Revision \u0000. Day 28 (Jan 18): Week 4 Revision \u0000. Day 35 (Jan 25): Week 5 Revision \u0000. Day 41 (Jan 31): Week 6 Revision \u0000. Day 49 (Feb 8): Week 7 Revision \u0000. Day 55-56 (Feb 14-15): Mock Tests 1 & 2 \u0000. Day 60 (Feb 19): Mock Test 3 \u0000\u0000. Day 63-69 (Feb 22-28): Final Revisions \u0000\u0000. Day 67 (Feb 26): Mock Test 4 \u0000\u0000. Day 70 (Mar 1): Final Assessment ✅ Questions Completed by Topic Coding (229 Total) Topic Easy Medium Hard Total Days Covered",
     "theme": "Arrays",
+    "week": 10,
     "questions": [
       {
         "id": "d70-special",
         "title": "🎯 FINAL ASSESSMENT: 6 Qs Mix (90 mins)Favorite Hard System (Design + Explain)FINAL✅ 📊 Daily Time Breakdown (4-5 hours) ├── Coding Problems: 180 minutes (3 hours) │   ├── Easy: 10-12 mins per question │   ├── Medium: 18-25 mins per question │   └── Hard: 30-40 mins per question │ ├── System",
         "type": "special",
-        "topic": "Arrays"
+        "topic": "Arrays",
+        "difficulty": "N/A"
       },
       {
         "id": "d70-sd",
         "title": "Design: 60-90 minutes (1-1.5 hours) │   ├── Concept: 10-15 mins │   ├── Easy HLD: 20-30 mins │   ├── Medium HLD: 35-45 mins │   └── Hard HLD: 45-60 mins │ └── Review & Documentation: 30 minutes ├── Error analysis ├── Optimization notes └── Pattern recognition 🎯 Revision Days (Every 7 days) Days with ⭐  symbol = Comprehensive Revision Days with 🎯  symbol = Mock Tests (Timed, Full Interview Simulation) \u0000. Day 7 (Dec 28): Week 1 Revision \u0000. Day 14 (Jan 4): Week 2 Revision \u0000. Day 21 (Jan 11): Week 3 Revision \u0000. Day 28 (Jan 18): Week 4 Revision \u0000. Day 35 (Jan 25): Week 5 Revision \u0000. Day 41 (Jan 31): Week 6 Revision \u0000. Day 49 (Feb 8): Week 7 Revision \u0000. Day 55-56 (Feb 14-15): Mock Tests 1 & 2 \u0000. Day 60 (Feb 19): Mock Test 3 \u0000\u0000. Day 63-69 (Feb 22-28): Final Revisions \u0000\u0000. Day 67 (Feb 26): Mock Test 4 \u0000\u0000. Day 70 (Mar 1): Final Assessment ✅ Questions Completed by Topic Coding (229 Total) Topic Easy Medium Hard Total Days Covered",
         "type": "system-design",
-        "topic": "System Design"
+        "topic": "System Design",
+        "difficulty": "Mixed"
       }
     ]
   }
