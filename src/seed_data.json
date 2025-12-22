@@ -1,0 +1,562 @@
+[
+  {
+    "day": 1,
+    "date": "22 Dec",
+    "day_name": "Monday",
+    "coding_questions": "Second Largest, Third Largest, Reverse Array",
+    "system_design": "API Gateway vs LB",
+    "theme": "Arrays"
+  },
+  {
+    "day": 2,
+    "date": "23 Dec",
+    "day_name": "Tuesday",
+    "coding_questions": "Reverse Groups, Rotate Array, Three CandidatesReverse vs Forward Proxy",
+    "system_design": "",
+    "theme": "Arrays"
+  },
+  {
+    "day": 3,
+    "date": "24 Dec",
+    "day_name": "Wednesday",
+    "coding_questions": "Max Ones, Zeroes to End, Wave ArrayHorizontal vs Vertical Scaling",
+    "system_design": "",
+    "theme": "Arrays"
+  },
+  {
+    "day": 4,
+    "date": "25 Dec",
+    "day_name": "Thursday",
+    "coding_questions": "Plus One, Stock (1 Trans), Stock (Multiple)",
+    "system_design": "Microservices vs Monolithic",
+    "theme": "Arrays"
+  },
+  {
+    "day": 5,
+    "date": "26 Dec",
+    "day_name": "Friday",
+    "coding_questions": "Remove Duplicates, Alternate Pos-Neg, Leaders",
+    "system_design": "DB Partitioning + Rate Limiter",
+    "theme": "Arrays"
+  },
+  {
+    "day": 6,
+    "date": "27 Dec",
+    "day_name": "Saturday",
+    "coding_questions": "Missing/Repeating, Missing Ranges, Subarray SumSSO Concept",
+    "system_design": "",
+    "theme": "Arrays"
+  },
+  {
+    "day": 7,
+    "date": "28 Dec",
+    "day_name": "Sunday",
+    "coding_questions": "Rotate, Stock Problems, Missing/Repeating",
+    "system_design": "Compare: API GW, Proxy, ScalingREVISION\u2705",
+    "theme": "General"
+  },
+  {
+    "day": 8,
+    "date": "29 Dec",
+    "day_name": "Monday",
+    "coding_questions": "Palindrome, Reverse String, Reverse Words",
+    "system_design": "CAP Theorem",
+    "theme": "Strings"
+  },
+  {
+    "day": 9,
+    "date": "30 Dec",
+    "day_name": "Tuesday",
+    "coding_questions": "Check Rotation, First Non-Rep, Roman to Integer",
+    "system_design": "Consistency/Availability",
+    "theme": "Strings"
+  },
+  {
+    "day": 10,
+    "date": "31 Dec",
+    "day_name": "Wednesday",
+    "coding_questions": "Atoi, IP Validation, Binary Strings",
+    "system_design": "LLD: Parking Lot",
+    "theme": "Strings"
+  },
+  {
+    "day": 11,
+    "date": "1 Jan",
+    "day_name": "Thursday",
+    "coding_questions": "Encrypt String, Equal Point, Anagrams",
+    "system_design": "LLD: Vending Machine",
+    "theme": "Strings"
+  },
+  {
+    "day": 12,
+    "date": "2 Jan",
+    "day_name": "Friday",
+    "coding_questions": "Panagram, Char Frequency, Array Intersection",
+    "system_design": "LLD: Deck of Cards",
+    "theme": "Hashing"
+  },
+  {
+    "day": 13,
+    "date": "3 Jan",
+    "day_name": "Saturday",
+    "coding_questions": "Pair with Sum, Distinct Count, Remove Dups",
+    "system_design": "LLD: Snake & Ladder",
+    "theme": "Hashing"
+  },
+  {
+    "day": 14,
+    "date": "4 Jan",
+    "day_name": "Sunday",
+    "coding_questions": "Palindrome, Check Rotation, Pair SumRevise Fundamental Concepts (1-10)REVISION\u2705",
+    "system_design": "",
+    "theme": "General"
+  },
+  {
+    "day": 15,
+    "date": "5 Jan",
+    "day_name": "Monday",
+    "coding_questions": "Distinct Pairs, Non- Rep Char, Missing Elements",
+    "system_design": "LLD: Tic-Tac-Toe",
+    "theme": "Hashing"
+  },
+  {
+    "day": 16,
+    "date": "6 Jan",
+    "day_name": "Tuesday",
+    "coding_questions": "Middle LL, Reverse LL, Reverse DLL",
+    "system_design": "LLD: Elevator System",
+    "theme": "LL"
+  },
+  {
+    "day": 17,
+    "date": "7 Jan",
+    "day_name": "Wednesday",
+    "coding_questions": "Rotate LL, Nth from End, Delete Last Occ",
+    "system_design": "LLD: Movie Booking",
+    "theme": "LL"
+  },
+  {
+    "day": 18,
+    "date": "8 Jan",
+    "day_name": "Thursday",
+    "coding_questions": "Delete Middle, Merge Alt Pos, Count Occ",
+    "system_design": "LLD: ATM Machine",
+    "theme": "LL"
+  },
+  {
+    "day": 19,
+    "date": "9 Jan",
+    "day_name": "Friday",
+    "coding_questions": "Parenthesis Checker, Reverse Stack, Post\u0000x",
+    "system_design": "LLD: Library Management",
+    "theme": "Stack/Queue"
+  },
+  {
+    "day": 20,
+    "date": "10 Jan",
+    "day_name": "Saturday",
+    "coding_questions": "Two Stacks, Delete Middle, Reverse Words",
+    "system_design": "LLD: Car Rental",
+    "theme": "Stack/Queue"
+  },
+  {
+    "day": 21,
+    "date": "11 Jan",
+    "day_name": "Sunday",
+    "coding_questions": "Rotate",
+    "system_design": "",
+    "theme": "LL"
+  },
+  {
+    "day": 22,
+    "date": "12 Jan",
+    "day_name": "Monday",
+    "coding_questions": "Next Permutation, Majority Element x2",
+    "system_design": "LLD: Chess Game",
+    "theme": "Arrays"
+  },
+  {
+    "day": 23,
+    "date": "13 Jan",
+    "day_name": "Tuesday",
+    "coding_questions": "Minimize Heights, Max Subarray, Max Product",
+    "system_design": "LLD: LRU Cache",
+    "theme": "Arrays"
+  },
+  {
+    "day": 24,
+    "date": "14 Jan",
+    "day_name": "Wednesday",
+    "coding_questions": "Product Except Self, Subarrays Prod, Split Sum",
+    "system_design": "HLD: URL Shortener",
+    "theme": "Arrays"
+  },
+  {
+    "day": 25,
+    "date": "15 Jan",
+    "day_name": "Thursday",
+    "coding_questions": "Max Ones Flip, Mountain, Min Swaps",
+    "system_design": "HLD: Pastebin",
+    "theme": "Arrays"
+  },
+  {
+    "day": 26,
+    "date": "16 Jan",
+    "day_name": "Friday",
+    "coding_questions": "Integer to Words, Fizz Buzz, Isomorphic",
+    "system_design": "HLD: CDN + Key- Value Store",
+    "theme": "Strings"
+  },
+  {
+    "day": 27,
+    "date": "17 Jan",
+    "day_name": "Saturday",
+    "coding_questions": "Palindromic Sentence, Find/Replace, K-Unique",
+    "system_design": "HLD: Distributed Cache",
+    "theme": "Strings"
+  },
+  {
+    "day": 28,
+    "date": "18 Jan",
+    "day_name": "Sunday",
+    "coding_questions": "Max Subarray, Isomorphic, Product ExceptRevisit URL Shortener, LRU CacheREVISION\u2705",
+    "system_design": "",
+    "theme": "General"
+  },
+  {
+    "day": 29,
+    "date": "19 Jan",
+    "day_name": "Monday",
+    "coding_questions": "KMP, Smallest Window, Longest Substring",
+    "system_design": "HLD: Job Scheduler",
+    "theme": "Strings"
+  },
+  {
+    "day": 30,
+    "date": "20 Jan",
+    "day_name": "Tuesday",
+    "coding_questions": "Longest Consecutive, All Pairs Sum, Anagrams",
+    "system_design": "HLD: Authentication",
+    "theme": "Hashing"
+  },
+  {
+    "day": 31,
+    "date": "21 Jan",
+    "day_name": "Wednesday",
+    "coding_questions": "Longest Sub K, Equal 0/1s, Subarrays 0-Sum",
+    "system_design": "HLD: Text Search",
+    "theme": "Hashing"
+  },
+  {
+    "day": 32,
+    "date": "22 Jan",
+    "day_name": "Thursday",
+    "coding_questions": "Sort Order, Triplets Sum, XOR Subarrays",
+    "system_design": "HLD: Rate Limiting",
+    "theme": "Hashing"
+  },
+  {
+    "day": 33,
+    "date": "23 Jan",
+    "day_name": "Friday",
+    "coding_questions": "Detect Loop, Length Loop, Reverse Groups",
+    "system_design": "HLD: Instagram",
+    "theme": "LL"
+  },
+  {
+    "day": 34,
+    "date": "24 Jan",
+    "day_name": "Saturday",
+    "coding_questions": "Intersection, Merge Sorted, Palindrome LL",
+    "system_design": "HLD: WhatsApp",
+    "theme": "LL"
+  },
+  {
+    "day": 35,
+    "date": "25 Jan",
+    "day_name": "Sunday",
+    "coding_questions": "Detect Loop, Longest Sub K, Palindrome",
+    "system_design": "",
+    "theme": "LL"
+  },
+  {
+    "day": 36,
+    "date": "26 Jan",
+    "day_name": "Monday",
+    "coding_questions": "Add Numbers LL, Swap Kth, Rearrange LL",
+    "system_design": "HLD: Twitter",
+    "theme": "LL"
+  },
+  {
+    "day": 37,
+    "date": "27 Jan",
+    "day_name": "Tuesday",
+    "coding_questions": "Height Tree, Identical Trees, Mirror",
+    "system_design": "HLD: Net\u0000ix",
+    "theme": "Trees"
+  },
+  {
+    "day": 38,
+    "date": "28 Jan",
+    "day_name": "Wednesday",
+    "coding_questions": "Symmetric, Balanced, Children Sum Parent",
+    "system_design": "HLD: YouTube",
+    "theme": "Trees"
+  },
+  {
+    "day": 39,
+    "date": "29 Jan",
+    "day_name": "Thursday",
+    "coding_questions": "Array to BST, Inorder Successor, Kth Largest",
+    "system_design": "HLD: Typeahead",
+    "theme": "Trees"
+  },
+  {
+    "day": 40,
+    "date": "30 Jan",
+    "day_name": "Friday",
+    "coding_questions": "Diameter, Zigzag Traversal, Boundary",
+    "system_design": "HLD: Uber",
+    "theme": "Trees"
+  },
+  {
+    "day": 41,
+    "date": "31 Jan",
+    "day_name": "Saturday",
+    "coding_questions": "FINAL REVISION: Palindrome",
+    "system_design": "",
+    "theme": "LL"
+  },
+  {
+    "day": 42,
+    "date": "1 Feb",
+    "day_name": "Sunday",
+    "coding_questions": "Trapping Rain, Circular Max, Smallest Positive",
+    "system_design": "HLD: Ticketing",
+    "theme": "Arrays"
+  },
+  {
+    "day": 43,
+    "date": "2 Feb",
+    "day_name": "Monday",
+    "coding_questions": "Jump Game, Smallest Range, Count K-Distinct",
+    "system_design": "HLD: Recommendation",
+    "theme": "Arrays"
+  },
+  {
+    "day": 44,
+    "date": "3 Feb",
+    "day_name": "Tuesday",
+    "coding_questions": "Remove Duplicates, KMP, Rabin-Karp",
+    "system_design": "HLD: Leaderboard + Booking",
+    "theme": "Strings"
+  },
+  {
+    "day": 45,
+    "date": "4 Feb",
+    "day_name": "Wednesday",
+    "coding_questions": "Palindrome Substring, Valid Parenthesis, LPS",
+    "system_design": "HLD: E-commerce",
+    "theme": "Strings"
+  },
+  {
+    "day": 46,
+    "date": "5 Feb",
+    "day_name": "Thursday",
+    "coding_questions": "Shortest Supersequence, Distinct Subseq, Min Delete",
+    "system_design": "HLD: Web Crawler",
+    "theme": "Strings"
+  },
+  {
+    "day": 47,
+    "date": "6 Feb",
+    "day_name": "Friday",
+    "coding_questions": "Remove Loop, LRU Cache, LFU Cache",
+    "system_design": "HLD: Payment System",
+    "theme": "LL"
+  },
+  {
+    "day": 48,
+    "date": "7 Feb",
+    "day_name": "Saturday",
+    "coding_questions": "Top K Stream, Min Window, Sum Divisible K",
+    "system_design": "HLD: Chat System",
+    "theme": "Hashing"
+  },
+  {
+    "day": 49,
+    "date": "8 Feb",
+    "day_name": "Sunday",
+    "coding_questions": "Trapping Rain, KMP, LRU CacheRevisit Uber, Payment System (detailed)REVISION\u2705",
+    "system_design": "",
+    "theme": "General"
+  },
+  {
+    "day": 50,
+    "date": "9 Feb",
+    "day_name": "Monday",
+    "coding_questions": "Vertical Traversal, Preorder/Inorder, LCA",
+    "system_design": "HLD: Airbnb",
+    "theme": "Trees"
+  },
+  {
+    "day": 51,
+    "date": "10 Feb",
+    "day_name": "Tuesday",
+    "coding_questions": "Kth Smallest, Validate BST, Flatten Tree",
+    "system_design": "HLD: Tinder",
+    "theme": "Trees"
+  },
+  {
+    "day": 52,
+    "date": "11 Feb",
+    "day_name": "Wednesday",
+    "coding_questions": "Max Path Leaves, Max Path Sum, Serialize",
+    "system_design": "HLD: Dropbox + Google Drive",
+    "theme": "Trees"
+  },
+  {
+    "day": 53,
+    "date": "12 Feb",
+    "day_name": "Thursday",
+    "coding_questions": "Queue Stacks, Post\u0000x Eval, Next Greater",
+    "system_design": "HLD: Facebook Feed + Stock Trading",
+    "theme": "Stack/Queue"
+  },
+  {
+    "day": 54,
+    "date": "13 Feb",
+    "day_name": "Friday",
+    "coding_questions": "Right Side View, k-1 Distinct, Modulo Pairs",
+    "system_design": "HLD: Google Docs (1hr)",
+    "theme": "Mixed"
+  },
+  {
+    "day": 55,
+    "date": "14 Feb",
+    "day_name": "Saturday",
+    "coding_questions": "\ud83c\udfaf MOCK TEST 1: Circular Max, LRU, PalindromeURL Shortener, Instagram (2 hrs total)MOCK\u2705",
+    "system_design": "",
+    "theme": "General"
+  },
+  {
+    "day": 56,
+    "date": "15 Feb",
+    "day_name": "Sunday",
+    "coding_questions": "\ud83c\udfaf MOCK TEST 2: Trapping Rain, Min Window, LoopUber, Recommendation (2 hrs total)MOCK\u2705 (1-2)Theme Revision",
+    "system_design": "",
+    "theme": "General"
+  },
+  {
+    "day": 57,
+    "date": "16 Feb",
+    "day_name": "Monday",
+    "coding_questions": "Closest Subseq, Multiply",
+    "system_design": "",
+    "theme": "Strings"
+  },
+  {
+    "day": 58,
+    "date": "17 Feb",
+    "day_name": "Tuesday",
+    "coding_questions": "Merge K Lists, Distinct Palindromes, Flatten",
+    "system_design": "HLD: Zoom, SpotifyHard - (1-2)Theme Revision",
+    "theme": "General"
+  },
+  {
+    "day": 59,
+    "date": "18 Feb",
+    "day_name": "Wednesday",
+    "coding_questions": "Count Points Line, Bitonic, Phone Directory",
+    "system_design": "HLD: Distributed File SystemHard -",
+    "theme": "General"
+  },
+  {
+    "day": 60,
+    "date": "19 Feb",
+    "day_name": "Thursday",
+    "coding_questions": "\ud83c\udfaf MOCK TEST 3: Serialize, Palindrome Queries, RotationML Serving, IoT (2 hrs total)MOCK\u2705",
+    "system_design": "",
+    "theme": "General"
+  },
+  {
+    "day": 61,
+    "date": "20 Feb",
+    "day_name": "Friday",
+    "coding_questions": "Trapping (explain), LRU (code), LPS (explain)Work\u0000ow Mgmt, Fraud DetectionExp & Review-",
+    "system_design": "",
+    "theme": "General"
+  },
+  {
+    "day": 62,
+    "date": "21 Feb",
+    "day_name": "Saturday",
+    "coding_questions": "Circular Max, Min Window, Max Path SumMonitoring & AlertingExp & Review-",
+    "system_design": "",
+    "theme": "General"
+  },
+  {
+    "day": 63,
+    "date": "22 Feb",
+    "day_name": "Sunday",
+    "coding_questions": "FINAL REVISION 1: 6 Topic Review (90 mins)3 Systems: Write 1-page designsREVISION\u2705",
+    "system_design": "",
+    "theme": "General"
+  },
+  {
+    "day": 64,
+    "date": "23 Feb",
+    "day_name": "Monday",
+    "coding_questions": "FINAL REVISION 2: 3 Weak Qs (3x each)2 Complex Systems (1-page design each)REVISION\u2705",
+    "system_design": "",
+    "theme": "General"
+  },
+  {
+    "day": 65,
+    "date": "24 Feb",
+    "day_name": "Tuesday",
+    "coding_questions": "Random Mix (Think- Aloud)2 Hard HLD with Trade-offsPractice -",
+    "system_design": "",
+    "theme": "General"
+  },
+  {
+    "day": 66,
+    "date": "25 Feb",
+    "day_name": "Wednesday",
+    "coding_questions": "Complex Array, String,",
+    "system_design": "",
+    "theme": "LL"
+  },
+  {
+    "day": 67,
+    "date": "26 Feb",
+    "day_name": "Thursday",
+    "coding_questions": "\ud83c\udfaf MOCK TEST 4: Serialize, Window, Alternate KAirbnb, Data Pipeline (5 hrs total)MOCK\u2705",
+    "system_design": "",
+    "theme": "General"
+  },
+  {
+    "day": 68,
+    "date": "27 Feb",
+    "day_name": "Friday",
+    "coding_questions": "Previous \"Tricky\" Qs (75 mins)2 Different HLD CategoriesEdge Cases-",
+    "system_design": "",
+    "theme": "General"
+  },
+  {
+    "day": 69,
+    "date": "28 Feb",
+    "day_name": "Saturday",
+    "coding_questions": "FINAL REVISION 3: 5 Qs in 60 mins (Speed)Least Con\u0000dent Systems (Deep Dive)REVISION\u2705",
+    "system_design": "",
+    "theme": "General"
+  },
+  {
+    "day": 70,
+    "date": "1 Mar",
+    "day_name": "Sunday",
+    "coding_questions": "\ud83c\udfaf FINAL ASSESSMENT: 6 Qs Mix (90 mins)Favorite Hard System (Design + Explain)FINAL\u2705 \ud83d\udcca Daily Time Breakdown (4-5 hours) \u251c\u2500\u2500 Coding Problems: 180 minutes (3 hours) \u2502   \u251c\u2500\u2500 Easy: 10-12 mins per question \u2502   \u251c\u2500\u2500 Medium: 18-25 mins per question \u2502   \u2514\u2500\u2500 Hard: 30-40 mins per question \u2502 \u251c\u2500\u2500 System",
+    "system_design": "Design: 60-90 minutes (1-1.5 hours) \u2502   \u251c\u2500\u2500 Concept: 10-15 mins \u2502   \u251c\u2500\u2500 Easy HLD: 20-30 mins \u2502   \u251c\u2500\u2500 Medium HLD: 35-45 mins \u2502   \u2514\u2500\u2500 Hard HLD: 45-60 mins \u2502 \u2514\u2500\u2500 Review & Documentation: 30 minutes \u251c\u2500\u2500 Error analysis \u251c\u2500\u2500 Optimization notes \u2514\u2500\u2500 Pattern recognition \ud83c\udfaf Revision Days (Every 7 days) Days with \u2b50  symbol = Comprehensive Revision Days with \ud83c\udfaf  symbol = Mock Tests (Timed, Full Interview Simulation) \u0000. Day 7 (Dec 28): Week 1 Revision \u0000. Day 14 (Jan 4): Week 2 Revision \u0000. Day 21 (Jan 11): Week 3 Revision \u0000. Day 28 (Jan 18): Week 4 Revision \u0000. Day 35 (Jan 25): Week 5 Revision \u0000. Day 41 (Jan 31): Week 6 Revision \u0000. Day 49 (Feb 8): Week 7 Revision \u0000. Day 55-56 (Feb 14-15): Mock Tests 1 & 2 \u0000. Day 60 (Feb 19): Mock Test 3 \u0000\u0000. Day 63-69 (Feb 22-28): Final Revisions \u0000\u0000. Day 67 (Feb 26): Mock Test 4 \u0000\u0000. Day 70 (Mar 1): Final Assessment \u2705 Questions Completed by Topic Coding (229 Total) Topic Easy Medium Hard Total Days Covered",
+    "theme": "Arrays"
+  }
+]
