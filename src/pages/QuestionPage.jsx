@@ -3,6 +3,7 @@ import { useParams, Link, useNavigate } from 'react-router-dom';
 import { useTracker } from '../context/TrackerContext';
 import { ChevronLeft, Save, CheckCircle, Circle, FileText, Code, ExternalLink } from 'lucide-react';
 import CodeEditor from '../components/CodeEditor';
+import MarkdownEditor from '../components/MarkdownEditor';
 import { clsx } from 'clsx';
 
 export default function QuestionPage() {
@@ -141,15 +142,12 @@ export default function QuestionPage() {
                     <h3 className="font-semibold text-gray-900">Notes</h3>
                 </div>
                 <div className="p-6">
-                    <textarea
+                    <MarkdownEditor
                         value={notes}
-                        onChange={(e) => setNotes(e.target.value)}
-                        placeholder="Add your notes, approach, complexity analysis, edge cases, etc..."
-                        className="w-full min-h-[200px] p-4 rounded-xl border border-gray-200 focus:ring-2 focus:ring-green-500 focus:border-green-500 outline-none resize-y text-gray-700 font-mono text-sm leading-relaxed"
+                        onChange={setNotes}
+                        placeholder="Add your notes, approach, complexity analysis, edge cases, etc... (Markdown supported)"
+                        className="min-h-[400px] border-0 shadow-none"
                     />
-                    <p className="text-xs text-gray-400 mt-2">
-                        Tip: Document your approach, time/space complexity, and any tricky edge cases.
-                    </p>
                 </div>
             </div>
 
