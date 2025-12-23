@@ -8,6 +8,7 @@ import DayView from './components/DayView';
 import ProgressPage from './pages/ProgressPage';
 import RevisionPage from './pages/RevisionPage';
 import QuestionPage from './pages/QuestionPage';
+import QuizPage from './pages/QuizPage';
 import { Lock } from 'lucide-react';
 
 function Login() {
@@ -70,6 +71,7 @@ function AppContent() {
             <Route path="/calendar" element={<ProtectedRoute><CalendarView /></ProtectedRoute>} />
             <Route path="/progress" element={<ProtectedRoute><ProgressPage /></ProtectedRoute>} />
             <Route path="/revision" element={<ProtectedRoute><RevisionPage /></ProtectedRoute>} />
+            <Route path="/quiz" element={<ProtectedRoute><QuizPage /></ProtectedRoute>} />
             <Route path="/day/:dayId" element={<ProtectedRoute><DayView /></ProtectedRoute>} />
             <Route path="/question/:questionId" element={<ProtectedRoute><QuestionPage /></ProtectedRoute>} />
             <Route path="/questions" element={<ProtectedRoute><Navigate to="/calendar" /></ProtectedRoute>} />

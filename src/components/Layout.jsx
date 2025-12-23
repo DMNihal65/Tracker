@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { LayoutDashboard, Calendar, BarChart2, RotateCcw, CheckCircle } from 'lucide-react';
+import { LayoutDashboard, Calendar, BarChart2, RotateCcw, CheckCircle, Brain } from 'lucide-react';
 import { clsx } from 'clsx';
 
 export default function Layout({ children }) {
@@ -11,6 +11,7 @@ export default function Layout({ children }) {
         { icon: Calendar, label: 'Calendar', path: '/calendar' },
         { icon: BarChart2, label: 'Progress', path: '/progress' },
         { icon: RotateCcw, label: 'Revision', path: '/revision' },
+        { icon: Brain, label: 'AI Quiz', path: '/quiz' },
     ];
 
     return (

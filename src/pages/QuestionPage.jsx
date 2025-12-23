@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
 import { useTracker } from '../context/TrackerContext';
-import { ChevronLeft, Save, CheckCircle, Circle, FileText, Code, ExternalLink } from 'lucide-react';
+import { ChevronLeft, Save, CheckCircle, Circle, FileText, Code, ExternalLink, Brain, Sparkles, AlertCircle } from 'lucide-react';
 import CodeEditor from '../components/CodeEditor';
 import MarkdownEditor from '../components/MarkdownEditor';
 import { clsx } from 'clsx';
@@ -29,6 +29,12 @@ export default function QuestionPage() {
     const [code, setCode] = useState('');
     const [isSaving, setIsSaving] = useState(false);
 
+    // AI Mentor State
+    const [showAIMentor, setShowAIMentor] = useState(false);
+    const [aiLoading, setAiLoading] = useState(false);
+    const [aiResponse, setAiResponse] = useState(null);
+    const [aiMode, setAiMode] = useState('hint'); // 'hint' or 'review'
+
     useEffect(() => {
         if (question) {
             const currentStatus = getQuestionStatus(questionId);
@@ -52,8 +58,151 @@ export default function QuestionPage() {
         // State update will happen via context, but we can optimistically update local state if needed
     };
 
+    const handleAIRequest = async (mode) => {
+        setAiMode(mode);
+        setAiLoading(true);
+        setAiResponse(null);
+        setShowAIMentor(true);
+
+        try {
+            const response = await fetch('/api/ai', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    type: mode,
+                    data: {
+                        problemTitle: question.title,
+                        problemDescription: "Standard LeetCode problem", // AI usually knows common problems
+                        code: code
+                    }
+                })
+            });
+
+            const data = await response.json();
+            setAiResponse(data);
+        } catch (error) {
+            console.error(error);
+            setAiResponse({ error: "Failed to get AI response." });
+        } finally {
+            setAiLoading(false);
+        }
+    };
+
+    const handleRewriteNotes = async () => {
+        if (!notes.trim()) return;
+        setAiLoading(true);
+        try {
+            const response = await fetch('/api/ai', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    type: 'rewrite_notes',
+                    data: { notes }
+                })
+            });
+            const data = await response.json();
+            if (data.message) {
+                setNotes(data.message);
+            }
+        } catch (error) {
+            console.error("Failed to rewrite notes:", error);
+        } finally {
+            setAiLoading(false);
+        }
+    };
+
     return (
-        <div className="space-y-6 max-w-5xl mx-auto">
+        <div className="space-y-6 max-w-5xl mx-auto relative">
+            {/* AI Mentor Modal */}
+            {showAIMentor && (
+                <div className="fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-4 backdrop-blur-sm">
+                    <div className="bg-white rounded-2xl shadow-2xl w-full max-w-2xl max-h-[80vh] flex flex-col overflow-hidden">
+                        <div className="p-6 border-b border-gray-100 flex justify-between items-center bg-gray-50">
+                            <div className="flex items-center gap-3">
+                                <div className="p-2 bg-purple-100 rounded-lg">
+                                    <Brain className="w-6 h-6 text-purple-600" />
+                                </div>
+                                <div>
+                                    <h3 className="font-bold text-gray-900">AI Mentor</h3>
+                                    <p className="text-xs text-gray-500">Powered by Groq Llama 3</p>
+                                </div>
+                            </div>
+                            <button
+                                onClick={() => setShowAIMentor(false)}
+                                className="text-gray-400 hover:text-gray-600"
+                            >
+                                <ChevronLeft className="w-6 h-6 rotate-180" />
+                            </button>
+                        </div>
+
+                        <div className="p-6 overflow-y-auto flex-1">
+                            {aiLoading ? (
+                                <div className="flex flex-col items-center justify-center py-12 space-y-4">
+                                    <div className="w-10 h-10 border-4 border-purple-200 border-t-purple-600 rounded-full animate-spin" />
+                                    <p className="text-gray-500 font-medium">Analyzing your code...</p>
+                                </div>
+                            ) : aiResponse ? (
+                                <div className="prose prose-sm max-w-none">
+                                    {aiMode === 'review' && aiResponse.bugs ? (
+                                        <div className="space-y-6">
+                                            {aiResponse.bugs.length > 0 && (
+                                                <div className="bg-red-50 p-4 rounded-xl border border-red-100">
+                                                    <h4 className="text-red-800 font-semibold mb-2 flex items-center gap-2">
+                                                        <AlertCircle className="w-4 h-4" /> Potential Issues
+                                                    </h4>
+                                                    <ul className="list-disc list-inside text-red-700 space-y-1">
+                                                        {aiResponse.bugs.map((bug, i) => <li key={i}>{bug}</li>)}
+                                                    </ul>
+                                                </div>
+                                            )}
+
+                                            <div className="bg-blue-50 p-4 rounded-xl border border-blue-100">
+                                                <h4 className="text-blue-800 font-semibold mb-2">Feedback</h4>
+                                                <p className="text-blue-700">{aiResponse.feedback}</p>
+                                            </div>
+
+                                            <div className="grid grid-cols-2 gap-4">
+                                                <div className="bg-gray-50 p-4 rounded-xl border border-gray-200">
+                                                    <h4 className="text-gray-700 font-semibold mb-1 text-xs uppercase tracking-wider">Time Complexity</h4>
+                                                    <p className="text-gray-900 font-mono text-lg">{aiResponse.complexity}</p>
+                                                </div>
+                                                <div className="bg-green-50 p-4 rounded-xl border border-green-100">
+                                                    <h4 className="text-green-800 font-semibold mb-1 text-xs uppercase tracking-wider">Better Approach</h4>
+                                                    <p className="text-green-700 text-sm">{aiResponse.betterApproach}</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    ) : (
+                                        <div className="bg-purple-50 p-6 rounded-xl border border-purple-100 text-purple-900">
+                                            <p className="whitespace-pre-wrap leading-relaxed">{aiResponse.message || JSON.stringify(aiResponse)}</p>
+                                        </div>
+                                    )}
+                                </div>
+                            ) : null}
+                        </div>
+
+                        <div className="p-4 border-t border-gray-100 bg-gray-50 flex gap-3">
+                            <button
+                                onClick={() => handleAIRequest('hint')}
+                                disabled={aiLoading}
+                                className="flex-1 py-2.5 bg-white border border-gray-200 text-gray-700 rounded-xl font-medium hover:bg-gray-50 hover:border-purple-300 transition-all shadow-sm flex items-center justify-center gap-2"
+                            >
+                                <Sparkles className="w-4 h-4 text-yellow-500" />
+                                Get a Hint
+                            </button>
+                            <button
+                                onClick={() => handleAIRequest('review')}
+                                disabled={aiLoading}
+                                className="flex-1 py-2.5 bg-purple-600 text-white rounded-xl font-medium hover:bg-purple-700 transition-all shadow-lg shadow-purple-200 flex items-center justify-center gap-2"
+                            >
+                                <Code className="w-4 h-4" />
+                                Review Code
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            )}
+
             {/* Navigation */}
             <div className="flex items-center gap-4">
                 <button
@@ -114,6 +263,13 @@ export default function QuestionPage() {
                     </div>
 
                     <div className="flex gap-3">
+                        <button
+                            onClick={() => setShowAIMentor(true)}
+                            className="px-4 py-2 bg-purple-50 text-purple-700 rounded-lg text-sm font-medium hover:bg-purple-100 transition-colors flex items-center gap-2 border border-purple-100"
+                        >
+                            <Brain className="w-4 h-4" />
+                            AI Mentor
+                        </button>
                         <a
                             href={`https://leetcode.com/problemset/all/?search=${question.title}`}
                             target="_blank"
@@ -137,9 +293,19 @@ export default function QuestionPage() {
 
             {/* Notes Section */}
             <div className="bg-white rounded-2xl border border-gray-200 overflow-hidden shadow-sm">
-                <div className="px-6 py-4 border-b border-gray-100 bg-gray-50/50 flex items-center gap-2">
-                    <FileText className="w-5 h-5 text-green-600" />
-                    <h3 className="font-semibold text-gray-900">Notes</h3>
+                <div className="px-6 py-4 border-b border-gray-100 bg-gray-50/50 flex items-center justify-between">
+                    <div className="flex items-center gap-2">
+                        <FileText className="w-5 h-5 text-green-600" />
+                        <h3 className="font-semibold text-gray-900">Notes</h3>
+                    </div>
+                    <button
+                        onClick={handleRewriteNotes}
+                        disabled={aiLoading || !notes.trim()}
+                        className="text-xs flex items-center gap-1.5 px-3 py-1.5 bg-purple-50 text-purple-700 rounded-lg hover:bg-purple-100 transition-colors disabled:opacity-50"
+                    >
+                        <Sparkles className="w-3 h-3" />
+                        {aiLoading ? 'Rewriting...' : 'Rewrite with AI'}
+                    </button>
                 </div>
                 <div className="p-6">
                     <MarkdownEditor
