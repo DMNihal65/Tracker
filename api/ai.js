@@ -90,7 +90,7 @@ export default async function handler(req, res) {
                 { role: 'system', content: systemMessage },
                 { role: 'user', content: prompt }
             ],
-            model: 'llama3-70b-8192',
+            model: 'openai/gpt-oss-120b',
             temperature: 0.7,
             response_format: jsonFormat ? { type: 'json_object' } : { type: 'text' },
         });
