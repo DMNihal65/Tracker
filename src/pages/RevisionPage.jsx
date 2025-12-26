@@ -5,28 +5,37 @@ import { RotateCcw, CheckCircle, ArrowRight, Calendar } from 'lucide-react';
 import { clsx } from 'clsx';
 
 export default function RevisionPage() {
-    const { questionsData, getQuestionStatus } = useTracker();
+    const { questionsData, getQuestionStatus, dueRevisions, markAsReviewed, progress } = useTracker();
 
-    // Spaced Repetition Logic (Simplified)
-    // Intervals: 1, 3, 7, 21, 30 days after completion
-    // For this demo, we'll simulate "Due" items based on completion status and random assignment
-    // In a real app, we'd store `completedAt` timestamp and calculate diff
+    // Calculate upcoming reviews (next 3 days)
+    const upcomingQuestions = [];
+    const now = new Date();
+    const threeDaysFromNow = new Date();
+    threeDaysFromNow.setDate(now.getDate() + 3);
 
-    const completedQuestions = [];
     questionsData.forEach(day => {
         day.questions.forEach(q => {
-            const status = getQuestionStatus(q.id);
-            if (status.completed) {
-                completedQuestions.push({ ...q, day: day.day });
+            const status = progress[q.id];
+            if (status && status.completed) {
+                const lastReviewed = status.last_reviewed ? new Date(status.last_reviewed) : new Date(status.completed_at || status.updated_at);
+                const interval = status.review_interval || 1;
+
+                const nextReview = new Date(lastReviewed);
+                nextReview.setDate(nextReview.getDate() + interval);
+
+                if (nextReview > now && nextReview <= threeDaysFromNow) {
+                    upcomingQuestions.push({
+                        ...q,
+                        day: day.day,
+                        nextReviewDate: nextReview
+                    });
+                }
             }
         });
     });
 
-    // Mocking "Due Today" - taking the first 3 completed questions as an example
-    const dueQuestions = completedQuestions.slice(0, 3);
-
-    // Mocking "Upcoming"
-    const upcomingQuestions = completedQuestions.slice(3, 8);
+    // Sort upcoming by date
+    upcomingQuestions.sort((a, b) => a.nextReviewDate - b.nextReviewDate);
 
     return (
         <div className="space-y-8">
@@ -41,12 +50,12 @@ export default function RevisionPage() {
                     <div className="bg-white rounded-2xl border border-gray-200 p-6">
                         <h3 className="text-lg font-bold text-gray-900 mb-6 flex items-center gap-2">
                             <RotateCcw className="w-5 h-5 text-orange-500" />
-                            Due for Review
+                            Due for Review ({dueRevisions.length})
                         </h3>
 
-                        {dueQuestions.length > 0 ? (
+                        {dueRevisions.length > 0 ? (
                             <div className="space-y-4">
-                                {dueQuestions.map((q) => (
+                                {dueRevisions.map((q) => (
                                     <div key={q.id} className="flex items-center justify-between p-4 rounded-xl border border-gray-100 bg-orange-50/30 hover:border-orange-200 transition-all">
                                         <div>
                                             <h4 className="font-medium text-gray-900">{q.title}</h4>
@@ -54,14 +63,24 @@ export default function RevisionPage() {
                                                 <span>Day {q.day}</span>
                                                 <span>•</span>
                                                 <span>{q.topic}</span>
+                                                <span>•</span>
+                                                <span>Interval: {q.review_interval || 1}d</span>
                                             </div>
                                         </div>
-                                        <Link
-                                            to={`/question/${q.id}`}
-                                            className="px-4 py-2 bg-white border border-gray-200 text-gray-700 text-sm font-medium rounded-lg hover:bg-gray-50 transition-colors"
-                                        >
-                                            Review
-                                        </Link>
+                                        <div className="flex gap-2">
+                                            <Link
+                                                to={`/question/${q.id}`}
+                                                className="px-4 py-2 bg-white border border-gray-200 text-gray-700 text-sm font-medium rounded-lg hover:bg-gray-50 transition-colors"
+                                            >
+                                                View
+                                            </Link>
+                                            <button
+                                                onClick={() => markAsReviewed(q.id)}
+                                                className="px-4 py-2 bg-orange-100 text-orange-700 text-sm font-medium rounded-lg hover:bg-orange-200 transition-colors"
+                                            >
+                                                Mark Reviewed
+                                            </button>
+                                        </div>
                                     </div>
                                 ))}
                             </div>
@@ -89,7 +108,9 @@ export default function RevisionPage() {
                                         <div className="w-2 h-2 bg-blue-400 rounded-full"></div>
                                         <span className="text-sm font-medium text-gray-700">{q.title}</span>
                                     </div>
-                                    <span className="text-xs text-gray-400">Tomorrow</span>
+                                    <span className="text-xs text-gray-400">
+                                        {q.nextReviewDate.toLocaleDateString(undefined, { weekday: 'short', month: 'short', day: 'numeric' })}
+                                    </span>
                                 </div>
                             ))}
                             {upcomingQuestions.length === 0 && (
@@ -107,7 +128,7 @@ export default function RevisionPage() {
                             We use spaced repetition to help you remember solutions. You'll be asked to review questions at these intervals:
                         </p>
                         <div className="flex justify-between text-center">
-                            {[1, 3, 7, 21, 30].map(day => (
+                            {[1, 2, 4, 8, 16, 32].map(day => (
                                 <div key={day} className="bg-indigo-500/50 w-8 h-8 rounded-lg flex items-center justify-center text-xs font-bold">
                                     {day}d
                                 </div>

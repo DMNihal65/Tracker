@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { Brain, Sparkles, RefreshCw, Trophy, AlertCircle, Loader2 } from 'lucide-react';
+import { Brain, Sparkles, RefreshCw, Trophy, AlertCircle, Loader2, ChevronRight, ChevronLeft } from 'lucide-react';
 import QuizCard from '../components/quiz/QuizCard';
-import seedData from '../data/seed_data.json';
+import { useTracker } from '../context/TrackerContext';
 
 const QuizPage = () => {
     const [loading, setLoading] = useState(false);
@@ -13,26 +13,46 @@ const QuizPage = () => {
     const [error, setError] = useState(null);
     const [mode, setMode] = useState(null); // 'daily' or 'revision'
 
+    const { questionsData, dueRevisions, progress } = useTracker();
+
     const generateQuiz = async (selectedMode) => {
         setLoading(true);
         setError(null);
         setMode(selectedMode);
 
         try {
-            // Determine topics based on mode
-            let topics = [];
-            const today = new Date(); // In a real app, use the actual tracker date
-            // For demo, let's pick some topics from seed data
+            // Determine topics/questions based on mode
+            let quizContext = {};
 
             if (selectedMode === 'daily') {
-                // Pick today's topics (mocking "today" as day 1 for demo if needed, or random)
-                const day1 = seedData.find(d => d.day === 1);
-                topics = [day1.theme, ...day1.coding_questions.split(',')];
+                // Find the first day with uncompleted questions, or default to Day 1
+                let targetDay = questionsData[0];
+                for (const day of questionsData) {
+                    const allCompleted = day.questions.every(q => progress[q.id]?.completed);
+                    if (!allCompleted) {
+                        targetDay = day;
+                        break;
+                    }
+                }
+
+                // Pick up to 3 questions from this day
+                const questionsToQuiz = targetDay.questions.slice(0, 3);
+                quizContext = {
+                    mode: 'daily',
+                    day: targetDay.day,
+                    questions: questionsToQuiz.map(q => ({ title: q.title, topic: q.topic }))
+                };
             } else {
-                // Spaced repetition: pick random topics from past
-                const pastDays = seedData.slice(0, 10);
-                const randomDay = pastDays[Math.floor(Math.random() * pastDays.length)];
-                topics = [randomDay.theme, ...randomDay.coding_questions.split(',')];
+                // Spaced repetition: use due revisions
+                if (dueRevisions.length === 0) {
+                    throw new Error("No questions due for revision!");
+                }
+                // Pick up to 3 due questions
+                const questionsToQuiz = dueRevisions.slice(0, 3);
+                quizContext = {
+                    mode: 'revision',
+                    questions: questionsToQuiz.map(q => ({ title: q.title, topic: q.topic }))
+                };
             }
 
             const response = await fetch('/api/ai', {
@@ -40,10 +60,7 @@ const QuizPage = () => {
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
                     type: 'quiz',
-                    data: {
-                        topics: topics,
-                        difficulty: 'Medium'
-                    }
+                    data: quizContext
                 })
             });
 
@@ -71,15 +88,20 @@ const QuizPage = () => {
 
     const handleAnswer = (isCorrect) => {
         if (isCorrect) setScore(prev => prev + 1);
+    };
 
-        // Wait a bit before moving to next question
-        setTimeout(() => {
-            if (currentQuestionIndex < quizData.length - 1) {
-                setCurrentQuestionIndex(prev => prev + 1);
-            } else {
-                setShowResult(true);
-            }
-        }, 1500);
+    const nextQuestion = () => {
+        if (currentQuestionIndex < quizData.length - 1) {
+            setCurrentQuestionIndex(prev => prev + 1);
+        } else {
+            setShowResult(true);
+        }
+    };
+
+    const prevQuestion = () => {
+        if (currentQuestionIndex > 0) {
+            setCurrentQuestionIndex(prev => prev - 1);
+        }
     };
 
     const resetQuiz = () => {
@@ -151,6 +173,23 @@ const QuizPage = () => {
                     index={currentQuestionIndex}
                     total={quizData.length}
                 />
+
+                <div className="flex justify-between mt-6">
+                    <button
+                        onClick={prevQuestion}
+                        disabled={currentQuestionIndex === 0}
+                        className="px-4 py-2 text-slate-600 bg-white border border-slate-200 rounded-lg hover:bg-slate-50 disabled:opacity-50 disabled:cursor-not-allowed flex items-center gap-2"
+                    >
+                        <ChevronLeft className="w-4 h-4" /> Previous
+                    </button>
+                    <button
+                        onClick={nextQuestion}
+                        className="px-4 py-2 text-white bg-slate-900 rounded-lg hover:bg-slate-800 flex items-center gap-2"
+                    >
+                        {currentQuestionIndex === quizData.length - 1 ? 'Finish Quiz' : 'Next Question'}
+                        <ChevronRight className="w-4 h-4" />
+                    </button>
+                </div>
             </div>
         );
     }
@@ -218,11 +257,6 @@ const QuizPage = () => {
     );
 };
 
-// Helper component for the button icon
-const ChevronRight = ({ className }) => (
-    <svg className={className} fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-    </svg>
-);
+// Helper component for the button icon (Removed as we imported ChevronRight)
 
 export default QuizPage;

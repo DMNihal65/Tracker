@@ -6,7 +6,7 @@ export async function fetchProgress() {
     return response.json();
 }
 
-export async function updateProgress(questionId, completed, notes, code) {
+export async function updateProgress(questionId, completed, notes, code, extra = {}) {
     const response = await fetch('/api/progress', {
         method: 'POST',
         headers: {
@@ -17,6 +17,7 @@ export async function updateProgress(questionId, completed, notes, code) {
             completed,
             notes,
             code,
+            ...extra
         }),
     });
 

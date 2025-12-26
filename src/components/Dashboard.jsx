@@ -5,12 +5,8 @@ import { CheckCircle, Target, Flame, Trophy, ArrowRight, Circle } from 'lucide-r
 import { clsx } from 'clsx';
 
 export default function Dashboard() {
-    const { getTotalProgress, questionsData, getDayProgress, getQuestionStatus } = useTracker();
+    const { getTotalProgress, questionsData, getDayProgress, getQuestionStatus, streaks, dueRevisions } = useTracker();
     const { total, completed, percentage } = getTotalProgress();
-
-    // Mock data for now
-    const streak = 1;
-    const bestStreak = 1;
 
     // Find "Today's" content - for now just picking the first incomplete day or Day 1
     const currentDay = questionsData.find(d => getDayProgress(d.day) < 100) || questionsData[0];
@@ -46,14 +42,14 @@ export default function Dashboard() {
                     iconBg="bg-orange-50"
                 />
                 <StatCard
-                    value={streak}
+                    value={streaks?.current || 0}
                     label="Day Streak"
                     icon={Flame}
                     iconColor="text-orange-500"
                     iconBg="bg-orange-50"
                 />
                 <StatCard
-                    value={bestStreak}
+                    value={streaks?.best || 0}
                     label="Best Streak"
                     icon={Trophy}
                     iconColor="text-yellow-600"
@@ -161,13 +157,29 @@ export default function Dashboard() {
                             <RotateCcw className="w-5 h-5 text-orange-500" />
                             Due for Revision
                         </h3>
-                        <div className="flex flex-col items-center justify-center py-8 text-center">
-                            <div className="w-12 h-12 bg-green-50 rounded-full flex items-center justify-center mb-3">
-                                <CheckCircle className="w-6 h-6 text-green-500" />
+                        {dueRevisions && dueRevisions.length > 0 ? (
+                            <div className="space-y-4">
+                                <div className="flex items-center justify-between">
+                                    <span className="text-sm text-gray-600">{dueRevisions.length} questions due</span>
+                                    <Link to="/revision" className="text-xs font-medium text-orange-600 hover:text-orange-700">Review Now</Link>
+                                </div>
+                                <div className="space-y-2">
+                                    {dueRevisions.slice(0, 3).map(q => (
+                                        <div key={q.id} className="text-xs p-2 bg-orange-50 rounded-lg text-gray-700 truncate">
+                                            {q.title}
+                                        </div>
+                                    ))}
+                                </div>
                             </div>
-                            <p className="text-sm text-gray-500">All caught up!</p>
-                            <p className="text-xs text-gray-400 mt-1">No questions due for revision today.</p>
-                        </div>
+                        ) : (
+                            <div className="flex flex-col items-center justify-center py-8 text-center">
+                                <div className="w-12 h-12 bg-green-50 rounded-full flex items-center justify-center mb-3">
+                                    <CheckCircle className="w-6 h-6 text-green-500" />
+                                </div>
+                                <p className="text-sm text-gray-500">All caught up!</p>
+                                <p className="text-xs text-gray-400 mt-1">No questions due for revision today.</p>
+                            </div>
+                        )}
                     </div>
                 </div>
             </div>

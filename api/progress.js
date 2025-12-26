@@ -32,21 +32,25 @@ export default async function handler(req, res) {
             const result = await client.query('SELECT * FROM progress');
             res.status(200).json(result.rows);
         } else if (req.method === 'POST') {
-            const { question_id, completed, notes, code } = req.body;
+            const { question_id, completed, notes, code, completed_at, last_reviewed, review_interval, review_count } = req.body;
 
             // Upsert query
             const query = `
-        INSERT INTO progress (question_id, completed, notes, code, updated_at)
-        VALUES ($1, $2, $3, $4, NOW())
+        INSERT INTO progress (question_id, completed, notes, code, completed_at, last_reviewed, review_interval, review_count, updated_at)
+        VALUES ($1, $2, $3, $4, $5, $6, $7, $8, NOW())
         ON CONFLICT (question_id)
         DO UPDATE SET 
           completed = EXCLUDED.completed,
           notes = EXCLUDED.notes,
           code = EXCLUDED.code,
+          completed_at = COALESCE(EXCLUDED.completed_at, progress.completed_at),
+          last_reviewed = COALESCE(EXCLUDED.last_reviewed, progress.last_reviewed),
+          review_interval = COALESCE(EXCLUDED.review_interval, progress.review_interval),
+          review_count = COALESCE(EXCLUDED.review_count, progress.review_count),
           updated_at = NOW();
       `;
 
-            await client.query(query, [question_id, completed, notes, code]);
+            await client.query(query, [question_id, completed, notes, code, completed_at, last_reviewed, review_interval, review_count]);
             res.status(200).json({ success: true });
         } else {
             res.status(405).json({ error: 'Method not allowed' });

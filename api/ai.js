@@ -32,7 +32,10 @@ export default async function handler(req, res) {
 
         switch (type) {
             case 'quiz':
-                systemMessage = `You are an expert coding interviewer. Generate a quiz with 3 Multiple Choice Questions (MCQs) and 1 short coding challenge based on the provided topics. 
+                const questionsList = data.questions.map(q => `${q.title} (${q.topic})`).join(', ');
+                systemMessage = `You are an expert coding interviewer. Generate a quiz with 3 Multiple Choice Questions (MCQs) and 1 short coding challenge based on the following specific problems: ${questionsList}.
+                - The MCQs should test understanding of the concepts, edge cases, or time complexity related to these specific problems.
+                - The coding challenge should be a variation or a related problem to one of these.
                 Return ONLY valid JSON in the following format:
                 {
                     "mcqs": [
@@ -50,7 +53,7 @@ export default async function handler(req, res) {
                         "testCases": [{"input": "...", "output": "..."}]
                     }
                 }`;
-                prompt = `Topics: ${data.topics.join(', ')}. Difficulty: ${data.difficulty || 'Medium'}.`;
+                prompt = `Generate quiz for: ${questionsList}. Mode: ${data.mode || 'general'}.`;
                 jsonFormat = true;
                 break;
 

@@ -44,6 +44,31 @@ export default function QuestionPage() {
         }
     }, [questionId, question, getQuestionStatus]);
 
+    // Autosave Logic
+    useEffect(() => {
+        if (!status) return;
+
+        const timer = setTimeout(async () => {
+            // Only save if content changed from initial load (optimization)
+            // But here we just save if not saving
+            if (!isSaving) {
+                // We don't want to trigger full loading state for autosave, maybe just a small indicator
+                // But updateQuestionProgress is fast enough usually.
+                // Let's use a separate "saving" indicator if we want, but reusing isSaving is fine for now
+                // actually, let's not block UI with isSaving for autosave
+
+                // Check if changed
+                const currentStatus = getQuestionStatus(questionId);
+                if (notes !== currentStatus.notes || code !== currentStatus.code) {
+                    // console.log("Autosaving...");
+                    await updateQuestionProgress(questionId, status.completed, notes, code);
+                }
+            }
+        }, 2000); // Autosave after 2 seconds of inactivity
+
+        return () => clearTimeout(timer);
+    }, [notes, code, status, questionId, updateQuestionProgress, getQuestionStatus]);
+
     if (!question || !status) return <div>Question not found</div>;
 
     const handleSave = async () => {
