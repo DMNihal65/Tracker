@@ -1,7 +1,7 @@
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { useTracker } from '../context/TrackerContext';
-import { ChevronLeft, ChevronRight, Calendar, ArrowRight, CheckCircle, Circle } from 'lucide-react';
+import { ChevronLeft, ChevronRight, Calendar, ArrowRight, CheckCircle, Circle, RefreshCw, Sparkles } from 'lucide-react';
 import { clsx } from 'clsx';
 
 export default function DayView() {
@@ -16,6 +16,16 @@ export default function DayView() {
     const progress = getDayProgress(dayNum);
     const completedCount = day.questions.filter(q => getQuestionStatus(q.id).completed).length;
     const totalCount = day.questions.length;
+
+    // Separate new and review questions
+    const newQuestions = day.questions.filter(q => q.type === 'new');
+    const reviewQuestions = day.questions.filter(q => q.type === 'review');
+
+    // Format date nicely
+    const formatDate = (dateStr) => {
+        const date = new Date(dateStr);
+        return date.toLocaleDateString('en-US', { weekday: 'long', day: 'numeric', month: 'short', year: 'numeric' });
+    };
 
     return (
         <div className="space-y-8">
@@ -41,10 +51,10 @@ export default function DayView() {
                         Day {dayNum}
                     </div>
                     <Link
-                        to={dayNum < 70 ? `/day/${dayNum + 1}` : '#'}
+                        to={dayNum < 90 ? `/day/${dayNum + 1}` : '#'}
                         className={clsx(
                             "flex items-center px-3 py-1.5 rounded-lg border border-gray-200 shadow-sm text-sm transition-colors",
-                            dayNum < 70 ? "bg-white text-gray-600 hover:text-gray-900" : "bg-gray-50 text-gray-300 cursor-not-allowed"
+                            dayNum < 90 ? "bg-white text-gray-600 hover:text-gray-900" : "bg-gray-50 text-gray-300 cursor-not-allowed"
                         )}
                     >
                         Day {dayNum + 1}
@@ -62,14 +72,18 @@ export default function DayView() {
                         </div>
                         <div>
                             <h1 className="text-3xl font-bold text-gray-900">Day {day.day}</h1>
-                            <p className="text-gray-500 mt-1">{day.day_name}, {day.date}</p>
+                            <p className="text-gray-500 mt-1">{formatDate(day.date)}</p>
                             <div className="flex gap-2 mt-3">
-                                <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-gray-100 text-gray-800">
-                                    Foundation Phase
+                                <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-50 text-green-700">
+                                    <Sparkles className="w-3 h-3 mr-1" />
+                                    {day.newQuestions} New
                                 </span>
-                                <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-blue-50 text-blue-800">
-                                    {day.theme}
-                                </span>
+                                {day.reviewQuestions > 0 && (
+                                    <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-orange-50 text-orange-700">
+                                        <RefreshCw className="w-3 h-3 mr-1" />
+                                        {day.reviewQuestions} Review
+                                    </span>
+                                )}
                             </div>
                         </div>
                     </div>
@@ -97,25 +111,68 @@ export default function DayView() {
                 </div>
             </div>
 
-            {/* System Design Section (if applicable) */}
-            {day.questions.some(q => q.type === 'system-design') && (
-                <div className="bg-gray-50 rounded-xl border border-gray-200 p-4 flex items-center justify-between">
-                    <div className="flex items-center gap-3">
-                        <span className="font-semibold text-gray-700">System Design:</span>
-                        <span className="text-gray-600">SD Fundamentals</span>
+            {/* Review Questions Section */}
+            {reviewQuestions.length > 0 && (
+                <div className="space-y-4">
+                    <h3 className="text-lg font-bold text-gray-900 flex items-center gap-2">
+                        <RefreshCw className="w-5 h-5 text-orange-500" />
+                        Review Questions
+                        <span className="text-xs font-medium text-orange-500 bg-orange-50 px-2 py-0.5 rounded-full">
+                            Spaced Repetition
+                        </span>
+                    </h3>
+
+                    <div className="space-y-4">
+                        {reviewQuestions.map((question, index) => {
+                            const status = getQuestionStatus(question.id);
+                            return (
+                                <Link
+                                    key={question.id}
+                                    to={`/question/${question.id}`}
+                                    className="group bg-white rounded-xl border border-orange-200 p-6 flex items-center justify-between hover:border-orange-400 hover:shadow-md transition-all"
+                                >
+                                    <div className="flex items-center gap-6">
+                                        <div className={clsx(
+                                            "w-8 h-8 rounded-full border-2 flex items-center justify-center transition-colors flex-shrink-0",
+                                            status.completed ? "bg-green-500 border-green-500" : "border-orange-300 group-hover:border-orange-400"
+                                        )}>
+                                            {status.completed ? <CheckCircle className="w-5 h-5 text-white" /> : <Circle className="w-5 h-5 text-transparent" />}
+                                        </div>
+                                        <div>
+                                            <h4 className={clsx(
+                                                "text-lg font-medium transition-colors",
+                                                status.completed ? "text-gray-500 line-through" : "text-gray-900"
+                                            )}>
+                                                {question.title}
+                                            </h4>
+                                            <div className="flex gap-2 mt-2">
+                                                <span className="text-xs font-medium bg-orange-50 text-orange-700 px-2 py-1 rounded-md">
+                                                    Review from Day {question.originalDay}
+                                                </span>
+                                                <span className="text-xs font-medium bg-blue-50 text-blue-700 px-2 py-1 rounded-md">{question.topic}</span>
+                                                <DifficultyBadge difficulty={question.difficulty} />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="p-2 rounded-full bg-orange-50 group-hover:bg-orange-100 transition-colors">
+                                        <ArrowRight className="w-5 h-5 text-orange-400 group-hover:text-orange-600" />
+                                    </div>
+                                </Link>
+                            );
+                        })}
                     </div>
                 </div>
             )}
 
-            {/* Questions List */}
-            <div className="space-y-6">
+            {/* New Questions Section */}
+            <div className="space-y-4">
                 <h3 className="text-lg font-bold text-gray-900 flex items-center gap-2">
-                    <span className="w-1 h-6 bg-green-600 rounded-full"></span>
-                    Coding Questions
+                    <Sparkles className="w-5 h-5 text-green-500" />
+                    New Questions
                 </h3>
 
                 <div className="space-y-4">
-                    {day.questions.filter(q => q.type !== 'system-design').map((question, index) => {
+                    {newQuestions.map((question, index) => {
                         const status = getQuestionStatus(question.id);
                         return (
                             <Link
@@ -135,16 +192,12 @@ export default function DayView() {
                                             "text-lg font-medium transition-colors",
                                             status.completed ? "text-gray-500 line-through" : "text-gray-900"
                                         )}>
-                                            {index + 1}. {question.title}
+                                            {question.title}
                                         </h4>
                                         <div className="flex gap-2 mt-2">
+                                            <span className="text-xs font-medium bg-green-50 text-green-700 px-2 py-1 rounded-md">New</span>
                                             <span className="text-xs font-medium bg-blue-50 text-blue-700 px-2 py-1 rounded-md">{question.topic}</span>
-                                            <span className={clsx(
-                                                "text-xs font-medium px-2 py-1 rounded-md",
-                                                question.difficulty === 'Easy' ? "bg-green-50 text-green-700" :
-                                                    question.difficulty === 'Medium' ? "bg-yellow-50 text-yellow-700" :
-                                                        "bg-red-50 text-red-700"
-                                            )}>{question.difficulty}</span>
+                                            <DifficultyBadge difficulty={question.difficulty} />
                                         </div>
                                     </div>
                                 </div>
@@ -157,5 +210,18 @@ export default function DayView() {
                 </div>
             </div>
         </div>
+    );
+}
+
+function DifficultyBadge({ difficulty }) {
+    const colors = {
+        'Easy': 'bg-green-50 text-green-700',
+        'Intermediate': 'bg-yellow-50 text-yellow-700',
+        'Hard': 'bg-red-50 text-red-700'
+    };
+    return (
+        <span className={clsx("text-xs font-medium px-2 py-1 rounded-md", colors[difficulty] || colors['Easy'])}>
+            {difficulty}
+        </span>
     );
 }

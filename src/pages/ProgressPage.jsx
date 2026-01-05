@@ -29,10 +29,10 @@ export default function ProgressPage() {
     })).sort((a, b) => b.total - a.total); // Sort by most questions
 
     // Calculate difficulty breakdown
-    const difficultyStats = { Easy: { total: 0, completed: 0 }, Medium: { total: 0, completed: 0 }, Hard: { total: 0, completed: 0 } };
+    const difficultyStats = { Easy: { total: 0, completed: 0 }, Intermediate: { total: 0, completed: 0 }, Hard: { total: 0, completed: 0 } };
     questionsData.forEach(day => {
         day.questions.forEach(q => {
-            const diff = q.difficulty || 'Medium'; // Fallback
+            const diff = q.difficulty || 'Intermediate'; // Fallback
             if (difficultyStats[diff]) {
                 difficultyStats[diff].total++;
                 if (getQuestionStatus(q.id).completed) {
@@ -44,7 +44,7 @@ export default function ProgressPage() {
 
     const difficultyData = [
         { name: 'Easy', value: difficultyStats.Easy.completed, total: difficultyStats.Easy.total, color: '#22c55e' },
-        { name: 'Medium', value: difficultyStats.Medium.completed, total: difficultyStats.Medium.total, color: '#eab308' },
+        { name: 'Intermediate', value: difficultyStats.Intermediate.completed, total: difficultyStats.Intermediate.total, color: '#eab308' },
         { name: 'Hard', value: difficultyStats.Hard.completed, total: difficultyStats.Hard.total, color: '#ef4444' },
     ];
 

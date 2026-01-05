@@ -265,23 +265,29 @@ export default function QuestionPage() {
                             )}>
                                 {question.title}
                             </h1>
-                            <div className="flex gap-2 mt-3">
+                            <div className="flex gap-2 mt-3 flex-wrap">
+                                {question.type === 'review' ? (
+                                    <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-orange-50 text-orange-700">
+                                        Review from Day {question.originalDay}
+                                    </span>
+                                ) : (
+                                    <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-50 text-green-700">
+                                        New
+                                    </span>
+                                )}
                                 <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-blue-50 text-blue-700">
                                     {question.topic}
                                 </span>
                                 <span className={clsx(
                                     "inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium",
                                     question.difficulty === 'Easy' ? "bg-green-50 text-green-700" :
-                                        question.difficulty === 'Medium' ? "bg-yellow-50 text-yellow-700" :
+                                        question.difficulty === 'Intermediate' ? "bg-yellow-50 text-yellow-700" :
                                             "bg-red-50 text-red-700"
                                 )}>
                                     {question.difficulty}
                                 </span>
                                 <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-gray-100 text-gray-600">
                                     Day {day.day}
-                                </span>
-                                <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-gray-100 text-gray-600">
-                                    Week {day.week}
                                 </span>
                             </div>
                         </div>

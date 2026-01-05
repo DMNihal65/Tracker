@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { LayoutDashboard, Calendar, BarChart2, RotateCcw, CheckCircle, Brain } from 'lucide-react';
+import { LayoutDashboard, Calendar, BarChart2, CheckCircle } from 'lucide-react';
 import { clsx } from 'clsx';
 
 export default function Layout({ children }) {
@@ -10,8 +10,6 @@ export default function Layout({ children }) {
         { icon: LayoutDashboard, label: 'Dashboard', path: '/' },
         { icon: Calendar, label: 'Calendar', path: '/calendar' },
         { icon: BarChart2, label: 'Progress', path: '/progress' },
-        { icon: RotateCcw, label: 'Revision', path: '/revision' },
-        { icon: Brain, label: 'AI Quiz', path: '/quiz' },
     ];
 
     return (
@@ -27,7 +25,7 @@ export default function Layout({ children }) {
                                     <CheckCircle className="w-6 h-6 text-white" />
                                 </div>
                                 <div>
-                                    <h1 className="text-lg font-bold text-gray-900 leading-tight">CodePath 70</h1>
+                                    <h1 className="text-lg font-bold text-gray-900 leading-tight">CodePath 90</h1>
                                     <p className="text-[10px] text-gray-500 font-medium uppercase tracking-wider">Interview Prep Tracker</p>
                                 </div>
                             </div>

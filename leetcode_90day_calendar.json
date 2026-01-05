@@ -1,0 +1,3632 @@
+[
+  {
+    "day": 1,
+    "date": "2026-01-05",
+    "total_questions": 3,
+    "new_questions": 3,
+    "review_questions": 0,
+    "questions": [
+      {
+        "question": "Find the First Non-Repeating Character in a String",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Easy",
+        "type": "new"
+      },
+      {
+        "question": "Majority Element",
+        "topic": "Arrays",
+        "difficulty": "Intermediate",
+        "type": "new"
+      },
+      {
+        "question": "Substrings of Length k with k-1 Distinct Elements",
+        "topic": "Strings",
+        "difficulty": "Intermediate",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 2,
+    "date": "2026-01-06",
+    "total_questions": 6,
+    "new_questions": 3,
+    "review_questions": 3,
+    "questions": [
+      {
+        "question": "Find the First Non-Repeating Character in a String",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 1
+      },
+      {
+        "question": "Majority Element",
+        "topic": "Arrays",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 1
+      },
+      {
+        "question": "Substrings of Length k with k-1 Distinct Elements",
+        "topic": "Strings",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 1
+      },
+      {
+        "question": "Palindrome Check",
+        "topic": "Strings",
+        "difficulty": "Easy",
+        "type": "new"
+      },
+      {
+        "question": "Longest Mountain Subarray",
+        "topic": "Arrays",
+        "difficulty": "Intermediate",
+        "type": "new"
+      },
+      {
+        "question": "Reverse a Sublist",
+        "topic": "Linked Lists",
+        "difficulty": "Intermediate",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 3,
+    "date": "2026-01-07",
+    "total_questions": 6,
+    "new_questions": 3,
+    "review_questions": 3,
+    "questions": [
+      {
+        "question": "Palindrome Check",
+        "topic": "Strings",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 2
+      },
+      {
+        "question": "Longest Mountain Subarray",
+        "topic": "Arrays",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 2
+      },
+      {
+        "question": "Reverse a Sublist",
+        "topic": "Linked Lists",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 2
+      },
+      {
+        "question": "Delete Last Occurrence",
+        "topic": "Linked Lists",
+        "difficulty": "Easy",
+        "type": "new"
+      },
+      {
+        "question": "Rearrange Array Elements by Sign",
+        "topic": "Arrays",
+        "difficulty": "Intermediate",
+        "type": "new"
+      },
+      {
+        "question": "Print Anagrams Together",
+        "topic": "Strings",
+        "difficulty": "Intermediate",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 4,
+    "date": "2026-01-08",
+    "total_questions": 6,
+    "new_questions": 3,
+    "review_questions": 3,
+    "questions": [
+      {
+        "question": "Delete Last Occurrence",
+        "topic": "Linked Lists",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 3
+      },
+      {
+        "question": "Rearrange Array Elements by Sign",
+        "topic": "Arrays",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 3
+      },
+      {
+        "question": "Print Anagrams Together",
+        "topic": "Strings",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 3
+      },
+      {
+        "question": "Wave Array",
+        "topic": "Arrays",
+        "difficulty": "Easy",
+        "type": "new"
+      },
+      {
+        "question": "Find the Length of the Longest Consecutive Sequence in an Array",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Intermediate",
+        "type": "new"
+      },
+      {
+        "question": "Binary Tree Right Side View",
+        "topic": "Trees",
+        "difficulty": "Intermediate",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 5,
+    "date": "2026-01-09",
+    "total_questions": 6,
+    "new_questions": 3,
+    "review_questions": 3,
+    "questions": [
+      {
+        "question": "Find the First Non-Repeating Character in a String",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 1
+      },
+      {
+        "question": "Majority Element",
+        "topic": "Arrays",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 1
+      },
+      {
+        "question": "Substrings of Length k with k-1 Distinct Elements",
+        "topic": "Strings",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 1
+      },
+      {
+        "question": "Move All Zeroes To End",
+        "topic": "Arrays",
+        "difficulty": "Easy",
+        "type": "new"
+      },
+      {
+        "question": "Kth Smallest Element in a BST",
+        "topic": "Trees",
+        "difficulty": "Intermediate",
+        "type": "new"
+      },
+      {
+        "question": "Minimum Indices To Equal Even-Odd Sums",
+        "topic": "Arrays",
+        "difficulty": "Intermediate",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 6,
+    "date": "2026-01-10",
+    "total_questions": 6,
+    "new_questions": 3,
+    "review_questions": 3,
+    "questions": [
+      {
+        "question": "Palindrome Check",
+        "topic": "Strings",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 2
+      },
+      {
+        "question": "Longest Mountain Subarray",
+        "topic": "Arrays",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 2
+      },
+      {
+        "question": "Reverse a Sublist",
+        "topic": "Linked Lists",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 2
+      },
+      {
+        "question": "Parenthesis Checker",
+        "topic": "Stack & Queue",
+        "difficulty": "Easy",
+        "type": "new"
+      },
+      {
+        "question": "Stack using Single Queue",
+        "topic": "Stack & Queue",
+        "difficulty": "Intermediate",
+        "type": "new"
+      },
+      {
+        "question": "Sum of Two Large Numbers",
+        "topic": "Strings",
+        "difficulty": "Intermediate",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 7,
+    "date": "2026-01-11",
+    "total_questions": 6,
+    "new_questions": 3,
+    "review_questions": 3,
+    "questions": [
+      {
+        "question": "Delete Last Occurrence",
+        "topic": "Linked Lists",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 3
+      },
+      {
+        "question": "Rearrange Array Elements by Sign",
+        "topic": "Arrays",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 3
+      },
+      {
+        "question": "Print Anagrams Together",
+        "topic": "Strings",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 3
+      },
+      {
+        "question": "Array to BST",
+        "topic": "Trees",
+        "difficulty": "Easy",
+        "type": "new"
+      },
+      {
+        "question": "Equal 0, 1, and 2",
+        "topic": "Strings",
+        "difficulty": "Intermediate",
+        "type": "new"
+      },
+      {
+        "question": "Majority Element II",
+        "topic": "Arrays",
+        "difficulty": "Intermediate",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 8,
+    "date": "2026-01-12",
+    "total_questions": 6,
+    "new_questions": 3,
+    "review_questions": 3,
+    "questions": [
+      {
+        "question": "Wave Array",
+        "topic": "Arrays",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 4
+      },
+      {
+        "question": "Find the Length of the Longest Consecutive Sequence in an Array",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 4
+      },
+      {
+        "question": "Binary Tree Right Side View",
+        "topic": "Trees",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 4
+      },
+      {
+        "question": "Reverse a String using Stack",
+        "topic": "Stack & Queue",
+        "difficulty": "Easy",
+        "type": "new"
+      },
+      {
+        "question": "Intersection of Interval Lists",
+        "topic": "Arrays",
+        "difficulty": "Intermediate",
+        "type": "new"
+      },
+      {
+        "question": "Find 0 with Farthest 1s in a Binary",
+        "topic": "Arrays",
+        "difficulty": "Intermediate",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 9,
+    "date": "2026-01-13",
+    "total_questions": 6,
+    "new_questions": 3,
+    "review_questions": 3,
+    "questions": [
+      {
+        "question": "Move All Zeroes To End",
+        "topic": "Arrays",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 5
+      },
+      {
+        "question": "Kth Smallest Element in a BST",
+        "topic": "Trees",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 5
+      },
+      {
+        "question": "Minimum Indices To Equal Even-Odd Sums",
+        "topic": "Arrays",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 5
+      },
+      {
+        "question": "Count Occurrences",
+        "topic": "Linked Lists",
+        "difficulty": "Easy",
+        "type": "new"
+      },
+      {
+        "question": "Print All Subarrays with 0 Sum",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Intermediate",
+        "type": "new"
+      },
+      {
+        "question": "Product of Array Except Self",
+        "topic": "Arrays",
+        "difficulty": "Intermediate",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 10,
+    "date": "2026-01-14",
+    "total_questions": 6,
+    "new_questions": 3,
+    "review_questions": 3,
+    "questions": [
+      {
+        "question": "Parenthesis Checker",
+        "topic": "Stack & Queue",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 6
+      },
+      {
+        "question": "Stack using Single Queue",
+        "topic": "Stack & Queue",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 6
+      },
+      {
+        "question": "Sum of Two Large Numbers",
+        "topic": "Strings",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 6
+      },
+      {
+        "question": "Circular List Traversal",
+        "topic": "Linked Lists",
+        "difficulty": "Easy",
+        "type": "new"
+      },
+      {
+        "question": "Palindromic Sentence Check",
+        "topic": "Strings",
+        "difficulty": "Intermediate",
+        "type": "new"
+      },
+      {
+        "question": "Pair Sum in Doubly Linked List",
+        "topic": "Linked Lists",
+        "difficulty": "Intermediate",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 11,
+    "date": "2026-01-15",
+    "total_questions": 6,
+    "new_questions": 3,
+    "review_questions": 3,
+    "questions": [
+      {
+        "question": "Array to BST",
+        "topic": "Trees",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 7
+      },
+      {
+        "question": "Equal 0, 1, and 2",
+        "topic": "Strings",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 7
+      },
+      {
+        "question": "Majority Element II",
+        "topic": "Arrays",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 7
+      },
+      {
+        "question": "Missing and Repeating in Array",
+        "topic": "Arrays",
+        "difficulty": "Easy",
+        "type": "new"
+      },
+      {
+        "question": "Vertical Traversal of a Binary Tree",
+        "topic": "Trees",
+        "difficulty": "Intermediate",
+        "type": "new"
+      },
+      {
+        "question": "Swap Kth Nodes from Beginning and End",
+        "topic": "Linked Lists",
+        "difficulty": "Intermediate",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 12,
+    "date": "2026-01-16",
+    "total_questions": 6,
+    "new_questions": 3,
+    "review_questions": 3,
+    "questions": [
+      {
+        "question": "Find the First Non-Repeating Character in a String",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 1
+      },
+      {
+        "question": "Majority Element",
+        "topic": "Arrays",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 1
+      },
+      {
+        "question": "Substrings of Length k with k-1 Distinct Elements",
+        "topic": "Strings",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 1
+      },
+      {
+        "question": "Height of Binary Tree",
+        "topic": "Trees",
+        "difficulty": "Easy",
+        "type": "new"
+      },
+      {
+        "question": "Length of the Loop",
+        "topic": "Linked Lists",
+        "difficulty": "Intermediate",
+        "type": "new"
+      },
+      {
+        "question": "Find the N-th Character",
+        "topic": "Strings",
+        "difficulty": "Intermediate",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 13,
+    "date": "2026-01-17",
+    "total_questions": 6,
+    "new_questions": 3,
+    "review_questions": 3,
+    "questions": [
+      {
+        "question": "Palindrome Check",
+        "topic": "Strings",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 2
+      },
+      {
+        "question": "Longest Mountain Subarray",
+        "topic": "Arrays",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 2
+      },
+      {
+        "question": "Reverse a Sublist",
+        "topic": "Linked Lists",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 2
+      },
+      {
+        "question": "Remove Duplicates from an Array",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Easy",
+        "type": "new"
+      },
+      {
+        "question": "Split a Circular Linked List into Two Halves",
+        "topic": "Linked Lists",
+        "difficulty": "Intermediate",
+        "type": "new"
+      },
+      {
+        "question": "Delete N Nodes after M",
+        "topic": "Linked Lists",
+        "difficulty": "Intermediate",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 14,
+    "date": "2026-01-18",
+    "total_questions": 6,
+    "new_questions": 3,
+    "review_questions": 3,
+    "questions": [
+      {
+        "question": "Delete Last Occurrence",
+        "topic": "Linked Lists",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 3
+      },
+      {
+        "question": "Rearrange Array Elements by Sign",
+        "topic": "Arrays",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 3
+      },
+      {
+        "question": "Print Anagrams Together",
+        "topic": "Strings",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 3
+      },
+      {
+        "question": "Add Binary Strings",
+        "topic": "Strings",
+        "difficulty": "Easy",
+        "type": "new"
+      },
+      {
+        "question": "Single Valued Subtree",
+        "topic": "Trees",
+        "difficulty": "Intermediate",
+        "type": "new"
+      },
+      {
+        "question": "Isomorphic Strings",
+        "topic": "Strings",
+        "difficulty": "Intermediate",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 15,
+    "date": "2026-01-19",
+    "total_questions": 6,
+    "new_questions": 3,
+    "review_questions": 3,
+    "questions": [
+      {
+        "question": "Wave Array",
+        "topic": "Arrays",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 4
+      },
+      {
+        "question": "Find the Length of the Longest Consecutive Sequence in an Array",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 4
+      },
+      {
+        "question": "Binary Tree Right Side View",
+        "topic": "Trees",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 4
+      },
+      {
+        "question": "Minimum Insertions to Form a Palindrome with Permutations Allowed",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Easy",
+        "type": "new"
+      },
+      {
+        "question": "Sort a List of 0s, 1s and 2s",
+        "topic": "Linked Lists",
+        "difficulty": "Intermediate",
+        "type": "new"
+      },
+      {
+        "question": "Rearrange a Linked List In-Place",
+        "topic": "Linked Lists",
+        "difficulty": "Intermediate",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 16,
+    "date": "2026-01-20",
+    "total_questions": 6,
+    "new_questions": 3,
+    "review_questions": 3,
+    "questions": [
+      {
+        "question": "Move All Zeroes To End",
+        "topic": "Arrays",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 5
+      },
+      {
+        "question": "Kth Smallest Element in a BST",
+        "topic": "Trees",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 5
+      },
+      {
+        "question": "Minimum Indices To Equal Even-Odd Sums",
+        "topic": "Arrays",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 5
+      },
+      {
+        "question": "Validate IP Address",
+        "topic": "Strings",
+        "difficulty": "Easy",
+        "type": "new"
+      },
+      {
+        "question": "Binary Tree Level Order Traversal",
+        "topic": "Trees",
+        "difficulty": "Intermediate",
+        "type": "new"
+      },
+      {
+        "question": "Rotate Doubly Linked List by N Nodes",
+        "topic": "Linked Lists",
+        "difficulty": "Intermediate",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 17,
+    "date": "2026-01-21",
+    "total_questions": 6,
+    "new_questions": 3,
+    "review_questions": 3,
+    "questions": [
+      {
+        "question": "Parenthesis Checker",
+        "topic": "Stack & Queue",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 6
+      },
+      {
+        "question": "Stack using Single Queue",
+        "topic": "Stack & Queue",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 6
+      },
+      {
+        "question": "Sum of Two Large Numbers",
+        "topic": "Strings",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 6
+      },
+      {
+        "question": "Find the Pair with Given Sum in an Array",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Easy",
+        "type": "new"
+      },
+      {
+        "question": "Group All Anagrams in an Array of Strings",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Intermediate",
+        "type": "new"
+      },
+      {
+        "question": "Count Number of Substrings",
+        "topic": "Strings",
+        "difficulty": "Intermediate",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 18,
+    "date": "2026-01-22",
+    "total_questions": 6,
+    "new_questions": 3,
+    "review_questions": 3,
+    "questions": [
+      {
+        "question": "Array to BST",
+        "topic": "Trees",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 7
+      },
+      {
+        "question": "Equal 0, 1, and 2",
+        "topic": "Strings",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 7
+      },
+      {
+        "question": "Majority Element II",
+        "topic": "Arrays",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 7
+      },
+      {
+        "question": "Print All Distinct Words from a Paragraph",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Easy",
+        "type": "new"
+      },
+      {
+        "question": "Construct Binary Tree from Preorder and Inorder Traversal",
+        "topic": "Trees",
+        "difficulty": "Intermediate",
+        "type": "new"
+      },
+      {
+        "question": "Boundary Traversal",
+        "topic": "Trees",
+        "difficulty": "Intermediate",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 19,
+    "date": "2026-01-23",
+    "total_questions": 6,
+    "new_questions": 3,
+    "review_questions": 3,
+    "questions": [
+      {
+        "question": "Reverse a String using Stack",
+        "topic": "Stack & Queue",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 8
+      },
+      {
+        "question": "Intersection of Interval Lists",
+        "topic": "Arrays",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 8
+      },
+      {
+        "question": "Find 0 with Farthest 1s in a Binary",
+        "topic": "Arrays",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 8
+      },
+      {
+        "question": "Delete Middle Element from Stack",
+        "topic": "Stack & Queue",
+        "difficulty": "Easy",
+        "type": "new"
+      },
+      {
+        "question": "Maximum Possible Difference of Two Subsets of an Array",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Intermediate",
+        "type": "new"
+      },
+      {
+        "question": "Find All Pairs with a Given Sum in an Array",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Intermediate",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 20,
+    "date": "2026-01-24",
+    "total_questions": 6,
+    "new_questions": 3,
+    "review_questions": 3,
+    "questions": [
+      {
+        "question": "Count Occurrences",
+        "topic": "Linked Lists",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 9
+      },
+      {
+        "question": "Print All Subarrays with 0 Sum",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 9
+      },
+      {
+        "question": "Product of Array Except Self",
+        "topic": "Arrays",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 9
+      },
+      {
+        "question": "Reverse a String",
+        "topic": "Strings",
+        "difficulty": "Easy",
+        "type": "new"
+      },
+      {
+        "question": "Next Permutation",
+        "topic": "Arrays",
+        "difficulty": "Intermediate",
+        "type": "new"
+      },
+      {
+        "question": "Longest Substring Without Repeating Characters",
+        "topic": "Strings",
+        "difficulty": "Intermediate",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 21,
+    "date": "2026-01-25",
+    "total_questions": 6,
+    "new_questions": 3,
+    "review_questions": 3,
+    "questions": [
+      {
+        "question": "Circular List Traversal",
+        "topic": "Linked Lists",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 10
+      },
+      {
+        "question": "Palindromic Sentence Check",
+        "topic": "Strings",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 10
+      },
+      {
+        "question": "Pair Sum in Doubly Linked List",
+        "topic": "Linked Lists",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 10
+      },
+      {
+        "question": "Reverse Words",
+        "topic": "Strings",
+        "difficulty": "Easy",
+        "type": "new"
+      },
+      {
+        "question": "Transform and Sort Array",
+        "topic": "Arrays",
+        "difficulty": "Intermediate",
+        "type": "new"
+      },
+      {
+        "question": "Longest Consecutive Subsequence",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Intermediate",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 22,
+    "date": "2026-01-26",
+    "total_questions": 6,
+    "new_questions": 3,
+    "review_questions": 3,
+    "questions": [
+      {
+        "question": "Missing and Repeating in Array",
+        "topic": "Arrays",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 11
+      },
+      {
+        "question": "Vertical Traversal of a Binary Tree",
+        "topic": "Trees",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 11
+      },
+      {
+        "question": "Swap Kth Nodes from Beginning and End",
+        "topic": "Linked Lists",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 11
+      },
+      {
+        "question": "Queue using Linked List",
+        "topic": "Linked Lists",
+        "difficulty": "Easy",
+        "type": "new"
+      },
+      {
+        "question": "Count the Number of Subarrays Having a Given XOR",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Intermediate",
+        "type": "new"
+      },
+      {
+        "question": "Delete without Head Pointer",
+        "topic": "Linked Lists",
+        "difficulty": "Intermediate",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 23,
+    "date": "2026-01-27",
+    "total_questions": 6,
+    "new_questions": 3,
+    "review_questions": 3,
+    "questions": [
+      {
+        "question": "Height of Binary Tree",
+        "topic": "Trees",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 12
+      },
+      {
+        "question": "Length of the Loop",
+        "topic": "Linked Lists",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 12
+      },
+      {
+        "question": "Find the N-th Character",
+        "topic": "Strings",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 12
+      },
+      {
+        "question": "Count Number of Distinct Substrings in a String",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Easy",
+        "type": "new"
+      },
+      {
+        "question": "Reverse in Groups",
+        "topic": "Linked Lists",
+        "difficulty": "Intermediate",
+        "type": "new"
+      },
+      {
+        "question": "Check for k-anagram",
+        "topic": "Strings",
+        "difficulty": "Intermediate",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 24,
+    "date": "2026-01-28",
+    "total_questions": 6,
+    "new_questions": 3,
+    "review_questions": 3,
+    "questions": [
+      {
+        "question": "Remove Duplicates from an Array",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 13
+      },
+      {
+        "question": "Split a Circular Linked List into Two Halves",
+        "topic": "Linked Lists",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 13
+      },
+      {
+        "question": "Delete N Nodes after M",
+        "topic": "Linked Lists",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 13
+      },
+      {
+        "question": "Reverse an Array",
+        "topic": "Arrays",
+        "difficulty": "Easy",
+        "type": "new"
+      },
+      {
+        "question": "Lowest Common Ancestor of a Binary Tree",
+        "topic": "Trees",
+        "difficulty": "Intermediate",
+        "type": "new"
+      },
+      {
+        "question": "Interleaved Strings",
+        "topic": "Strings",
+        "difficulty": "Intermediate",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 25,
+    "date": "2026-01-29",
+    "total_questions": 6,
+    "new_questions": 3,
+    "review_questions": 3,
+    "questions": [
+      {
+        "question": "Add Binary Strings",
+        "topic": "Strings",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 14
+      },
+      {
+        "question": "Single Valued Subtree",
+        "topic": "Trees",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 14
+      },
+      {
+        "question": "Isomorphic Strings",
+        "topic": "Strings",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 14
+      },
+      {
+        "question": "Find the Only Repetitive Element Between 1 to n-1",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Easy",
+        "type": "new"
+      },
+      {
+        "question": "Sort an Array According to the Order Defined by Another Array",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Intermediate",
+        "type": "new"
+      },
+      {
+        "question": "Detect Loop",
+        "topic": "Linked Lists",
+        "difficulty": "Intermediate",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 26,
+    "date": "2026-01-30",
+    "total_questions": 6,
+    "new_questions": 3,
+    "review_questions": 3,
+    "questions": [
+      {
+        "question": "Minimum Insertions to Form a Palindrome with Permutations Allowed",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 15
+      },
+      {
+        "question": "Sort a List of 0s, 1s and 2s",
+        "topic": "Linked Lists",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 15
+      },
+      {
+        "question": "Rearrange a Linked List In-Place",
+        "topic": "Linked Lists",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 15
+      },
+      {
+        "question": "Reverse Individual Words",
+        "topic": "Stack & Queue",
+        "difficulty": "Easy",
+        "type": "new"
+      },
+      {
+        "question": "Count Subarrays Having Total Distinct Elements Same as Original Array",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Intermediate",
+        "type": "new"
+      },
+      {
+        "question": "Last Moment Before Ants Fall Out of Plank",
+        "topic": "Arrays",
+        "difficulty": "Intermediate",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 27,
+    "date": "2026-01-31",
+    "total_questions": 6,
+    "new_questions": 3,
+    "review_questions": 3,
+    "questions": [
+      {
+        "question": "Find the First Non-Repeating Character in a String",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 1
+      },
+      {
+        "question": "Majority Element",
+        "topic": "Arrays",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 1
+      },
+      {
+        "question": "Substrings of Length k with k-1 Distinct Elements",
+        "topic": "Strings",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 1
+      },
+      {
+        "question": "Determine if Two Trees are Identical",
+        "topic": "Trees",
+        "difficulty": "Easy",
+        "type": "new"
+      },
+      {
+        "question": "Range Queries for Frequencies of Array Elements",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Intermediate",
+        "type": "new"
+      },
+      {
+        "question": "Maximum Sum Leaf to Root Path",
+        "topic": "Trees",
+        "difficulty": "Intermediate",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 28,
+    "date": "2026-02-01",
+    "total_questions": 6,
+    "new_questions": 3,
+    "review_questions": 3,
+    "questions": [
+      {
+        "question": "Palindrome Check",
+        "topic": "Strings",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 2
+      },
+      {
+        "question": "Longest Mountain Subarray",
+        "topic": "Arrays",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 2
+      },
+      {
+        "question": "Reverse a Sublist",
+        "topic": "Linked Lists",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 2
+      },
+      {
+        "question": "Find the Count of Distinct Elements in an Array",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Easy",
+        "type": "new"
+      },
+      {
+        "question": "Queue using Stacks",
+        "topic": "Stack & Queue",
+        "difficulty": "Intermediate",
+        "type": "new"
+      },
+      {
+        "question": "Multiply Two Numbers Represented by Linked Lists",
+        "topic": "Linked Lists",
+        "difficulty": "Intermediate",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 29,
+    "date": "2026-02-02",
+    "total_questions": 6,
+    "new_questions": 3,
+    "review_questions": 3,
+    "questions": [
+      {
+        "question": "Delete Last Occurrence",
+        "topic": "Linked Lists",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 3
+      },
+      {
+        "question": "Rearrange Array Elements by Sign",
+        "topic": "Arrays",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 3
+      },
+      {
+        "question": "Print Anagrams Together",
+        "topic": "Strings",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 3
+      },
+      {
+        "question": "Roman to Integer",
+        "topic": "Strings",
+        "difficulty": "Easy",
+        "type": "new"
+      },
+      {
+        "question": "Minimize the Heights II",
+        "topic": "Arrays",
+        "difficulty": "Intermediate",
+        "type": "new"
+      },
+      {
+        "question": "Check for BST",
+        "topic": "Trees",
+        "difficulty": "Intermediate",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 30,
+    "date": "2026-02-03",
+    "total_questions": 6,
+    "new_questions": 3,
+    "review_questions": 3,
+    "questions": [
+      {
+        "question": "Wave Array",
+        "topic": "Arrays",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 4
+      },
+      {
+        "question": "Find the Length of the Longest Consecutive Sequence in an Array",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 4
+      },
+      {
+        "question": "Binary Tree Right Side View",
+        "topic": "Trees",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 4
+      },
+      {
+        "question": "Find the Difference of Two Arrays",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Easy",
+        "type": "new"
+      },
+      {
+        "question": "Maximum Product Subarray",
+        "topic": "Arrays",
+        "difficulty": "Intermediate",
+        "type": "new"
+      },
+      {
+        "question": "Find the First Repeating Element in an Array",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Intermediate",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 31,
+    "date": "2026-02-04",
+    "total_questions": 6,
+    "new_questions": 3,
+    "review_questions": 3,
+    "questions": [
+      {
+        "question": "Move All Zeroes To End",
+        "topic": "Arrays",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 5
+      },
+      {
+        "question": "Kth Smallest Element in a BST",
+        "topic": "Trees",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 5
+      },
+      {
+        "question": "Minimum Indices To Equal Even-Odd Sums",
+        "topic": "Arrays",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 5
+      },
+      {
+        "question": "Encrypt the String - II",
+        "topic": "Strings",
+        "difficulty": "Easy",
+        "type": "new"
+      },
+      {
+        "question": "Length of Longest Prefix Suffix (KMP)",
+        "topic": "Strings",
+        "difficulty": "Intermediate",
+        "type": "new"
+      },
+      {
+        "question": "Maximum Sum Path Between Two Leaf Nodes",
+        "topic": "Trees",
+        "difficulty": "Hard",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 32,
+    "date": "2026-02-05",
+    "total_questions": 6,
+    "new_questions": 3,
+    "review_questions": 3,
+    "questions": [
+      {
+        "question": "Parenthesis Checker",
+        "topic": "Stack & Queue",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 6
+      },
+      {
+        "question": "Stack using Single Queue",
+        "topic": "Stack & Queue",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 6
+      },
+      {
+        "question": "Sum of Two Large Numbers",
+        "topic": "Strings",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 6
+      },
+      {
+        "question": "Missing Ranges of Numbers",
+        "topic": "Arrays",
+        "difficulty": "Easy",
+        "type": "new"
+      },
+      {
+        "question": "Smallest Subarray with K Distinct Numbers",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Intermediate",
+        "type": "new"
+      },
+      {
+        "question": "Serialize and Deserialize Binary Tree",
+        "topic": "Trees",
+        "difficulty": "Hard",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 33,
+    "date": "2026-02-06",
+    "total_questions": 6,
+    "new_questions": 3,
+    "review_questions": 3,
+    "questions": [
+      {
+        "question": "Array to BST",
+        "topic": "Trees",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 7
+      },
+      {
+        "question": "Equal 0, 1, and 2",
+        "topic": "Strings",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 7
+      },
+      {
+        "question": "Majority Element II",
+        "topic": "Arrays",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 7
+      },
+      {
+        "question": "Reverse a Doubly Linked List",
+        "topic": "Linked Lists",
+        "difficulty": "Easy",
+        "type": "new"
+      },
+      {
+        "question": "Meeting Scheduler for Two Persons",
+        "topic": "Arrays",
+        "difficulty": "Intermediate",
+        "type": "new"
+      },
+      {
+        "question": "Maximum Sum Among All Rotations",
+        "topic": "Arrays",
+        "difficulty": "Hard",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 34,
+    "date": "2026-02-07",
+    "total_questions": 6,
+    "new_questions": 3,
+    "review_questions": 3,
+    "questions": [
+      {
+        "question": "Reverse a String using Stack",
+        "topic": "Stack & Queue",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 8
+      },
+      {
+        "question": "Intersection of Interval Lists",
+        "topic": "Arrays",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 8
+      },
+      {
+        "question": "Find 0 with Farthest 1s in a Binary",
+        "topic": "Arrays",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 8
+      },
+      {
+        "question": "First Non Repeating Character",
+        "topic": "Strings",
+        "difficulty": "Easy",
+        "type": "new"
+      },
+      {
+        "question": "Intersection Point",
+        "topic": "Linked Lists",
+        "difficulty": "Intermediate",
+        "type": "new"
+      },
+      {
+        "question": "Phone Directory",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Hard",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 35,
+    "date": "2026-02-08",
+    "total_questions": 6,
+    "new_questions": 3,
+    "review_questions": 3,
+    "questions": [
+      {
+        "question": "Count Occurrences",
+        "topic": "Linked Lists",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 9
+      },
+      {
+        "question": "Print All Subarrays with 0 Sum",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 9
+      },
+      {
+        "question": "Product of Array Except Self",
+        "topic": "Arrays",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 9
+      },
+      {
+        "question": "Find Missing Elements of a Range",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Easy",
+        "type": "new"
+      },
+      {
+        "question": "Find the Length of Largest Subarray with 0 Sum",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Intermediate",
+        "type": "new"
+      },
+      {
+        "question": "Fixing Two Nodes of a BST",
+        "topic": "Trees",
+        "difficulty": "Hard",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 36,
+    "date": "2026-02-09",
+    "total_questions": 6,
+    "new_questions": 3,
+    "review_questions": 3,
+    "questions": [
+      {
+        "question": "Circular List Traversal",
+        "topic": "Linked Lists",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 10
+      },
+      {
+        "question": "Palindromic Sentence Check",
+        "topic": "Strings",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 10
+      },
+      {
+        "question": "Pair Sum in Doubly Linked List",
+        "topic": "Linked Lists",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 10
+      },
+      {
+        "question": "Implement Atoi",
+        "topic": "Strings",
+        "difficulty": "Easy",
+        "type": "new"
+      },
+      {
+        "question": "Add Two Numbers Represented by Linked Lists",
+        "topic": "Linked Lists",
+        "difficulty": "Intermediate",
+        "type": "new"
+      },
+      {
+        "question": "Length of Longest Strict Bitonic Subsequence",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Hard",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 37,
+    "date": "2026-02-10",
+    "total_questions": 6,
+    "new_questions": 3,
+    "review_questions": 3,
+    "questions": [
+      {
+        "question": "Missing and Repeating in Array",
+        "topic": "Arrays",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 11
+      },
+      {
+        "question": "Vertical Traversal of a Binary Tree",
+        "topic": "Trees",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 11
+      },
+      {
+        "question": "Swap Kth Nodes from Beginning and End",
+        "topic": "Linked Lists",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 11
+      },
+      {
+        "question": "Three Great Candidates",
+        "topic": "Arrays",
+        "difficulty": "Easy",
+        "type": "new"
+      },
+      {
+        "question": "Find the Subarray with Given Sum in an Array",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Intermediate",
+        "type": "new"
+      },
+      {
+        "question": "Smallest Range Having Elements From K Lists",
+        "topic": "Arrays",
+        "difficulty": "Hard",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 38,
+    "date": "2026-02-11",
+    "total_questions": 6,
+    "new_questions": 3,
+    "review_questions": 3,
+    "questions": [
+      {
+        "question": "Height of Binary Tree",
+        "topic": "Trees",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 12
+      },
+      {
+        "question": "Length of the Loop",
+        "topic": "Linked Lists",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 12
+      },
+      {
+        "question": "Find the N-th Character",
+        "topic": "Strings",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 12
+      },
+      {
+        "question": "Max Consecutive Ones",
+        "topic": "Arrays",
+        "difficulty": "Easy",
+        "type": "new"
+      },
+      {
+        "question": "Zigzag Tree Traversal",
+        "topic": "Trees",
+        "difficulty": "Intermediate",
+        "type": "new"
+      },
+      {
+        "question": "Count Distinct Elements in Every Window of Size K",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Hard",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 39,
+    "date": "2026-02-12",
+    "total_questions": 6,
+    "new_questions": 3,
+    "review_questions": 3,
+    "questions": [
+      {
+        "question": "Remove Duplicates from an Array",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 13
+      },
+      {
+        "question": "Split a Circular Linked List into Two Halves",
+        "topic": "Linked Lists",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 13
+      },
+      {
+        "question": "Delete N Nodes after M",
+        "topic": "Linked Lists",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 13
+      },
+      {
+        "question": "Pairwise Swap",
+        "topic": "Linked Lists",
+        "difficulty": "Easy",
+        "type": "new"
+      },
+      {
+        "question": "Minimum Swaps To Group All Ones",
+        "topic": "Arrays",
+        "difficulty": "Intermediate",
+        "type": "new"
+      },
+      {
+        "question": "Smallest Window in a String Containing All Characters of Another String",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Hard",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 40,
+    "date": "2026-02-13",
+    "total_questions": 6,
+    "new_questions": 3,
+    "review_questions": 3,
+    "questions": [
+      {
+        "question": "Add Binary Strings",
+        "topic": "Strings",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 14
+      },
+      {
+        "question": "Single Valued Subtree",
+        "topic": "Trees",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 14
+      },
+      {
+        "question": "Isomorphic Strings",
+        "topic": "Strings",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 14
+      },
+      {
+        "question": "Two Stacks in an Array",
+        "topic": "Stack & Queue",
+        "difficulty": "Easy",
+        "type": "new"
+      },
+      {
+        "question": "Longest K Unique Characters Substring",
+        "topic": "Strings",
+        "difficulty": "Intermediate",
+        "type": "new"
+      },
+      {
+        "question": "Remove Loop in Linked List",
+        "topic": "Linked Lists",
+        "difficulty": "Hard",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 41,
+    "date": "2026-02-14",
+    "total_questions": 6,
+    "new_questions": 3,
+    "review_questions": 3,
+    "questions": [
+      {
+        "question": "Minimum Insertions to Form a Palindrome with Permutations Allowed",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 15
+      },
+      {
+        "question": "Sort a List of 0s, 1s and 2s",
+        "topic": "Linked Lists",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 15
+      },
+      {
+        "question": "Rearrange a Linked List In-Place",
+        "topic": "Linked Lists",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 15
+      },
+      {
+        "question": "Plus One",
+        "topic": "Arrays",
+        "difficulty": "Easy",
+        "type": "new"
+      },
+      {
+        "question": "Minimum Moves To Equalize Array",
+        "topic": "Arrays",
+        "difficulty": "Intermediate",
+        "type": "new"
+      },
+      {
+        "question": "Binary Tree to Doubly Linked List",
+        "topic": "Trees",
+        "difficulty": "Hard",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 42,
+    "date": "2026-02-15",
+    "total_questions": 6,
+    "new_questions": 3,
+    "review_questions": 3,
+    "questions": [
+      {
+        "question": "Validate IP Address",
+        "topic": "Strings",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 16
+      },
+      {
+        "question": "Binary Tree Level Order Traversal",
+        "topic": "Trees",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 16
+      },
+      {
+        "question": "Rotate Doubly Linked List by N Nodes",
+        "topic": "Linked Lists",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 16
+      },
+      {
+        "question": "Find the Intersection of Two Arrays",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Easy",
+        "type": "new"
+      },
+      {
+        "question": "Binary Tree to Doubly Linked List",
+        "topic": "Linked Lists",
+        "difficulty": "Intermediate",
+        "type": "new"
+      },
+      {
+        "question": "Flattening a Linked List",
+        "topic": "Linked Lists",
+        "difficulty": "Hard",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 43,
+    "date": "2026-02-16",
+    "total_questions": 6,
+    "new_questions": 3,
+    "review_questions": 3,
+    "questions": [
+      {
+        "question": "Find the Pair with Given Sum in an Array",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 17
+      },
+      {
+        "question": "Group All Anagrams in an Array of Strings",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 17
+      },
+      {
+        "question": "Count Number of Substrings",
+        "topic": "Strings",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 17
+      },
+      {
+        "question": "Check for Rotation",
+        "topic": "Strings",
+        "difficulty": "Easy",
+        "type": "new"
+      },
+      {
+        "question": "Palindrome Linked List",
+        "topic": "Linked Lists",
+        "difficulty": "Intermediate",
+        "type": "new"
+      },
+      {
+        "question": "Reverse Alternate K Nodes",
+        "topic": "Linked Lists",
+        "difficulty": "Hard",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 44,
+    "date": "2026-02-17",
+    "total_questions": 6,
+    "new_questions": 3,
+    "review_questions": 3,
+    "questions": [
+      {
+        "question": "Print All Distinct Words from a Paragraph",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 18
+      },
+      {
+        "question": "Construct Binary Tree from Preorder and Inorder Traversal",
+        "topic": "Trees",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 18
+      },
+      {
+        "question": "Boundary Traversal",
+        "topic": "Trees",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 18
+      },
+      {
+        "question": "Anagram Checking",
+        "topic": "Strings",
+        "difficulty": "Easy",
+        "type": "new"
+      },
+      {
+        "question": "Partition Around a Given Value",
+        "topic": "Linked Lists",
+        "difficulty": "Intermediate",
+        "type": "new"
+      },
+      {
+        "question": "Maximum Circular Subarray Sum",
+        "topic": "Arrays",
+        "difficulty": "Hard",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 45,
+    "date": "2026-02-18",
+    "total_questions": 6,
+    "new_questions": 3,
+    "review_questions": 3,
+    "questions": [
+      {
+        "question": "Delete Middle Element from Stack",
+        "topic": "Stack & Queue",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 19
+      },
+      {
+        "question": "Maximum Possible Difference of Two Subsets of an Array",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 19
+      },
+      {
+        "question": "Find All Pairs with a Given Sum in an Array",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 19
+      },
+      {
+        "question": "Count All Distinct Pairs with Difference Equal to K",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Easy",
+        "type": "new"
+      },
+      {
+        "question": "Minimum Distance Between Two Nodes",
+        "topic": "Trees",
+        "difficulty": "Intermediate",
+        "type": "new"
+      },
+      {
+        "question": "Transform One String to Another Using Minimum Number of Given Operations",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Hard",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 46,
+    "date": "2026-02-19",
+    "total_questions": 6,
+    "new_questions": 3,
+    "review_questions": 3,
+    "questions": [
+      {
+        "question": "Reverse a String",
+        "topic": "Strings",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 20
+      },
+      {
+        "question": "Next Permutation",
+        "topic": "Arrays",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 20
+      },
+      {
+        "question": "Longest Substring Without Repeating Characters",
+        "topic": "Strings",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 20
+      },
+      {
+        "question": "Stock Buy and Sell - One Transaction",
+        "topic": "Arrays",
+        "difficulty": "Easy",
+        "type": "new"
+      },
+      {
+        "question": "Validate Binary Search Tree",
+        "topic": "Trees",
+        "difficulty": "Intermediate",
+        "type": "new"
+      },
+      {
+        "question": "LFU Cache",
+        "topic": "Linked Lists",
+        "difficulty": "Hard",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 47,
+    "date": "2026-02-20",
+    "total_questions": 6,
+    "new_questions": 3,
+    "review_questions": 3,
+    "questions": [
+      {
+        "question": "Reverse Words",
+        "topic": "Strings",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 21
+      },
+      {
+        "question": "Transform and Sort Array",
+        "topic": "Arrays",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 21
+      },
+      {
+        "question": "Longest Consecutive Subsequence",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 21
+      },
+      {
+        "question": "Second Largest Element",
+        "topic": "Arrays",
+        "difficulty": "Easy",
+        "type": "new"
+      },
+      {
+        "question": "Maximum Length Subarray with Equal Number of 0s and 1s",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Intermediate",
+        "type": "new"
+      },
+      {
+        "question": "Minimum Insertions for Palindrome",
+        "topic": "Strings",
+        "difficulty": "Hard",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 48,
+    "date": "2026-02-21",
+    "total_questions": 6,
+    "new_questions": 3,
+    "review_questions": 3,
+    "questions": [
+      {
+        "question": "Queue using Linked List",
+        "topic": "Linked Lists",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 22
+      },
+      {
+        "question": "Count the Number of Subarrays Having a Given XOR",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 22
+      },
+      {
+        "question": "Delete without Head Pointer",
+        "topic": "Linked Lists",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 22
+      },
+      {
+        "question": "Checked for Balanced Tree",
+        "topic": "Trees",
+        "difficulty": "Easy",
+        "type": "new"
+      },
+      {
+        "question": "Look and Say Pattern",
+        "topic": "Strings",
+        "difficulty": "Intermediate",
+        "type": "new"
+      },
+      {
+        "question": "Longest Palindromic Subsequence",
+        "topic": "Strings",
+        "difficulty": "Hard",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 49,
+    "date": "2026-02-22",
+    "total_questions": 6,
+    "new_questions": 3,
+    "review_questions": 3,
+    "questions": [
+      {
+        "question": "Count Number of Distinct Substrings in a String",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 23
+      },
+      {
+        "question": "Reverse in Groups",
+        "topic": "Linked Lists",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 23
+      },
+      {
+        "question": "Check for k-anagram",
+        "topic": "Strings",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 23
+      },
+      {
+        "question": "Delete Middle",
+        "topic": "Linked Lists",
+        "difficulty": "Easy",
+        "type": "new"
+      },
+      {
+        "question": "Split Into Three Equal Sum Segments",
+        "topic": "Arrays",
+        "difficulty": "Intermediate",
+        "type": "new"
+      },
+      {
+        "question": "Distinct Palindromic Substrings",
+        "topic": "Strings",
+        "difficulty": "Hard",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 50,
+    "date": "2026-02-23",
+    "total_questions": 6,
+    "new_questions": 3,
+    "review_questions": 3,
+    "questions": [
+      {
+        "question": "Reverse an Array",
+        "topic": "Arrays",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 24
+      },
+      {
+        "question": "Lowest Common Ancestor of a Binary Tree",
+        "topic": "Trees",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 24
+      },
+      {
+        "question": "Interleaved Strings",
+        "topic": "Strings",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 24
+      },
+      {
+        "question": "Children Sum Parent",
+        "topic": "Trees",
+        "difficulty": "Easy",
+        "type": "new"
+      },
+      {
+        "question": "Check if Subtree",
+        "topic": "Trees",
+        "difficulty": "Intermediate",
+        "type": "new"
+      },
+      {
+        "question": "Trapping Rain Water",
+        "topic": "Arrays",
+        "difficulty": "Hard",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 51,
+    "date": "2026-02-24",
+    "total_questions": 6,
+    "new_questions": 3,
+    "review_questions": 3,
+    "questions": [
+      {
+        "question": "Find the Only Repetitive Element Between 1 to n-1",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 25
+      },
+      {
+        "question": "Sort an Array According to the Order Defined by Another Array",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 25
+      },
+      {
+        "question": "Detect Loop",
+        "topic": "Linked Lists",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 25
+      },
+      {
+        "question": "Postfix to Prefix",
+        "topic": "Stack & Queue",
+        "difficulty": "Easy",
+        "type": "new"
+      },
+      {
+        "question": "Remove All Occurrences of a Given List",
+        "topic": "Linked Lists",
+        "difficulty": "Intermediate",
+        "type": "new"
+      },
+      {
+        "question": "Clone a Binary Tree with Random Pointers",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Hard",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 52,
+    "date": "2026-02-25",
+    "total_questions": 6,
+    "new_questions": 3,
+    "review_questions": 3,
+    "questions": [
+      {
+        "question": "Reverse Individual Words",
+        "topic": "Stack & Queue",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 26
+      },
+      {
+        "question": "Count Subarrays Having Total Distinct Elements Same as Original Array",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 26
+      },
+      {
+        "question": "Last Moment Before Ants Fall Out of Plank",
+        "topic": "Arrays",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 26
+      },
+      {
+        "question": "Equal Point in Brackets",
+        "topic": "Strings",
+        "difficulty": "Easy",
+        "type": "new"
+      },
+      {
+        "question": "Rank the Permutation",
+        "topic": "Strings",
+        "difficulty": "Intermediate",
+        "type": "new"
+      },
+      {
+        "question": "Smallest Missing Positive Number",
+        "topic": "Arrays",
+        "difficulty": "Hard",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 53,
+    "date": "2026-02-26",
+    "total_questions": 6,
+    "new_questions": 3,
+    "review_questions": 3,
+    "questions": [
+      {
+        "question": "Determine if Two Trees are Identical",
+        "topic": "Trees",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 27
+      },
+      {
+        "question": "Range Queries for Frequencies of Array Elements",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 27
+      },
+      {
+        "question": "Maximum Sum Leaf to Root Path",
+        "topic": "Trees",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 27
+      },
+      {
+        "question": "Rotate a Linked List",
+        "topic": "Linked Lists",
+        "difficulty": "Easy",
+        "type": "new"
+      },
+      {
+        "question": "Maximum Subarray Sum",
+        "topic": "Arrays",
+        "difficulty": "Intermediate",
+        "type": "new"
+      },
+      {
+        "question": "Max Non-Overlapping Odd Palindrome Sum",
+        "topic": "Strings",
+        "difficulty": "Hard",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 54,
+    "date": "2026-02-27",
+    "total_questions": 6,
+    "new_questions": 3,
+    "review_questions": 3,
+    "questions": [
+      {
+        "question": "Find the Count of Distinct Elements in an Array",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 28
+      },
+      {
+        "question": "Queue using Stacks",
+        "topic": "Stack & Queue",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 28
+      },
+      {
+        "question": "Multiply Two Numbers Represented by Linked Lists",
+        "topic": "Linked Lists",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 28
+      },
+      {
+        "question": "Find Whether an Array is a Subset of Another Array",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Easy",
+        "type": "new"
+      },
+      {
+        "question": "Excel Sheet - I",
+        "topic": "Strings",
+        "difficulty": "Intermediate",
+        "type": "new"
+      },
+      {
+        "question": "Count Subarrays with K Distinct Elements",
+        "topic": "Arrays",
+        "difficulty": "Hard",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 55,
+    "date": "2026-02-28",
+    "total_questions": 6,
+    "new_questions": 3,
+    "review_questions": 3,
+    "questions": [
+      {
+        "question": "Roman to Integer",
+        "topic": "Strings",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 29
+      },
+      {
+        "question": "Minimize the Heights II",
+        "topic": "Arrays",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 29
+      },
+      {
+        "question": "Check for BST",
+        "topic": "Trees",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 29
+      },
+      {
+        "question": "Stack using Singly Linked List",
+        "topic": "Linked Lists",
+        "difficulty": "Easy",
+        "type": "new"
+      },
+      {
+        "question": "Subarrays with Product Less Than K",
+        "topic": "Arrays",
+        "difficulty": "Intermediate",
+        "type": "new"
+      },
+      {
+        "question": "Jump Game",
+        "topic": "Arrays",
+        "difficulty": "Hard",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 56,
+    "date": "2026-03-01",
+    "total_questions": 3,
+    "new_questions": 2,
+    "review_questions": 1,
+    "questions": [
+      {
+        "question": "Find the Difference of Two Arrays",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 30
+      },
+      {
+        "question": "Find the Frequency of Each Character in a String",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Easy",
+        "type": "new"
+      },
+      {
+        "question": "Merge Two BSTs",
+        "topic": "Trees",
+        "difficulty": "Hard",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 57,
+    "date": "2026-03-02",
+    "total_questions": 3,
+    "new_questions": 2,
+    "review_questions": 1,
+    "questions": [
+      {
+        "question": "Find the First Non-Repeating Character in a String",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 1
+      },
+      {
+        "question": "Remove Duplicates from Sorted Array",
+        "topic": "Arrays",
+        "difficulty": "Easy",
+        "type": "new"
+      },
+      {
+        "question": "Check if an Array Can Be Divided into Pairs Whose Sum is Divisible by K",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Hard",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 58,
+    "date": "2026-03-03",
+    "total_questions": 3,
+    "new_questions": 2,
+    "review_questions": 1,
+    "questions": [
+      {
+        "question": "Palindrome Check",
+        "topic": "Strings",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 2
+      },
+      {
+        "question": "Nodes at Given Distance in a Binary Tree",
+        "topic": "Trees",
+        "difficulty": "Easy",
+        "type": "new"
+      },
+      {
+        "question": "Shortest Common Supersequence",
+        "topic": "Strings",
+        "difficulty": "Hard",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 59,
+    "date": "2026-03-04",
+    "total_questions": 3,
+    "new_questions": 2,
+    "review_questions": 1,
+    "questions": [
+      {
+        "question": "Delete Last Occurrence",
+        "topic": "Linked Lists",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 3
+      },
+      {
+        "question": "Third Largest Element",
+        "topic": "Arrays",
+        "difficulty": "Easy",
+        "type": "new"
+      },
+      {
+        "question": "Multiply Two Strings",
+        "topic": "Strings",
+        "difficulty": "Hard",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 60,
+    "date": "2026-03-05",
+    "total_questions": 3,
+    "new_questions": 2,
+    "review_questions": 1,
+    "questions": [
+      {
+        "question": "Wave Array",
+        "topic": "Arrays",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 4
+      },
+      {
+        "question": "Merge Alternate Positions",
+        "topic": "Linked Lists",
+        "difficulty": "Easy",
+        "type": "new"
+      },
+      {
+        "question": "Number of Distinct Subsequences",
+        "topic": "Strings",
+        "difficulty": "Hard",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 61,
+    "date": "2026-03-06",
+    "total_questions": 3,
+    "new_questions": 2,
+    "review_questions": 1,
+    "questions": [
+      {
+        "question": "Move All Zeroes To End",
+        "topic": "Arrays",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 5
+      },
+      {
+        "question": "Reverse a Linked List",
+        "topic": "Linked Lists",
+        "difficulty": "Easy",
+        "type": "new"
+      },
+      {
+        "question": "Minimum Deletions for Palindrome",
+        "topic": "Strings",
+        "difficulty": "Hard",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 62,
+    "date": "2026-03-07",
+    "total_questions": 3,
+    "new_questions": 2,
+    "review_questions": 1,
+    "questions": [
+      {
+        "question": "Parenthesis Checker",
+        "topic": "Stack & Queue",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 6
+      },
+      {
+        "question": "Kth Largest Element in a BST",
+        "topic": "Trees",
+        "difficulty": "Easy",
+        "type": "new"
+      },
+      {
+        "question": "LRU Cache",
+        "topic": "Linked Lists",
+        "difficulty": "Hard",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 63,
+    "date": "2026-03-08",
+    "total_questions": 3,
+    "new_questions": 2,
+    "review_questions": 1,
+    "questions": [
+      {
+        "question": "Array to BST",
+        "topic": "Trees",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 7
+      },
+      {
+        "question": "Symmetric Tree",
+        "topic": "Trees",
+        "difficulty": "Easy",
+        "type": "new"
+      },
+      {
+        "question": "Palindrome Substring Queries",
+        "topic": "Strings",
+        "difficulty": "Hard",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 64,
+    "date": "2026-03-09",
+    "total_questions": 3,
+    "new_questions": 2,
+    "review_questions": 1,
+    "questions": [
+      {
+        "question": "Reverse a String using Stack",
+        "topic": "Stack & Queue",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 8
+      },
+      {
+        "question": "Mirror Tree",
+        "topic": "Trees",
+        "difficulty": "Easy",
+        "type": "new"
+      },
+      {
+        "question": "Search Pattern (KMP Algorithm)",
+        "topic": "Strings",
+        "difficulty": "Hard",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 65,
+    "date": "2026-03-10",
+    "total_questions": 3,
+    "new_questions": 2,
+    "review_questions": 1,
+    "questions": [
+      {
+        "question": "Count Occurrences",
+        "topic": "Linked Lists",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 9
+      },
+      {
+        "question": "Inorder Successor in BST",
+        "topic": "Trees",
+        "difficulty": "Easy",
+        "type": "new"
+      },
+      {
+        "question": "Palindrome Substring Queries",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Hard",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 66,
+    "date": "2026-03-11",
+    "total_questions": 3,
+    "new_questions": 2,
+    "review_questions": 1,
+    "questions": [
+      {
+        "question": "Circular List Traversal",
+        "topic": "Linked Lists",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 10
+      },
+      {
+        "question": "Rotate Array",
+        "topic": "Arrays",
+        "difficulty": "Easy",
+        "type": "new"
+      },
+      {
+        "question": "Search Pattern (Rabin-Karp Algorithm)",
+        "topic": "Strings",
+        "difficulty": "Hard",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 67,
+    "date": "2026-03-12",
+    "total_questions": 3,
+    "new_questions": 2,
+    "review_questions": 1,
+    "questions": [
+      {
+        "question": "Missing and Repeating in Array",
+        "topic": "Arrays",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 11
+      },
+      {
+        "question": "Remove Minimum Number of Elements Such That No Common Element Exists",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Easy",
+        "type": "new"
+      },
+      {
+        "question": "Merge K Sorted Linked Lists",
+        "topic": "Linked Lists",
+        "difficulty": "Hard",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 68,
+    "date": "2026-03-13",
+    "total_questions": 3,
+    "new_questions": 2,
+    "review_questions": 1,
+    "questions": [
+      {
+        "question": "Height of Binary Tree",
+        "topic": "Trees",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 12
+      },
+      {
+        "question": "Stock Buy and Sell - Multiple Transactions",
+        "topic": "Arrays",
+        "difficulty": "Easy",
+        "type": "new"
+      },
+      {
+        "question": "Find the Longest Substring with K Unique Characters",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Hard",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 69,
+    "date": "2026-03-14",
+    "total_questions": 3,
+    "new_questions": 2,
+    "review_questions": 1,
+    "questions": [
+      {
+        "question": "Remove Duplicates from an Array",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 13
+      },
+      {
+        "question": "Alternate Positive Negative",
+        "topic": "Arrays",
+        "difficulty": "Easy",
+        "type": "new"
+      },
+      {
+        "question": "Longest Valid Parenthesis",
+        "topic": "Strings",
+        "difficulty": "Hard",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 70,
+    "date": "2026-03-15",
+    "total_questions": 3,
+    "new_questions": 2,
+    "review_questions": 1,
+    "questions": [
+      {
+        "question": "Add Binary Strings",
+        "topic": "Strings",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 14
+      },
+      {
+        "question": "Sum of all Subarrays",
+        "topic": "Arrays",
+        "difficulty": "Easy",
+        "type": "new"
+      },
+      {
+        "question": "Repeatedly Remove Duplicates",
+        "topic": "Strings",
+        "difficulty": "Hard",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 71,
+    "date": "2026-03-16",
+    "total_questions": 3,
+    "new_questions": 2,
+    "review_questions": 1,
+    "questions": [
+      {
+        "question": "Minimum Insertions to Form a Palindrome with Permutations Allowed",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 15
+      },
+      {
+        "question": "Panagram Checking",
+        "topic": "Strings",
+        "difficulty": "Easy",
+        "type": "new"
+      },
+      {
+        "question": "Implement LRU Cache",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Hard",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 72,
+    "date": "2026-03-17",
+    "total_questions": 3,
+    "new_questions": 2,
+    "review_questions": 1,
+    "questions": [
+      {
+        "question": "Validate IP Address",
+        "topic": "Strings",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 16
+      },
+      {
+        "question": "Middle of a Linked List",
+        "topic": "Linked Lists",
+        "difficulty": "Easy",
+        "type": "new"
+      },
+      {
+        "question": "Clone with Random Pointers",
+        "topic": "Linked Lists",
+        "difficulty": "Hard",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 73,
+    "date": "2026-03-18",
+    "total_questions": 3,
+    "new_questions": 2,
+    "review_questions": 1,
+    "questions": [
+      {
+        "question": "Find the Pair with Given Sum in an Array",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 17
+      },
+      {
+        "question": "Nth Node from End",
+        "topic": "Linked Lists",
+        "difficulty": "Easy",
+        "type": "new"
+      },
+      {
+        "question": "Count Maximum Points on Same Line",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Hard",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 74,
+    "date": "2026-03-19",
+    "total_questions": 3,
+    "new_questions": 2,
+    "review_questions": 1,
+    "questions": [
+      {
+        "question": "Print All Distinct Words from a Paragraph",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 18
+      },
+      {
+        "question": "Reverse Array in Groups",
+        "topic": "Arrays",
+        "difficulty": "Easy",
+        "type": "new"
+      },
+      {
+        "question": "Find Number of Employees Under Every Manager",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Hard",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 75,
+    "date": "2026-03-20",
+    "total_questions": 3,
+    "new_questions": 2,
+    "review_questions": 1,
+    "questions": [
+      {
+        "question": "Delete Middle Element from Stack",
+        "topic": "Stack & Queue",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 19
+      },
+      {
+        "question": "Array Leaders",
+        "topic": "Arrays",
+        "difficulty": "Easy",
+        "type": "new"
+      },
+      {
+        "question": "Next Smallest Palindrome",
+        "topic": "Arrays",
+        "difficulty": "Hard",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 76,
+    "date": "2026-03-21",
+    "total_questions": 3,
+    "new_questions": 1,
+    "review_questions": 2,
+    "questions": [
+      {
+        "question": "Reverse a String",
+        "topic": "Strings",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 20
+      },
+      {
+        "question": "Next Permutation",
+        "topic": "Arrays",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 20
+      },
+      {
+        "question": "Find the Minimum Window in a String Containing All Characters of Another String",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Hard",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 77,
+    "date": "2026-03-22",
+    "total_questions": 3,
+    "new_questions": 2,
+    "review_questions": 1,
+    "questions": [
+      {
+        "question": "Reverse Words",
+        "topic": "Strings",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 21
+      },
+      {
+        "question": "Special Keyboard",
+        "topic": "Strings",
+        "difficulty": "Intermediate",
+        "type": "new"
+      },
+      {
+        "question": "Closest Subsequence Sum",
+        "topic": "Arrays",
+        "difficulty": "Hard",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 78,
+    "date": "2026-03-23",
+    "total_questions": 3,
+    "new_questions": 2,
+    "review_questions": 1,
+    "questions": [
+      {
+        "question": "Queue using Linked List",
+        "topic": "Linked Lists",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 22
+      },
+      {
+        "question": "Minimum Repetitions to Make Substring",
+        "topic": "Strings",
+        "difficulty": "Intermediate",
+        "type": "new"
+      },
+      {
+        "question": "Top K Numbers in a Stream",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Hard",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 79,
+    "date": "2026-03-24",
+    "total_questions": 3,
+    "new_questions": 2,
+    "review_questions": 1,
+    "questions": [
+      {
+        "question": "Count Number of Distinct Substrings in a String",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 23
+      },
+      {
+        "question": "Longest Sub-Array Having Sum K",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Intermediate",
+        "type": "new"
+      },
+      {
+        "question": "Sorted Linked List to BST",
+        "topic": "Trees",
+        "difficulty": "Hard",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 80,
+    "date": "2026-03-25",
+    "total_questions": 3,
+    "new_questions": 2,
+    "review_questions": 1,
+    "questions": [
+      {
+        "question": "Reverse an Array",
+        "topic": "Arrays",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 24
+      },
+      {
+        "question": "Next Greater Element",
+        "topic": "Stack & Queue",
+        "difficulty": "Intermediate",
+        "type": "new"
+      },
+      {
+        "question": "Binary Tree Maximum Path Sum",
+        "topic": "Trees",
+        "difficulty": "Hard",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 81,
+    "date": "2026-03-26",
+    "total_questions": 3,
+    "new_questions": 2,
+    "review_questions": 1,
+    "questions": [
+      {
+        "question": "Find the Only Repetitive Element Between 1 to n-1",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 25
+      },
+      {
+        "question": "Construct BST from Preorder Traversal",
+        "topic": "Trees",
+        "difficulty": "Intermediate",
+        "type": "new"
+      },
+      {
+        "question": "Smallest Non-Representable Sum in Array",
+        "topic": "Arrays",
+        "difficulty": "Hard",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 82,
+    "date": "2026-03-27",
+    "total_questions": 3,
+    "new_questions": 2,
+    "review_questions": 1,
+    "questions": [
+      {
+        "question": "Reverse Individual Words",
+        "topic": "Stack & Queue",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 26
+      },
+      {
+        "question": "Flatten Binary Tree to Linked List",
+        "topic": "Trees",
+        "difficulty": "Intermediate",
+        "type": "new"
+      },
+      {
+        "question": "Longest Subarray with Sum Divisible by K",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Hard",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 83,
+    "date": "2026-03-28",
+    "total_questions": 3,
+    "new_questions": 2,
+    "review_questions": 1,
+    "questions": [
+      {
+        "question": "Determine if Two Trees are Identical",
+        "topic": "Trees",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 27
+      },
+      {
+        "question": "Merge Two Sorted Linked Lists",
+        "topic": "Linked Lists",
+        "difficulty": "Intermediate",
+        "type": "new"
+      },
+      {
+        "question": "Longest Substring to Form a Palindrome",
+        "topic": "Strings",
+        "difficulty": "Hard",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 84,
+    "date": "2026-03-29",
+    "total_questions": 3,
+    "new_questions": 1,
+    "review_questions": 2,
+    "questions": [
+      {
+        "question": "Find the Count of Distinct Elements in an Array",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 28
+      },
+      {
+        "question": "Queue using Stacks",
+        "topic": "Stack & Queue",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 28
+      },
+      {
+        "question": "Linked List from a 2D Matrix",
+        "topic": "Linked Lists",
+        "difficulty": "Intermediate",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 85,
+    "date": "2026-03-30",
+    "total_questions": 3,
+    "new_questions": 1,
+    "review_questions": 2,
+    "questions": [
+      {
+        "question": "Roman to Integer",
+        "topic": "Strings",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 29
+      },
+      {
+        "question": "Minimize the Heights II",
+        "topic": "Arrays",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 29
+      },
+      {
+        "question": "Integer to Words",
+        "topic": "Strings",
+        "difficulty": "Intermediate",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 86,
+    "date": "2026-03-31",
+    "total_questions": 3,
+    "new_questions": 1,
+    "review_questions": 2,
+    "questions": [
+      {
+        "question": "Find the Difference of Two Arrays",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 30
+      },
+      {
+        "question": "Maximum Product Subarray",
+        "topic": "Arrays",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 30
+      },
+      {
+        "question": "Next Palindromic Number with Same Digits",
+        "topic": "Strings",
+        "difficulty": "Intermediate",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 87,
+    "date": "2026-04-01",
+    "total_questions": 3,
+    "new_questions": 1,
+    "review_questions": 2,
+    "questions": [
+      {
+        "question": "Encrypt the String - II",
+        "topic": "Strings",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 31
+      },
+      {
+        "question": "Length of Longest Prefix Suffix (KMP)",
+        "topic": "Strings",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 31
+      },
+      {
+        "question": "Unique BSTs",
+        "topic": "Trees",
+        "difficulty": "Intermediate",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 88,
+    "date": "2026-04-02",
+    "total_questions": 3,
+    "new_questions": 2,
+    "review_questions": 1,
+    "questions": [
+      {
+        "question": "Missing Ranges of Numbers",
+        "topic": "Arrays",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 32
+      },
+      {
+        "question": "Find the Majority Element in an Array",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Intermediate",
+        "type": "new"
+      },
+      {
+        "question": "Fizz Buzz",
+        "topic": "Strings",
+        "difficulty": "Intermediate",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 89,
+    "date": "2026-04-03",
+    "total_questions": 3,
+    "new_questions": 2,
+    "review_questions": 1,
+    "questions": [
+      {
+        "question": "Reverse a Doubly Linked List",
+        "topic": "Linked Lists",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 33
+      },
+      {
+        "question": "Find Itinerary from a Given List of Tickets",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Intermediate",
+        "type": "new"
+      },
+      {
+        "question": "All Unique Triplets that Sum Up to a Given Value",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Intermediate",
+        "type": "new"
+      }
+    ]
+  },
+  {
+    "day": 90,
+    "date": "2026-04-04",
+    "total_questions": 7,
+    "new_questions": 4,
+    "review_questions": 3,
+    "questions": [
+      {
+        "question": "First Non Repeating Character",
+        "topic": "Strings",
+        "difficulty": "Easy",
+        "type": "review",
+        "original_day": 34
+      },
+      {
+        "question": "Intersection Point",
+        "topic": "Linked Lists",
+        "difficulty": "Intermediate",
+        "type": "review",
+        "original_day": 34
+      },
+      {
+        "question": "Phone Directory",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Hard",
+        "type": "review",
+        "original_day": 34
+      },
+      {
+        "question": "Maximum Consecutive 1s After Flipping 0s",
+        "topic": "Arrays",
+        "difficulty": "Intermediate",
+        "type": "new"
+      },
+      {
+        "question": "Find All Pairs (a, b) in an Array Such That a % b = k",
+        "topic": "Hashing/Hash Table",
+        "difficulty": "Intermediate",
+        "type": "new"
+      },
+      {
+        "question": "Evaluate Postfix Expression",
+        "topic": "Stack & Queue",
+        "difficulty": "Intermediate",
+        "type": "new"
+      },
+      {
+        "question": "Diameter of Tree",
+        "topic": "Trees",
+        "difficulty": "Intermediate",
+        "type": "new"
+      }
+    ]
+  }
+]

@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
-import { fetchProgress, updateProgress } from '../lib/api';
-import questionsData from '../data/questions.json';
+import { fetchProgressV2, updateProgressV2 } from '../lib/api';
+import questionsData from '../data/questions_v2.json';
 
 const TrackerContext = createContext();
 
@@ -9,7 +9,6 @@ export function TrackerProvider({ children }) {
     const [loading, setLoading] = useState(true);
     const [isAuthenticated, setIsAuthenticated] = useState(false);
     const [streaks, setStreaks] = useState({ current: 0, best: 0 });
-    const [dueRevisions, setDueRevisions] = useState([]);
 
     useEffect(() => {
         // Check for auth in localStorage
@@ -27,7 +26,7 @@ export function TrackerProvider({ children }) {
 
     const loadProgress = async () => {
         try {
-            const data = await fetchProgress();
+            const data = await fetchProgressV2();
             // Convert array to object for easier lookup
             const progressMap = {};
             data.forEach(item => {
@@ -35,7 +34,6 @@ export function TrackerProvider({ children }) {
             });
             setProgress(progressMap);
             calculateStreaks(data);
-            calculateDueRevisions(progressMap);
         } catch (error) {
             console.error('Error loading progress:', error);
         } finally {
@@ -108,61 +106,6 @@ export function TrackerProvider({ children }) {
         setStreaks({ current, best });
     };
 
-    const calculateDueRevisions = (progressMap) => {
-        const due = [];
-        const now = new Date();
-
-        questionsData.forEach(day => {
-            day.questions.forEach(q => {
-                const status = progressMap[q.id];
-                if (status && status.completed) {
-                    const lastReviewed = status.last_reviewed ? new Date(status.last_reviewed) : new Date(status.completed_at || status.updated_at);
-                    const interval = status.review_interval || 1; // Default 1 day
-
-                    const nextReview = new Date(lastReviewed);
-                    nextReview.setDate(nextReview.getDate() + interval);
-
-                    if (nextReview <= now) {
-                        due.push({ ...q, day: day.day, ...status });
-                    }
-                }
-            });
-        });
-        setDueRevisions(due);
-    };
-
-    const markAsReviewed = async (questionId) => {
-        const currentStatus = progress[questionId];
-        if (!currentStatus) return;
-
-        const currentInterval = currentStatus.review_interval || 1;
-        // Simple SM-2 like: double the interval
-        const newInterval = Math.min(currentInterval * 2, 60); // Cap at 60 days
-        const newCount = (currentStatus.review_count || 0) + 1;
-        const now = new Date().toISOString();
-
-        const updates = {
-            last_reviewed: now,
-            review_interval: newInterval,
-            review_count: newCount
-        };
-
-        // Optimistic update
-        const newProgress = { ...currentStatus, ...updates };
-        setProgress(prev => ({ ...prev, [questionId]: newProgress }));
-
-        // Recalculate due revisions
-        const newProgressMap = { ...progress, [questionId]: newProgress };
-        calculateDueRevisions(newProgressMap);
-
-        try {
-            await updateProgress(questionId, currentStatus.completed, currentStatus.notes, currentStatus.code, updates);
-        } catch (error) {
-            console.error('Error updating review status:', error);
-            // Revert? For now, just log
-        }
-    };
-
     const handleLogin = (passcode) => {
         if (passcode === '6565') {
             localStorage.setItem('tracker_auth', passcode);
@@ -184,22 +127,16 @@ export function TrackerProvider({ children }) {
 
         setProgress(prev => {
             const next = { ...prev, [questionId]: newProgress };
-            // Recalculate streaks and revisions
-            // Note: This is a bit expensive to do on every update, but safe for small data
-            // For better perf, we'd update streaks incrementally
-            // calculateStreaks(Object.values(next)); 
-            // calculateDueRevisions(next);
             return next;
         });
 
-        // Trigger recalc after state update (simplified)
+        // Trigger recalc after state update
         setTimeout(() => {
             calculateStreaks(Object.values({ ...progress, [questionId]: newProgress }));
-            calculateDueRevisions({ ...progress, [questionId]: newProgress });
         }, 0);
 
         try {
-            await updateProgress(
+            await updateProgressV2(
                 questionId,
                 newProgress.completed,
                 newProgress.notes,
@@ -255,6 +192,23 @@ export function TrackerProvider({ children }) {
         };
     };
 
+    // Get current day based on calendar dates
+    const getCurrentDay = () => {
+        const today = new Date().toISOString().split('T')[0];
+        const dayData = questionsData.find(d => d.date === today);
+        if (dayData) return dayData.day;
+
+        // If today's date not found, find the closest day
+        const todayDate = new Date(today);
+        for (let i = questionsData.length - 1; i >= 0; i--) {
+            const dayDate = new Date(questionsData[i].date);
+            if (dayDate <= todayDate) {
+                return questionsData[i].day;
+            }
+        }
+        return 1;
+    };
+
     return (
         <TrackerContext.Provider value={{
             questionsData,
@@ -267,9 +221,8 @@ export function TrackerProvider({ children }) {
             getQuestionStatus,
             getDayProgress,
             getTotalProgress,
-            streaks,
-            dueRevisions,
-            markAsReviewed
+            getCurrentDay,
+            streaks
         }}>
             {children}
         </TrackerContext.Provider>

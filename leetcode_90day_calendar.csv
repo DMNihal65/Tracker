@@ -1,0 +1,437 @@
+Day,Date,Question,Topic,Difficulty,Type,Original Day
+1,2026-01-05,Find the First Non-Repeating Character in a String,Hashing/Hash Table,Easy,new,
+1,2026-01-05,Majority Element,Arrays,Intermediate,new,
+1,2026-01-05,Substrings of Length k with k-1 Distinct Elements,Strings,Intermediate,new,
+2,2026-01-06,Find the First Non-Repeating Character in a String,Hashing/Hash Table,Easy,review,1
+2,2026-01-06,Majority Element,Arrays,Intermediate,review,1
+2,2026-01-06,Substrings of Length k with k-1 Distinct Elements,Strings,Intermediate,review,1
+2,2026-01-06,Palindrome Check,Strings,Easy,new,
+2,2026-01-06,Longest Mountain Subarray,Arrays,Intermediate,new,
+2,2026-01-06,Reverse a Sublist,Linked Lists,Intermediate,new,
+3,2026-01-07,Palindrome Check,Strings,Easy,review,2
+3,2026-01-07,Longest Mountain Subarray,Arrays,Intermediate,review,2
+3,2026-01-07,Reverse a Sublist,Linked Lists,Intermediate,review,2
+3,2026-01-07,Delete Last Occurrence,Linked Lists,Easy,new,
+3,2026-01-07,Rearrange Array Elements by Sign,Arrays,Intermediate,new,
+3,2026-01-07,Print Anagrams Together,Strings,Intermediate,new,
+4,2026-01-08,Delete Last Occurrence,Linked Lists,Easy,review,3
+4,2026-01-08,Rearrange Array Elements by Sign,Arrays,Intermediate,review,3
+4,2026-01-08,Print Anagrams Together,Strings,Intermediate,review,3
+4,2026-01-08,Wave Array,Arrays,Easy,new,
+4,2026-01-08,Find the Length of the Longest Consecutive Sequence in an Array,Hashing/Hash Table,Intermediate,new,
+4,2026-01-08,Binary Tree Right Side View,Trees,Intermediate,new,
+5,2026-01-09,Find the First Non-Repeating Character in a String,Hashing/Hash Table,Easy,review,1
+5,2026-01-09,Majority Element,Arrays,Intermediate,review,1
+5,2026-01-09,Substrings of Length k with k-1 Distinct Elements,Strings,Intermediate,review,1
+5,2026-01-09,Move All Zeroes To End,Arrays,Easy,new,
+5,2026-01-09,Kth Smallest Element in a BST,Trees,Intermediate,new,
+5,2026-01-09,Minimum Indices To Equal Even-Odd Sums,Arrays,Intermediate,new,
+6,2026-01-10,Palindrome Check,Strings,Easy,review,2
+6,2026-01-10,Longest Mountain Subarray,Arrays,Intermediate,review,2
+6,2026-01-10,Reverse a Sublist,Linked Lists,Intermediate,review,2
+6,2026-01-10,Parenthesis Checker,Stack & Queue,Easy,new,
+6,2026-01-10,Stack using Single Queue,Stack & Queue,Intermediate,new,
+6,2026-01-10,Sum of Two Large Numbers,Strings,Intermediate,new,
+7,2026-01-11,Delete Last Occurrence,Linked Lists,Easy,review,3
+7,2026-01-11,Rearrange Array Elements by Sign,Arrays,Intermediate,review,3
+7,2026-01-11,Print Anagrams Together,Strings,Intermediate,review,3
+7,2026-01-11,Array to BST,Trees,Easy,new,
+7,2026-01-11,"Equal 0, 1, and 2",Strings,Intermediate,new,
+7,2026-01-11,Majority Element II,Arrays,Intermediate,new,
+8,2026-01-12,Wave Array,Arrays,Easy,review,4
+8,2026-01-12,Find the Length of the Longest Consecutive Sequence in an Array,Hashing/Hash Table,Intermediate,review,4
+8,2026-01-12,Binary Tree Right Side View,Trees,Intermediate,review,4
+8,2026-01-12,Reverse a String using Stack,Stack & Queue,Easy,new,
+8,2026-01-12,Intersection of Interval Lists,Arrays,Intermediate,new,
+8,2026-01-12,Find 0 with Farthest 1s in a Binary,Arrays,Intermediate,new,
+9,2026-01-13,Move All Zeroes To End,Arrays,Easy,review,5
+9,2026-01-13,Kth Smallest Element in a BST,Trees,Intermediate,review,5
+9,2026-01-13,Minimum Indices To Equal Even-Odd Sums,Arrays,Intermediate,review,5
+9,2026-01-13,Count Occurrences,Linked Lists,Easy,new,
+9,2026-01-13,Print All Subarrays with 0 Sum,Hashing/Hash Table,Intermediate,new,
+9,2026-01-13,Product of Array Except Self,Arrays,Intermediate,new,
+10,2026-01-14,Parenthesis Checker,Stack & Queue,Easy,review,6
+10,2026-01-14,Stack using Single Queue,Stack & Queue,Intermediate,review,6
+10,2026-01-14,Sum of Two Large Numbers,Strings,Intermediate,review,6
+10,2026-01-14,Circular List Traversal,Linked Lists,Easy,new,
+10,2026-01-14,Palindromic Sentence Check,Strings,Intermediate,new,
+10,2026-01-14,Pair Sum in Doubly Linked List,Linked Lists,Intermediate,new,
+11,2026-01-15,Array to BST,Trees,Easy,review,7
+11,2026-01-15,"Equal 0, 1, and 2",Strings,Intermediate,review,7
+11,2026-01-15,Majority Element II,Arrays,Intermediate,review,7
+11,2026-01-15,Missing and Repeating in Array,Arrays,Easy,new,
+11,2026-01-15,Vertical Traversal of a Binary Tree,Trees,Intermediate,new,
+11,2026-01-15,Swap Kth Nodes from Beginning and End,Linked Lists,Intermediate,new,
+12,2026-01-16,Find the First Non-Repeating Character in a String,Hashing/Hash Table,Easy,review,1
+12,2026-01-16,Majority Element,Arrays,Intermediate,review,1
+12,2026-01-16,Substrings of Length k with k-1 Distinct Elements,Strings,Intermediate,review,1
+12,2026-01-16,Height of Binary Tree,Trees,Easy,new,
+12,2026-01-16,Length of the Loop,Linked Lists,Intermediate,new,
+12,2026-01-16,Find the N-th Character,Strings,Intermediate,new,
+13,2026-01-17,Palindrome Check,Strings,Easy,review,2
+13,2026-01-17,Longest Mountain Subarray,Arrays,Intermediate,review,2
+13,2026-01-17,Reverse a Sublist,Linked Lists,Intermediate,review,2
+13,2026-01-17,Remove Duplicates from an Array,Hashing/Hash Table,Easy,new,
+13,2026-01-17,Split a Circular Linked List into Two Halves,Linked Lists,Intermediate,new,
+13,2026-01-17,Delete N Nodes after M,Linked Lists,Intermediate,new,
+14,2026-01-18,Delete Last Occurrence,Linked Lists,Easy,review,3
+14,2026-01-18,Rearrange Array Elements by Sign,Arrays,Intermediate,review,3
+14,2026-01-18,Print Anagrams Together,Strings,Intermediate,review,3
+14,2026-01-18,Add Binary Strings,Strings,Easy,new,
+14,2026-01-18,Single Valued Subtree,Trees,Intermediate,new,
+14,2026-01-18,Isomorphic Strings,Strings,Intermediate,new,
+15,2026-01-19,Wave Array,Arrays,Easy,review,4
+15,2026-01-19,Find the Length of the Longest Consecutive Sequence in an Array,Hashing/Hash Table,Intermediate,review,4
+15,2026-01-19,Binary Tree Right Side View,Trees,Intermediate,review,4
+15,2026-01-19,Minimum Insertions to Form a Palindrome with Permutations Allowed,Hashing/Hash Table,Easy,new,
+15,2026-01-19,"Sort a List of 0s, 1s and 2s",Linked Lists,Intermediate,new,
+15,2026-01-19,Rearrange a Linked List In-Place,Linked Lists,Intermediate,new,
+16,2026-01-20,Move All Zeroes To End,Arrays,Easy,review,5
+16,2026-01-20,Kth Smallest Element in a BST,Trees,Intermediate,review,5
+16,2026-01-20,Minimum Indices To Equal Even-Odd Sums,Arrays,Intermediate,review,5
+16,2026-01-20,Validate IP Address,Strings,Easy,new,
+16,2026-01-20,Binary Tree Level Order Traversal,Trees,Intermediate,new,
+16,2026-01-20,Rotate Doubly Linked List by N Nodes,Linked Lists,Intermediate,new,
+17,2026-01-21,Parenthesis Checker,Stack & Queue,Easy,review,6
+17,2026-01-21,Stack using Single Queue,Stack & Queue,Intermediate,review,6
+17,2026-01-21,Sum of Two Large Numbers,Strings,Intermediate,review,6
+17,2026-01-21,Find the Pair with Given Sum in an Array,Hashing/Hash Table,Easy,new,
+17,2026-01-21,Group All Anagrams in an Array of Strings,Hashing/Hash Table,Intermediate,new,
+17,2026-01-21,Count Number of Substrings,Strings,Intermediate,new,
+18,2026-01-22,Array to BST,Trees,Easy,review,7
+18,2026-01-22,"Equal 0, 1, and 2",Strings,Intermediate,review,7
+18,2026-01-22,Majority Element II,Arrays,Intermediate,review,7
+18,2026-01-22,Print All Distinct Words from a Paragraph,Hashing/Hash Table,Easy,new,
+18,2026-01-22,Construct Binary Tree from Preorder and Inorder Traversal,Trees,Intermediate,new,
+18,2026-01-22,Boundary Traversal,Trees,Intermediate,new,
+19,2026-01-23,Reverse a String using Stack,Stack & Queue,Easy,review,8
+19,2026-01-23,Intersection of Interval Lists,Arrays,Intermediate,review,8
+19,2026-01-23,Find 0 with Farthest 1s in a Binary,Arrays,Intermediate,review,8
+19,2026-01-23,Delete Middle Element from Stack,Stack & Queue,Easy,new,
+19,2026-01-23,Maximum Possible Difference of Two Subsets of an Array,Hashing/Hash Table,Intermediate,new,
+19,2026-01-23,Find All Pairs with a Given Sum in an Array,Hashing/Hash Table,Intermediate,new,
+20,2026-01-24,Count Occurrences,Linked Lists,Easy,review,9
+20,2026-01-24,Print All Subarrays with 0 Sum,Hashing/Hash Table,Intermediate,review,9
+20,2026-01-24,Product of Array Except Self,Arrays,Intermediate,review,9
+20,2026-01-24,Reverse a String,Strings,Easy,new,
+20,2026-01-24,Next Permutation,Arrays,Intermediate,new,
+20,2026-01-24,Longest Substring Without Repeating Characters,Strings,Intermediate,new,
+21,2026-01-25,Circular List Traversal,Linked Lists,Easy,review,10
+21,2026-01-25,Palindromic Sentence Check,Strings,Intermediate,review,10
+21,2026-01-25,Pair Sum in Doubly Linked List,Linked Lists,Intermediate,review,10
+21,2026-01-25,Reverse Words,Strings,Easy,new,
+21,2026-01-25,Transform and Sort Array,Arrays,Intermediate,new,
+21,2026-01-25,Longest Consecutive Subsequence,Hashing/Hash Table,Intermediate,new,
+22,2026-01-26,Missing and Repeating in Array,Arrays,Easy,review,11
+22,2026-01-26,Vertical Traversal of a Binary Tree,Trees,Intermediate,review,11
+22,2026-01-26,Swap Kth Nodes from Beginning and End,Linked Lists,Intermediate,review,11
+22,2026-01-26,Queue using Linked List,Linked Lists,Easy,new,
+22,2026-01-26,Count the Number of Subarrays Having a Given XOR,Hashing/Hash Table,Intermediate,new,
+22,2026-01-26,Delete without Head Pointer,Linked Lists,Intermediate,new,
+23,2026-01-27,Height of Binary Tree,Trees,Easy,review,12
+23,2026-01-27,Length of the Loop,Linked Lists,Intermediate,review,12
+23,2026-01-27,Find the N-th Character,Strings,Intermediate,review,12
+23,2026-01-27,Count Number of Distinct Substrings in a String,Hashing/Hash Table,Easy,new,
+23,2026-01-27,Reverse in Groups,Linked Lists,Intermediate,new,
+23,2026-01-27,Check for k-anagram,Strings,Intermediate,new,
+24,2026-01-28,Remove Duplicates from an Array,Hashing/Hash Table,Easy,review,13
+24,2026-01-28,Split a Circular Linked List into Two Halves,Linked Lists,Intermediate,review,13
+24,2026-01-28,Delete N Nodes after M,Linked Lists,Intermediate,review,13
+24,2026-01-28,Reverse an Array,Arrays,Easy,new,
+24,2026-01-28,Lowest Common Ancestor of a Binary Tree,Trees,Intermediate,new,
+24,2026-01-28,Interleaved Strings,Strings,Intermediate,new,
+25,2026-01-29,Add Binary Strings,Strings,Easy,review,14
+25,2026-01-29,Single Valued Subtree,Trees,Intermediate,review,14
+25,2026-01-29,Isomorphic Strings,Strings,Intermediate,review,14
+25,2026-01-29,Find the Only Repetitive Element Between 1 to n-1,Hashing/Hash Table,Easy,new,
+25,2026-01-29,Sort an Array According to the Order Defined by Another Array,Hashing/Hash Table,Intermediate,new,
+25,2026-01-29,Detect Loop,Linked Lists,Intermediate,new,
+26,2026-01-30,Minimum Insertions to Form a Palindrome with Permutations Allowed,Hashing/Hash Table,Easy,review,15
+26,2026-01-30,"Sort a List of 0s, 1s and 2s",Linked Lists,Intermediate,review,15
+26,2026-01-30,Rearrange a Linked List In-Place,Linked Lists,Intermediate,review,15
+26,2026-01-30,Reverse Individual Words,Stack & Queue,Easy,new,
+26,2026-01-30,Count Subarrays Having Total Distinct Elements Same as Original Array,Hashing/Hash Table,Intermediate,new,
+26,2026-01-30,Last Moment Before Ants Fall Out of Plank,Arrays,Intermediate,new,
+27,2026-01-31,Find the First Non-Repeating Character in a String,Hashing/Hash Table,Easy,review,1
+27,2026-01-31,Majority Element,Arrays,Intermediate,review,1
+27,2026-01-31,Substrings of Length k with k-1 Distinct Elements,Strings,Intermediate,review,1
+27,2026-01-31,Determine if Two Trees are Identical,Trees,Easy,new,
+27,2026-01-31,Range Queries for Frequencies of Array Elements,Hashing/Hash Table,Intermediate,new,
+27,2026-01-31,Maximum Sum Leaf to Root Path,Trees,Intermediate,new,
+28,2026-02-01,Palindrome Check,Strings,Easy,review,2
+28,2026-02-01,Longest Mountain Subarray,Arrays,Intermediate,review,2
+28,2026-02-01,Reverse a Sublist,Linked Lists,Intermediate,review,2
+28,2026-02-01,Find the Count of Distinct Elements in an Array,Hashing/Hash Table,Easy,new,
+28,2026-02-01,Queue using Stacks,Stack & Queue,Intermediate,new,
+28,2026-02-01,Multiply Two Numbers Represented by Linked Lists,Linked Lists,Intermediate,new,
+29,2026-02-02,Delete Last Occurrence,Linked Lists,Easy,review,3
+29,2026-02-02,Rearrange Array Elements by Sign,Arrays,Intermediate,review,3
+29,2026-02-02,Print Anagrams Together,Strings,Intermediate,review,3
+29,2026-02-02,Roman to Integer,Strings,Easy,new,
+29,2026-02-02,Minimize the Heights II,Arrays,Intermediate,new,
+29,2026-02-02,Check for BST,Trees,Intermediate,new,
+30,2026-02-03,Wave Array,Arrays,Easy,review,4
+30,2026-02-03,Find the Length of the Longest Consecutive Sequence in an Array,Hashing/Hash Table,Intermediate,review,4
+30,2026-02-03,Binary Tree Right Side View,Trees,Intermediate,review,4
+30,2026-02-03,Find the Difference of Two Arrays,Hashing/Hash Table,Easy,new,
+30,2026-02-03,Maximum Product Subarray,Arrays,Intermediate,new,
+30,2026-02-03,Find the First Repeating Element in an Array,Hashing/Hash Table,Intermediate,new,
+31,2026-02-04,Move All Zeroes To End,Arrays,Easy,review,5
+31,2026-02-04,Kth Smallest Element in a BST,Trees,Intermediate,review,5
+31,2026-02-04,Minimum Indices To Equal Even-Odd Sums,Arrays,Intermediate,review,5
+31,2026-02-04,Encrypt the String - II,Strings,Easy,new,
+31,2026-02-04,Length of Longest Prefix Suffix (KMP),Strings,Intermediate,new,
+31,2026-02-04,Maximum Sum Path Between Two Leaf Nodes,Trees,Hard,new,
+32,2026-02-05,Parenthesis Checker,Stack & Queue,Easy,review,6
+32,2026-02-05,Stack using Single Queue,Stack & Queue,Intermediate,review,6
+32,2026-02-05,Sum of Two Large Numbers,Strings,Intermediate,review,6
+32,2026-02-05,Missing Ranges of Numbers,Arrays,Easy,new,
+32,2026-02-05,Smallest Subarray with K Distinct Numbers,Hashing/Hash Table,Intermediate,new,
+32,2026-02-05,Serialize and Deserialize Binary Tree,Trees,Hard,new,
+33,2026-02-06,Array to BST,Trees,Easy,review,7
+33,2026-02-06,"Equal 0, 1, and 2",Strings,Intermediate,review,7
+33,2026-02-06,Majority Element II,Arrays,Intermediate,review,7
+33,2026-02-06,Reverse a Doubly Linked List,Linked Lists,Easy,new,
+33,2026-02-06,Meeting Scheduler for Two Persons,Arrays,Intermediate,new,
+33,2026-02-06,Maximum Sum Among All Rotations,Arrays,Hard,new,
+34,2026-02-07,Reverse a String using Stack,Stack & Queue,Easy,review,8
+34,2026-02-07,Intersection of Interval Lists,Arrays,Intermediate,review,8
+34,2026-02-07,Find 0 with Farthest 1s in a Binary,Arrays,Intermediate,review,8
+34,2026-02-07,First Non Repeating Character,Strings,Easy,new,
+34,2026-02-07,Intersection Point,Linked Lists,Intermediate,new,
+34,2026-02-07,Phone Directory,Hashing/Hash Table,Hard,new,
+35,2026-02-08,Count Occurrences,Linked Lists,Easy,review,9
+35,2026-02-08,Print All Subarrays with 0 Sum,Hashing/Hash Table,Intermediate,review,9
+35,2026-02-08,Product of Array Except Self,Arrays,Intermediate,review,9
+35,2026-02-08,Find Missing Elements of a Range,Hashing/Hash Table,Easy,new,
+35,2026-02-08,Find the Length of Largest Subarray with 0 Sum,Hashing/Hash Table,Intermediate,new,
+35,2026-02-08,Fixing Two Nodes of a BST,Trees,Hard,new,
+36,2026-02-09,Circular List Traversal,Linked Lists,Easy,review,10
+36,2026-02-09,Palindromic Sentence Check,Strings,Intermediate,review,10
+36,2026-02-09,Pair Sum in Doubly Linked List,Linked Lists,Intermediate,review,10
+36,2026-02-09,Implement Atoi,Strings,Easy,new,
+36,2026-02-09,Add Two Numbers Represented by Linked Lists,Linked Lists,Intermediate,new,
+36,2026-02-09,Length of Longest Strict Bitonic Subsequence,Hashing/Hash Table,Hard,new,
+37,2026-02-10,Missing and Repeating in Array,Arrays,Easy,review,11
+37,2026-02-10,Vertical Traversal of a Binary Tree,Trees,Intermediate,review,11
+37,2026-02-10,Swap Kth Nodes from Beginning and End,Linked Lists,Intermediate,review,11
+37,2026-02-10,Three Great Candidates,Arrays,Easy,new,
+37,2026-02-10,Find the Subarray with Given Sum in an Array,Hashing/Hash Table,Intermediate,new,
+37,2026-02-10,Smallest Range Having Elements From K Lists,Arrays,Hard,new,
+38,2026-02-11,Height of Binary Tree,Trees,Easy,review,12
+38,2026-02-11,Length of the Loop,Linked Lists,Intermediate,review,12
+38,2026-02-11,Find the N-th Character,Strings,Intermediate,review,12
+38,2026-02-11,Max Consecutive Ones,Arrays,Easy,new,
+38,2026-02-11,Zigzag Tree Traversal,Trees,Intermediate,new,
+38,2026-02-11,Count Distinct Elements in Every Window of Size K,Hashing/Hash Table,Hard,new,
+39,2026-02-12,Remove Duplicates from an Array,Hashing/Hash Table,Easy,review,13
+39,2026-02-12,Split a Circular Linked List into Two Halves,Linked Lists,Intermediate,review,13
+39,2026-02-12,Delete N Nodes after M,Linked Lists,Intermediate,review,13
+39,2026-02-12,Pairwise Swap,Linked Lists,Easy,new,
+39,2026-02-12,Minimum Swaps To Group All Ones,Arrays,Intermediate,new,
+39,2026-02-12,Smallest Window in a String Containing All Characters of Another String,Hashing/Hash Table,Hard,new,
+40,2026-02-13,Add Binary Strings,Strings,Easy,review,14
+40,2026-02-13,Single Valued Subtree,Trees,Intermediate,review,14
+40,2026-02-13,Isomorphic Strings,Strings,Intermediate,review,14
+40,2026-02-13,Two Stacks in an Array,Stack & Queue,Easy,new,
+40,2026-02-13,Longest K Unique Characters Substring,Strings,Intermediate,new,
+40,2026-02-13,Remove Loop in Linked List,Linked Lists,Hard,new,
+41,2026-02-14,Minimum Insertions to Form a Palindrome with Permutations Allowed,Hashing/Hash Table,Easy,review,15
+41,2026-02-14,"Sort a List of 0s, 1s and 2s",Linked Lists,Intermediate,review,15
+41,2026-02-14,Rearrange a Linked List In-Place,Linked Lists,Intermediate,review,15
+41,2026-02-14,Plus One,Arrays,Easy,new,
+41,2026-02-14,Minimum Moves To Equalize Array,Arrays,Intermediate,new,
+41,2026-02-14,Binary Tree to Doubly Linked List,Trees,Hard,new,
+42,2026-02-15,Validate IP Address,Strings,Easy,review,16
+42,2026-02-15,Binary Tree Level Order Traversal,Trees,Intermediate,review,16
+42,2026-02-15,Rotate Doubly Linked List by N Nodes,Linked Lists,Intermediate,review,16
+42,2026-02-15,Find the Intersection of Two Arrays,Hashing/Hash Table,Easy,new,
+42,2026-02-15,Binary Tree to Doubly Linked List,Linked Lists,Intermediate,new,
+42,2026-02-15,Flattening a Linked List,Linked Lists,Hard,new,
+43,2026-02-16,Find the Pair with Given Sum in an Array,Hashing/Hash Table,Easy,review,17
+43,2026-02-16,Group All Anagrams in an Array of Strings,Hashing/Hash Table,Intermediate,review,17
+43,2026-02-16,Count Number of Substrings,Strings,Intermediate,review,17
+43,2026-02-16,Check for Rotation,Strings,Easy,new,
+43,2026-02-16,Palindrome Linked List,Linked Lists,Intermediate,new,
+43,2026-02-16,Reverse Alternate K Nodes,Linked Lists,Hard,new,
+44,2026-02-17,Print All Distinct Words from a Paragraph,Hashing/Hash Table,Easy,review,18
+44,2026-02-17,Construct Binary Tree from Preorder and Inorder Traversal,Trees,Intermediate,review,18
+44,2026-02-17,Boundary Traversal,Trees,Intermediate,review,18
+44,2026-02-17,Anagram Checking,Strings,Easy,new,
+44,2026-02-17,Partition Around a Given Value,Linked Lists,Intermediate,new,
+44,2026-02-17,Maximum Circular Subarray Sum,Arrays,Hard,new,
+45,2026-02-18,Delete Middle Element from Stack,Stack & Queue,Easy,review,19
+45,2026-02-18,Maximum Possible Difference of Two Subsets of an Array,Hashing/Hash Table,Intermediate,review,19
+45,2026-02-18,Find All Pairs with a Given Sum in an Array,Hashing/Hash Table,Intermediate,review,19
+45,2026-02-18,Count All Distinct Pairs with Difference Equal to K,Hashing/Hash Table,Easy,new,
+45,2026-02-18,Minimum Distance Between Two Nodes,Trees,Intermediate,new,
+45,2026-02-18,Transform One String to Another Using Minimum Number of Given Operations,Hashing/Hash Table,Hard,new,
+46,2026-02-19,Reverse a String,Strings,Easy,review,20
+46,2026-02-19,Next Permutation,Arrays,Intermediate,review,20
+46,2026-02-19,Longest Substring Without Repeating Characters,Strings,Intermediate,review,20
+46,2026-02-19,Stock Buy and Sell - One Transaction,Arrays,Easy,new,
+46,2026-02-19,Validate Binary Search Tree,Trees,Intermediate,new,
+46,2026-02-19,LFU Cache,Linked Lists,Hard,new,
+47,2026-02-20,Reverse Words,Strings,Easy,review,21
+47,2026-02-20,Transform and Sort Array,Arrays,Intermediate,review,21
+47,2026-02-20,Longest Consecutive Subsequence,Hashing/Hash Table,Intermediate,review,21
+47,2026-02-20,Second Largest Element,Arrays,Easy,new,
+47,2026-02-20,Maximum Length Subarray with Equal Number of 0s and 1s,Hashing/Hash Table,Intermediate,new,
+47,2026-02-20,Minimum Insertions for Palindrome,Strings,Hard,new,
+48,2026-02-21,Queue using Linked List,Linked Lists,Easy,review,22
+48,2026-02-21,Count the Number of Subarrays Having a Given XOR,Hashing/Hash Table,Intermediate,review,22
+48,2026-02-21,Delete without Head Pointer,Linked Lists,Intermediate,review,22
+48,2026-02-21,Checked for Balanced Tree,Trees,Easy,new,
+48,2026-02-21,Look and Say Pattern,Strings,Intermediate,new,
+48,2026-02-21,Longest Palindromic Subsequence,Strings,Hard,new,
+49,2026-02-22,Count Number of Distinct Substrings in a String,Hashing/Hash Table,Easy,review,23
+49,2026-02-22,Reverse in Groups,Linked Lists,Intermediate,review,23
+49,2026-02-22,Check for k-anagram,Strings,Intermediate,review,23
+49,2026-02-22,Delete Middle,Linked Lists,Easy,new,
+49,2026-02-22,Split Into Three Equal Sum Segments,Arrays,Intermediate,new,
+49,2026-02-22,Distinct Palindromic Substrings,Strings,Hard,new,
+50,2026-02-23,Reverse an Array,Arrays,Easy,review,24
+50,2026-02-23,Lowest Common Ancestor of a Binary Tree,Trees,Intermediate,review,24
+50,2026-02-23,Interleaved Strings,Strings,Intermediate,review,24
+50,2026-02-23,Children Sum Parent,Trees,Easy,new,
+50,2026-02-23,Check if Subtree,Trees,Intermediate,new,
+50,2026-02-23,Trapping Rain Water,Arrays,Hard,new,
+51,2026-02-24,Find the Only Repetitive Element Between 1 to n-1,Hashing/Hash Table,Easy,review,25
+51,2026-02-24,Sort an Array According to the Order Defined by Another Array,Hashing/Hash Table,Intermediate,review,25
+51,2026-02-24,Detect Loop,Linked Lists,Intermediate,review,25
+51,2026-02-24,Postfix to Prefix,Stack & Queue,Easy,new,
+51,2026-02-24,Remove All Occurrences of a Given List,Linked Lists,Intermediate,new,
+51,2026-02-24,Clone a Binary Tree with Random Pointers,Hashing/Hash Table,Hard,new,
+52,2026-02-25,Reverse Individual Words,Stack & Queue,Easy,review,26
+52,2026-02-25,Count Subarrays Having Total Distinct Elements Same as Original Array,Hashing/Hash Table,Intermediate,review,26
+52,2026-02-25,Last Moment Before Ants Fall Out of Plank,Arrays,Intermediate,review,26
+52,2026-02-25,Equal Point in Brackets,Strings,Easy,new,
+52,2026-02-25,Rank the Permutation,Strings,Intermediate,new,
+52,2026-02-25,Smallest Missing Positive Number,Arrays,Hard,new,
+53,2026-02-26,Determine if Two Trees are Identical,Trees,Easy,review,27
+53,2026-02-26,Range Queries for Frequencies of Array Elements,Hashing/Hash Table,Intermediate,review,27
+53,2026-02-26,Maximum Sum Leaf to Root Path,Trees,Intermediate,review,27
+53,2026-02-26,Rotate a Linked List,Linked Lists,Easy,new,
+53,2026-02-26,Maximum Subarray Sum,Arrays,Intermediate,new,
+53,2026-02-26,Max Non-Overlapping Odd Palindrome Sum,Strings,Hard,new,
+54,2026-02-27,Find the Count of Distinct Elements in an Array,Hashing/Hash Table,Easy,review,28
+54,2026-02-27,Queue using Stacks,Stack & Queue,Intermediate,review,28
+54,2026-02-27,Multiply Two Numbers Represented by Linked Lists,Linked Lists,Intermediate,review,28
+54,2026-02-27,Find Whether an Array is a Subset of Another Array,Hashing/Hash Table,Easy,new,
+54,2026-02-27,Excel Sheet - I,Strings,Intermediate,new,
+54,2026-02-27,Count Subarrays with K Distinct Elements,Arrays,Hard,new,
+55,2026-02-28,Roman to Integer,Strings,Easy,review,29
+55,2026-02-28,Minimize the Heights II,Arrays,Intermediate,review,29
+55,2026-02-28,Check for BST,Trees,Intermediate,review,29
+55,2026-02-28,Stack using Singly Linked List,Linked Lists,Easy,new,
+55,2026-02-28,Subarrays with Product Less Than K,Arrays,Intermediate,new,
+55,2026-02-28,Jump Game,Arrays,Hard,new,
+56,2026-03-01,Find the Difference of Two Arrays,Hashing/Hash Table,Easy,review,30
+56,2026-03-01,Find the Frequency of Each Character in a String,Hashing/Hash Table,Easy,new,
+56,2026-03-01,Merge Two BSTs,Trees,Hard,new,
+57,2026-03-02,Find the First Non-Repeating Character in a String,Hashing/Hash Table,Easy,review,1
+57,2026-03-02,Remove Duplicates from Sorted Array,Arrays,Easy,new,
+57,2026-03-02,Check if an Array Can Be Divided into Pairs Whose Sum is Divisible by K,Hashing/Hash Table,Hard,new,
+58,2026-03-03,Palindrome Check,Strings,Easy,review,2
+58,2026-03-03,Nodes at Given Distance in a Binary Tree,Trees,Easy,new,
+58,2026-03-03,Shortest Common Supersequence,Strings,Hard,new,
+59,2026-03-04,Delete Last Occurrence,Linked Lists,Easy,review,3
+59,2026-03-04,Third Largest Element,Arrays,Easy,new,
+59,2026-03-04,Multiply Two Strings,Strings,Hard,new,
+60,2026-03-05,Wave Array,Arrays,Easy,review,4
+60,2026-03-05,Merge Alternate Positions,Linked Lists,Easy,new,
+60,2026-03-05,Number of Distinct Subsequences,Strings,Hard,new,
+61,2026-03-06,Move All Zeroes To End,Arrays,Easy,review,5
+61,2026-03-06,Reverse a Linked List,Linked Lists,Easy,new,
+61,2026-03-06,Minimum Deletions for Palindrome,Strings,Hard,new,
+62,2026-03-07,Parenthesis Checker,Stack & Queue,Easy,review,6
+62,2026-03-07,Kth Largest Element in a BST,Trees,Easy,new,
+62,2026-03-07,LRU Cache,Linked Lists,Hard,new,
+63,2026-03-08,Array to BST,Trees,Easy,review,7
+63,2026-03-08,Symmetric Tree,Trees,Easy,new,
+63,2026-03-08,Palindrome Substring Queries,Strings,Hard,new,
+64,2026-03-09,Reverse a String using Stack,Stack & Queue,Easy,review,8
+64,2026-03-09,Mirror Tree,Trees,Easy,new,
+64,2026-03-09,Search Pattern (KMP Algorithm),Strings,Hard,new,
+65,2026-03-10,Count Occurrences,Linked Lists,Easy,review,9
+65,2026-03-10,Inorder Successor in BST,Trees,Easy,new,
+65,2026-03-10,Palindrome Substring Queries,Hashing/Hash Table,Hard,new,
+66,2026-03-11,Circular List Traversal,Linked Lists,Easy,review,10
+66,2026-03-11,Rotate Array,Arrays,Easy,new,
+66,2026-03-11,Search Pattern (Rabin-Karp Algorithm),Strings,Hard,new,
+67,2026-03-12,Missing and Repeating in Array,Arrays,Easy,review,11
+67,2026-03-12,Remove Minimum Number of Elements Such That No Common Element Exists,Hashing/Hash Table,Easy,new,
+67,2026-03-12,Merge K Sorted Linked Lists,Linked Lists,Hard,new,
+68,2026-03-13,Height of Binary Tree,Trees,Easy,review,12
+68,2026-03-13,Stock Buy and Sell - Multiple Transactions,Arrays,Easy,new,
+68,2026-03-13,Find the Longest Substring with K Unique Characters,Hashing/Hash Table,Hard,new,
+69,2026-03-14,Remove Duplicates from an Array,Hashing/Hash Table,Easy,review,13
+69,2026-03-14,Alternate Positive Negative,Arrays,Easy,new,
+69,2026-03-14,Longest Valid Parenthesis,Strings,Hard,new,
+70,2026-03-15,Add Binary Strings,Strings,Easy,review,14
+70,2026-03-15,Sum of all Subarrays,Arrays,Easy,new,
+70,2026-03-15,Repeatedly Remove Duplicates,Strings,Hard,new,
+71,2026-03-16,Minimum Insertions to Form a Palindrome with Permutations Allowed,Hashing/Hash Table,Easy,review,15
+71,2026-03-16,Panagram Checking,Strings,Easy,new,
+71,2026-03-16,Implement LRU Cache,Hashing/Hash Table,Hard,new,
+72,2026-03-17,Validate IP Address,Strings,Easy,review,16
+72,2026-03-17,Middle of a Linked List,Linked Lists,Easy,new,
+72,2026-03-17,Clone with Random Pointers,Linked Lists,Hard,new,
+73,2026-03-18,Find the Pair with Given Sum in an Array,Hashing/Hash Table,Easy,review,17
+73,2026-03-18,Nth Node from End,Linked Lists,Easy,new,
+73,2026-03-18,Count Maximum Points on Same Line,Hashing/Hash Table,Hard,new,
+74,2026-03-19,Print All Distinct Words from a Paragraph,Hashing/Hash Table,Easy,review,18
+74,2026-03-19,Reverse Array in Groups,Arrays,Easy,new,
+74,2026-03-19,Find Number of Employees Under Every Manager,Hashing/Hash Table,Hard,new,
+75,2026-03-20,Delete Middle Element from Stack,Stack & Queue,Easy,review,19
+75,2026-03-20,Array Leaders,Arrays,Easy,new,
+75,2026-03-20,Next Smallest Palindrome,Arrays,Hard,new,
+76,2026-03-21,Reverse a String,Strings,Easy,review,20
+76,2026-03-21,Next Permutation,Arrays,Intermediate,review,20
+76,2026-03-21,Find the Minimum Window in a String Containing All Characters of Another String,Hashing/Hash Table,Hard,new,
+77,2026-03-22,Reverse Words,Strings,Easy,review,21
+77,2026-03-22,Special Keyboard,Strings,Intermediate,new,
+77,2026-03-22,Closest Subsequence Sum,Arrays,Hard,new,
+78,2026-03-23,Queue using Linked List,Linked Lists,Easy,review,22
+78,2026-03-23,Minimum Repetitions to Make Substring,Strings,Intermediate,new,
+78,2026-03-23,Top K Numbers in a Stream,Hashing/Hash Table,Hard,new,
+79,2026-03-24,Count Number of Distinct Substrings in a String,Hashing/Hash Table,Easy,review,23
+79,2026-03-24,Longest Sub-Array Having Sum K,Hashing/Hash Table,Intermediate,new,
+79,2026-03-24,Sorted Linked List to BST,Trees,Hard,new,
+80,2026-03-25,Reverse an Array,Arrays,Easy,review,24
+80,2026-03-25,Next Greater Element,Stack & Queue,Intermediate,new,
+80,2026-03-25,Binary Tree Maximum Path Sum,Trees,Hard,new,
+81,2026-03-26,Find the Only Repetitive Element Between 1 to n-1,Hashing/Hash Table,Easy,review,25
+81,2026-03-26,Construct BST from Preorder Traversal,Trees,Intermediate,new,
+81,2026-03-26,Smallest Non-Representable Sum in Array,Arrays,Hard,new,
+82,2026-03-27,Reverse Individual Words,Stack & Queue,Easy,review,26
+82,2026-03-27,Flatten Binary Tree to Linked List,Trees,Intermediate,new,
+82,2026-03-27,Longest Subarray with Sum Divisible by K,Hashing/Hash Table,Hard,new,
+83,2026-03-28,Determine if Two Trees are Identical,Trees,Easy,review,27
+83,2026-03-28,Merge Two Sorted Linked Lists,Linked Lists,Intermediate,new,
+83,2026-03-28,Longest Substring to Form a Palindrome,Strings,Hard,new,
+84,2026-03-29,Find the Count of Distinct Elements in an Array,Hashing/Hash Table,Easy,review,28
+84,2026-03-29,Queue using Stacks,Stack & Queue,Intermediate,review,28
+84,2026-03-29,Linked List from a 2D Matrix,Linked Lists,Intermediate,new,
+85,2026-03-30,Roman to Integer,Strings,Easy,review,29
+85,2026-03-30,Minimize the Heights II,Arrays,Intermediate,review,29
+85,2026-03-30,Integer to Words,Strings,Intermediate,new,
+86,2026-03-31,Find the Difference of Two Arrays,Hashing/Hash Table,Easy,review,30
+86,2026-03-31,Maximum Product Subarray,Arrays,Intermediate,review,30
+86,2026-03-31,Next Palindromic Number with Same Digits,Strings,Intermediate,new,
+87,2026-04-01,Encrypt the String - II,Strings,Easy,review,31
+87,2026-04-01,Length of Longest Prefix Suffix (KMP),Strings,Intermediate,review,31
+87,2026-04-01,Unique BSTs,Trees,Intermediate,new,
+88,2026-04-02,Missing Ranges of Numbers,Arrays,Easy,review,32
+88,2026-04-02,Find the Majority Element in an Array,Hashing/Hash Table,Intermediate,new,
+88,2026-04-02,Fizz Buzz,Strings,Intermediate,new,
+89,2026-04-03,Reverse a Doubly Linked List,Linked Lists,Easy,review,33
+89,2026-04-03,Find Itinerary from a Given List of Tickets,Hashing/Hash Table,Intermediate,new,
+89,2026-04-03,All Unique Triplets that Sum Up to a Given Value,Hashing/Hash Table,Intermediate,new,
+90,2026-04-04,First Non Repeating Character,Strings,Easy,review,34
+90,2026-04-04,Intersection Point,Linked Lists,Intermediate,review,34
+90,2026-04-04,Phone Directory,Hashing/Hash Table,Hard,review,34
+90,2026-04-04,Maximum Consecutive 1s After Flipping 0s,Arrays,Intermediate,new,
+90,2026-04-04,"Find All Pairs (a, b) in an Array Such That a % b = k",Hashing/Hash Table,Intermediate,new,
+90,2026-04-04,Evaluate Postfix Expression,Stack & Queue,Intermediate,new,
+90,2026-04-04,Diameter of Tree,Trees,Intermediate,new,
